@@ -1,0 +1,14 @@
+rasa==3.6.21
+rasa-sdk==3.6.2
+
+# Optional: choose backend for ML components. Uncomment one of the following if needed.
+# tensorflow==2.9.1
+# torch==1.12.1
+
+# Common utilities
+pyyaml>=5.4
+requests>=2.28
+pytest>=7.0
+
+# If you use spacy/nlu pipelines or word embeddings, add the relevant packages
+# spacy>=3.4.0

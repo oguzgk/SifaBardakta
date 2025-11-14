@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+# Rasa
+.rasa/
+models/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/

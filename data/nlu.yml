@@ -9,11 +9,21 @@ nlu:
     - migrene ne önerirsiniz?
     - baş ağrısı nasıl geçer?
     - başım çok ağrıyor ne yapmalıyım?
+    - başım ağrıyor ne önerirsin?
     - baş ağrısı için doğal çözümler nelerdir?
     - şiddetli baş ağrısına ne iyi gelir?
     - stres kaynaklı baş ağrısı nasıl geçer?
     - sinüzit baş ağrısı için ne yapabilirim?
     - baş ağrısı için bitkisel çözümler nelerdir?
+    - başım zonkluyor resmen
+    - şakaklarımda dayanılmaz bir ağrı var
+    - gözlerime vuran baş ağrısı neden olur
+    - ışığa bakamıyorum başım tuttu yine
+    - başımın tepesinde basınç var
+    - enseden gelen baş ağrısı nasıl geçer
+    - sabahları baş ağrısıyla uyanıyorum
+    - ağrı kesici içmeden baş ağrısı nasıl geçer
+    - susuzluktan başım ağrıyor olabilir mi
 
 - intent: mide_bulantisi
   examples: |
@@ -23,6 +33,16 @@ nlu:
     - Araç tutması sonucu mide bulantısı yaşıyorum.
     - Mide bulantısını nasıl geçirebilirim?
     - Hamilelikten dolayı mide bulantım var, ne yapmalıyım?
+    - sabahları midem çok bulanıyor
+    - yemek kokusu alınca midem kalkıyor
+    - sürekli öğürme hissi var ama kusamıyorum
+    - midem bulanıyor ve başım dönüyor
+    - araba yolculuğunda mide bulantısı hapı
+    - nane limon mide bulantısını keser mi
+    - zehirlendim sanırım midem bulanıyor
+    - midemi üşüttüm galiba bulanıp duruyor
+    - psikolojik mide bulantısı nasıl geçer
+    - sarı safralı kusma ve mide bulantısı
 
 - intent: ishal
   examples: |
@@ -32,6 +52,15 @@ nlu:
     - Gıda zehirlenmesi sonrası ishal yaşıyorum.
     - İshali nasıl geçirebilirim?
     - İshal için ne yemeliyim?
+    - karnım gurulduyor ve sürekli tuvalete çıkıyorum
+    - su gibi ishal oldum halsizim
+    - muz ve kola ishale iyi gelir mi
+    - çocuklarda ishal kesici yiyecekler
+    - ishalim 3 gündür geçmedi ne yapmalıyım
+    - antibiyotik kullanımı sonrası ishal oldum
+    - karın ağrısı ve ishal birlikte var
+    - probiyotikler ishali durdurur mu
+    - ishal olduğumda çok su kaybediyorum
 
 - intent: soguk_alginligi
   examples: |
@@ -41,6 +70,15 @@ nlu:
     - Soğuk algınlığı neden olur?
     - Mevsim geçişlerinde sürekli hasta oluyorum.
     - Soğuk algınlığı için doğal çözümler nelerdir?
+    - burnum akıyor ve hapşırıyorum
+    - hafif ateşim var ve vücudum kırgın
+    - gribal enfeksiyon başlangıcı ne yapmalı
+    - c vitamini takviyesi soğuk algınlığına iyi gelir mi
+    - yorgan döşek yatıyorum şifayı kaptım
+    - boğazımda gıcık var ve üşüyorum
+    - terleyerek soğuk algınlığı atılır mı
+    - kış aylarında bağışıklık için ne içilmeli
+    - soğuk algınlığı için tylolhot benzeri dogal ne var
 
 - intent: bogaz_agrisi
   examples: |
@@ -50,6 +88,16 @@ nlu:
     - Enfeksiyona bağlı boğaz ağrısı çekiyorum.
     - Bal ve limon boğaz ağrısına iyi gelir mi?
     - Boğaz ağrısı için bitki çayı önerir misiniz?
+    - yutkunurken boğazım acıyor
+    - bademciklerim şişti boğazım ağrıyor
+    - boğazımda cam kırığı varmış gibi hissediyorum
+    - sesim kısıldı boğazım tahriş oldu
+    - sıcak şeyler içmek boğaza iyi gelir mi
+    - sabaha karşı boğaz kuruluğu ve ağrısı
+    - sirkeli su ile gargara boğazı yakar mı
+    - iltihaplı boğaz ağrısına doğal antibiyotik
+    - boğaz ağrısı için pastil mi sprey mi
+    - boğazı yumuşatmak için ballı süt
 
 - intent: uykusuzluk
   examples: |
@@ -59,6 +107,16 @@ nlu:
     - Stres yüzünden uyuyamıyorum.
     - Uykusuzluk için bitki çayı önerir misiniz?
     - Melatonin takviyeleri işe yarar mı?
+    - yatakta dönüp duruyorum uyku tutmuyor
+    - sabaha kadar gözümü kırpmadım
+    - kafam çok dolu uykuya dalamıyorum
+    - gece uyanıp bir daha uyuyamıyorum
+    - uyku ilacı kullanmadan nasıl uyurum
+    - papatya çayı uyku getirir mi
+    - derin uykuya geçemiyorum sürekli uyanıyorum
+    - uyku düzenim bozuldu gece kuşuna döndüm
+    - mavi ışık uykumu kaçırıyor mu
+    - meditasyon ile uykuya dalma yöntemleri
 
 - intent: goz_yorgunlugu
   examples: |
@@ -68,6 +126,16 @@ nlu:
     - Göz yorgunluğu için ne yapabilirim?
     - Gözlerim dinlenmiyor, ne önerirsiniz?
     - Göz damlaları işe yarar mı?
+    - bilgisayar başında gözlerim kurudu ve acıyor
+    - gözlerimde ağırlık var açamıyorum
+    - kitap okurken gözlerim sulanıyor
+    - gözlerimi dinlendirmek için ne yapmalıyım
+    - ekrana bakmaktan gözlerim kanlandı
+    - göz kaslarımın ağrıdığını hissediyorum
+    - uzaklara bakmak göz yorgunluğunu alır mı
+    - göz yorgunluğu baş ağrısı yapar mı
+    - suni gözyaşı damlası yorgunluğa iyi gelir mi
+    - bulanık görmeye başladım yorgunluktan mı
 
 - intent: sirt_agrisi
   examples: |
@@ -77,6 +145,16 @@ nlu:
     - Sırt ağrısını nasıl geçirebilirim?
     - Hafif egzersizler sırt ağrısına iyi gelir mi?
     - Sırt ağrısı için masaj önerir misiniz?
+    - kürek kemiklerimin arası ağrıyor
+    - sabah kalktığımda sırtım tutulmuş oluyor
+    - bilgisayar başında kambur durmaktan sırtım ağrıdı
+    - ağır kaldırdım sırtıma bıçak saplanıyor sanki
+    - sırt ağrısı için sıcak mı soğuk mu iyi gelir
+    - ortopedik yastık sırt ağrısını çözer mi
+    - sırt kaslarını güçlendirmek için egzersizler
+    - yel girmesi sonucu sırt ağrısı
+    - sırtıma masaj yaptırmak istiyorum
+    - omurga eğriliği sırt ağrısı yapar mı
 
 - intent: gaz_siskinlik
   examples: |
@@ -86,6 +164,16 @@ nlu:
     - Sindirim sorunlarından dolayı şişkinlik çekiyorum.
     - Gaz ve şişkinliğe ne iyi gelir?
     - Nane çayı şişkinliği geçirir mi?
+    - yemekten sonra karnım davul gibi şişiyor
+    - sürekli gaz çıkarma isteği var
+    - bağırsaklarımda aşırı gaz birikmesi
+    - karnıma dokununca sertlik ve ağrı var
+    - gaz sancısı göğsüme vuruyor
+    - rezene çayı gazı alır mı
+    - baklagiller midemi çok şişirdi
+    - hızlı yemek yemek gaz yapar mı
+    - soda içmek şişkinliği azaltır mı
+    - gaz sıkışması için hareketler
 
 - intent: burun_tikanikligi
   examples: |
@@ -95,6 +183,16 @@ nlu:
     - Gripten dolayı burnum tıkandı.
     - Tuzlu su burun tıkanıklığına iyi gelir mi?
     - Gece burun tıkanıklığı çekiyorum, ne önerirsiniz?
+    - burnumdan nefes alamıyorum ağzım kuruyor
+    - tek taraflı burun tıkanıklığı can sıkıcı
+    - gece yatınca burnum tıkanıyor
+    - burun spreyi bağımlılığı nasıl geçer
+    - mentollü buhar burnu açar mı
+    - alerjik burun tıkanıklığı için ne yapılmalı
+    - burun kemiği eğriliği tıkanıklık yapar mı
+    - burun bandı işe yarıyor mu
+    - okaliptüs yağı burun açmak için nasıl kullanılır
+    - sinüzit yüzünden burnum tıkalı
 
 - intent: kulak_agrisi
   examples: |
@@ -104,6 +202,15 @@ nlu:
     - Kulak ağrısını nasıl geçirebilirim?
     - Ilık kompres kulak ağrısına iyi gelir mi?
     - Uçak yolculuğu sonrası kulak ağrısı yaşıyorum.
+    - kulağıma sancı giriyor
+    - kulağımın içi zonkluyor
+    - rüzgarda kaldım kulağım ağrıyor
+    - kulağıma su kaçtı ağrı yapıyor
+    - kulak çöpü kullanmak ağrıyı artırır mı
+    - çene hareketlerinde kulak ağrısı
+    - orta kulak iltihabı belirtileri
+    - zeytinyağı damlatmak kulağa iyi gelir mi
+    - kulak kepçesinde hassasiyet ve ağrı
 
 - intent: cilt_kurulugu
   examples: |
@@ -113,6 +220,16 @@ nlu:
     - Cilt kuruluğu neden olur?
     - Nemlendirici kullanmak işe yarar mı?
     - Kuru cilt için doğal yöntemler nelerdir?
+    - cildim pul pul dökülüyor
+    - duştan sonra cildim geriliyor
+    - bacaklarımda aşırı kuruluk ve kaşıntı var
+    - yüzümdeki kuruluk için hangi yağ iyi gelir
+    - ellerim kurudu ve çatladı
+    - bol su içmek cilt kuruluğunu geçirir mi
+    - kışın cildim nemsiz kalıyor
+    - hindistan cevizi yağı cilde sürülür mü
+    - atopik cilt kuruluğu nasıl geçer
+    - sabun cildimi kurutuyor ne kullanmalıyım
 
 - intent: hemoroid
   examples: |
@@ -122,6 +239,16 @@ nlu:
     - hemoroid nasıl geçer?
     - doğal yöntemlerle hemoroid tedavisi
     - hemoroid tedavisi var mı?
+    - makatta ağrı ve yanma var
+    - tuvalet sonrası kanama oluyor
+    - basur memesi şişti ne yapmalıyım
+    - acı yemek basuru tetikler mi
+    - oturma banyosu hemoroide iyi gelir mi
+    - kabızlık basuru artırır mı
+    - basur kremi kullanmalı mıyım
+    - mayasıl ile basur aynı şey mi
+    - hemoroid yastığı işe yarar mı
+    - makatta kaşıntı ve batma hissi
 
 - intent: benler
   examples: |
@@ -131,6 +258,16 @@ nlu:
     - benler neden oluşur?
     - benler zararlı mı?
     - ciltteki benler için çözüm var mı?
+    - vücudumda et beni çıktı
+    - yüzümdeki ben büyüyor tehlikeli mi
+    - ben kanaması normal mi
+    - kırmızı noktalar ben midir
+    - lazerle ben sildirme iz bırakır mı
+    - güneşe çıkınca benlerim koyulaşıyor
+    - sırtımdaki ben kaşınıyor
+    - benlerin şekil değiştirmesi kanser belirtisi mi
+    - iple ben boğmak sağlıklı mı
+    - estetik amaçlı ben aldırmak
 
 - intent: cilt_lekeleri
   examples: |
@@ -140,6 +277,16 @@ nlu:
     - cilt lekelerini nasıl azaltırım?
     - evde cilt lekesi tedavisi
     - cilt lekeleri neden olur?
+    - hamilelik sonrası yüzümde lekeler kaldı
+    - sivilce sıktım izi kaldı geçmiyor
+    - dudak üstünde kararma var
+    - yaşlılık lekeleri nasıl geçer
+    - pirinç suyu cilt rengini açar mı
+    - c vitamini serumu lekelere iyi gelir mi
+    - güneş koruyucu kullanmadım leke oldu
+    - lazer leke tedavisi kesin çözüm mü
+    - patates suyu leke açar mı
+    - kollardaki kahverengi lekeler
 
 - intent: sac_dokulmesi
   examples: |
@@ -149,6 +296,16 @@ nlu:
     - saç dökülmesi için doğal yöntemler
     - stres saç dökülmesi yapar mı?
     - saç dökülmesi neden olur?
+    - banyo gideri saçla doluyor
+    - elimi saçıma atsam tutam tutam geliyor
+    - tepem açılmaya başladı
+    - demir eksikliği saç döker mi
+    - şampuan değiştirdim saçım döküldü
+    - sarımsaklı şampuan saç çıkarır mı
+    - erkek tipi saç dökülmesi tedavisi
+    - saç kıran için ne yapılır
+    - mevsim geçişlerinde saç dökülmesi normal mi
+    - biotin takviyesi saç dökülmesini durdurur mu
 
 - intent: sivilce
   examples: |
@@ -158,6 +315,16 @@ nlu:
     - ergenlik sivilcelerine ne önerirsiniz?
     - yüzümdeki sivilceler için maske önerisi
     - sivilce izleri nasıl geçer?
+    - çenemde kistik sivilceler çıkıyor
+    - alnım pütür pütür oldu
+    - sivilceyi sıkınca daha çok yayılıyor
+    - yağlı cildim var sivilce bitmiyor
+    - roaccutane kullanmadan sivilce geçer mi
+    - adet öncesi sivilce artışı
+    - sırtımdaki sivilceler nasıl kurur
+    - çay ağacı yağı sivilceye sürülür mü
+    - kil maskesi sivilceleri kurutur mu
+    - beyaz uçlu iltihaplı sivilce
 
 - intent: egzama
   examples: |
@@ -167,6 +334,16 @@ nlu:
     - evde egzama tedavisi var mı?
     - egzama neden olur?
     - egzama için doğal çözümler nelerdir?
+    - ellerimde sulu yaralar çıkıyor
+    - stresten egzamam azdı
+    - kaşımaktan kanattım egzama
+    - saç derimde egzama var kabuklanıyor
+    - deterjan egzama yapıyor eldiven takmalı mıyım
+    - kortizonlu krem egzama için zararlı mı
+    - sedef ile egzama farkı nedir
+    - kuru egzama için nemlendirici önerisi
+    - bebeklerde egzama nasıl geçer
+    - egzama bulaşıcı mıdır
 
 - intent: mantar_enfeksiyonlari
   examples: |
@@ -176,6 +353,16 @@ nlu:
     - mantar için doğal çözümler
     - mantar neden olur?
     - mantar enfeksiyonundan nasıl korunurum?
+    - ayak parmak aralarım kaşınıyor ve soyuluyor
+    - tırnağım sarardı ve kalınlaştı
+    - kasık mantarı için pudra kullanılır mı
+    - ortak terlik kullanımı mantar bulaştırır mı
+    - sirkeli su mantarı öldürür mü
+    - vücudumda halka şeklinde leke var mantar mı
+    - dilimde beyaz pamukçuk var mantar olabilir mi
+    - nemli kalmak mantarı artırır mı
+    - antifungal krem ne kadar sürede etki eder
+    - saç mantarı kel bırakır mı
 
 - intent: goz_enfeksiyonlari
   examples: |
@@ -185,6 +372,16 @@ nlu:
     - göz enfeksiyonu için evde çözüm var mı?
     - enfeksiyon nedeniyle gözüm kızardı
     - göz enfeksiyonuna iyi gelen damlalar nelerdir?
+    - gözüm kıpkırmızı oldu ve sulanıyor
+    - katarakt değil ama görmem bulanıklaştı iltihap mı
+    - sabahları gözlerim yapışık uyanıyorum
+    - göz kapağım şişti arpacık mı
+    - lens kullanımı gözümü enfekte etti
+    - göz nezlesi bulaşıcı mı
+    - papatya çayı ile göz pansumanı
+    - ışığa bakınca gözümde batma oluyor
+    - göz oyması iltihap belirtisi mi
+    - antibiyotikli damla göz enfeksiyonuna iyi gelir mi
 
 - intent: dis_agrisi
   examples: |
@@ -194,6 +391,16 @@ nlu:
     - evde diş ağrısını ne geçirir?
     - diş ağrısı için doğal çözümler
     - diş ağrısı neden olur?
+    - 20lik dişim çıkıyor çok ağrıyor
+    - dişim dolgulu olduğu halde ağrıyor
+    - soğuk su içince dişim sızlıyor
+    - diş etim şişti ve ağrı yapıyor
+    - gece başlayan diş ağrısı
+    - karanfil yağı dişe iyi gelir mi
+    - diş apsesi yüzümü şişirdi
+    - kanal tedavisi gereken diş ağrır mı
+    - tuzlu su gargarası dişi uyuşturur mu
+    - ağrı kesici dişimdeki ağrıyı kesmiyor
 
 - intent: agiz_yaralari
   examples: |
@@ -203,6 +410,16 @@ nlu:
     - evde ağız yarası tedavisi
     - ağız yaraları neden olur?
     - ağız yaralarına iyi gelen bitkisel çözümler
+    - dilimin kenarında aft çıktı
+    - yanak içimi ısırdım yara oldu
+    - protez diş vurması sonucu yara
+    - ağız yarası vitamin eksikliğinden mi olur
+    - karbonatlı su ağız yarasına iyi gelir mi
+    - behçet hastalığı ağız yarası yapar mı
+    - ağız içi mantarı ve yaralar
+    - sigara içmek ağız yarasını geciktirir mi
+    - ağız yarası yemek yememi engelliyor
+    - karadut şurubu afta iyi gelir mi
 
 - intent: kabizlik
   examples: |
@@ -212,6 +429,16 @@ nlu:
     - kabızlık için doğal yöntemler
     - kabızlık çayı tarifi
     - kabızlık neden olur?
+    - günlerdir büyük tuvaletime çıkamıyorum
+    - bağırsaklarım tembelleşti
+    - dışkılama sırasında zorlanma ve ağrı
+    - keçi dışkısı gibi parça parça yapıyorum
+    - lifli gıdalar kabızlığı çözer mi
+    - sinameki çayı kabızlık için zararlı mı
+    - sabah aç karnına kayısı yemek
+    - hamilelikte kabızlık normal mi
+    - zeytinyağı içmek bağırsakları yumuşatır mı
+    - kronik kabızlık için doktora gitmeli miyim
 
 - intent: mide_yanmasi
   examples: |
@@ -221,6 +448,16 @@ nlu:
     - asit reflü nasıl tedavi edilir?
     - mide yanması için evde çözüm
     - mide yanması neden olur?
+    - boğazıma kadar acı su geliyor
+    - göğsümün ortasında yanma var
+    - yemekten hemen sonra midem ekşiyor
+    - kahve içince midem yanıyor
+    - hamur işi midemi yakıyor ne yapmalıyım
+    - soğuk süt mide yanmasını keser mi
+    - mide yanması kalp kriziyle karışır mı
+    - sol tarafa yatmak reflüye iyi gelir mi
+    - rennie çiğneme tableti işe yarar mı
+    - sürekli mide koruyucu kullanmak zararlı mı
 
 - intent: bas_donmesi
   examples: |
@@ -230,6 +467,16 @@ nlu:
     - baş dönmesinin nedeni nedir?
     - baş dönmesine karşı doğal çözümler
     - aniden başım döndü, ne yapmalıyım?
+    - yer ayağımın altından kayıyor
+    - yataktan kalkınca gözüm kararıyor
+    - vertigom mu var acaba her yer dönüyor
+    - kulak kristallerim oynamış olabilir mi
+    - tansiyon düşünce baş dönmesi olur mu
+    - baş dönmesiyle birlikte mide bulantısı
+    - kansızlık baş dönmesi yapar mı
+    - kafamı çevirince dünya dönüyor
+    - yorgunluktan başım dönüyor
+    - deprem oluyor gibi sallanıyorum
 
 - intent: kulak_cinlamasi
   examples: |
@@ -239,6 +486,16 @@ nlu:
     - kulak çınlaması neden olur?
     - kulak çınlamasına karşı bitkisel çözümler
     - kulak çınlaması için doktora gitmeli miyim?
+    - kulağımda sürekli bir uğultu var
+    - sinek vızıltısı gibi ses duyuyorum
+    - sessiz ortamda çınlama artıyor
+    - yüksek sese maruz kaldım çınlama başladı
+    - kulak kiri çınlama yapar mı
+    - tansiyon yüksekliği kulak çınlatır mı
+    - ginkgo biloba çınlamaya iyi gelir mi
+    - gece yatarken kulak çınlamasından uyuyamıyorum
+    - işitme kaybı ve çınlama ilişkisi
+    - kulak çınlaması hiç geçmez mi
 
 - intent: goz_seyirmesi
   examples: |
@@ -248,6 +505,16 @@ nlu:
     - göz seyirmesi nasıl geçer?
     - stres göz seyirmesi yapar mı?
     - sağ gözüm sürekli seyiriyor, çözüm var mı?
+    - sol göz kapağım pır pır ediyor
+    - gözümün altı sürekli atıyor
+    - sağ göz seyirmesi hayra mı şerre mi
+    - magnezyum eksikliği göz seyirtir mi
+    - uykusuz kalınca gözüm seyiriyor
+    - kafein tüketimi göz seyirmesini artırır mı
+    - göz yorgunluğu ve seyirme
+    - tik haline gelen göz seyirmesi
+    - ne zaman geçeceği belli olmayan seyirme
+    - botoks ile göz seyirmesi tedavisi
 
 - intent: ucuk
   examples: |
@@ -257,6 +524,16 @@ nlu:
     - uçuk için doğal çözümler
     - uçuk neden olur?
     - uçuğu nasıl önleyebilirim?
+    - dudak kenarımda kabarcıklar oluştu
+    - stres yapınca hemen uçuk çıkıyor
+    - uçuk kremi sürdüm ama geçmedi
+    - uçuk patlatılmalı mı
+    - sarımsak sürmek uçuğu kurutur mu
+    - uçuk virüsü vücuttan atılır mı
+    - korkudan uçuk çıkar mı
+    - uçuk varken ruj sürülür mü
+    - genital uçuk ile dudak uçuğu farkı
+    - aseton uçuğu yakar mı
 
 - intent: dis_eti_kanamasi
   examples: |
@@ -266,6 +543,16 @@ nlu:
     - evde diş eti kanaması tedavisi
     - diş eti kanaması neden olur?
     - diş eti kanaması için doğal çözümler
+    - diş fırçalarken lavabo kan oluyor
+    - elma ısırınca kan izi kalıyor
+    - kendiliğinden diş etim kanıyor
+    - diş taşları kanama yapar mı
+    - c vitamini eksikliği diş eti kanatır mı
+    - diş ipi kullanırken kanama olması
+    - diş eti çekilmesi ve kanama
+    - tuzlu su ile gargara kanamayı durdurur mu
+    - yumuşak diş fırçası kullanmak gerekir mi
+    - diş eti iltihabı ve kanama tedavisi
 
 - intent: bagisiklik_gucsuzlugu
   examples: |
@@ -275,15 +562,17 @@ nlu:
     - vücudum çok kolay hasta oluyor, ne yapabilirim?
     - bağışıklığı güçlendiren bitkiler nelerdir?
     - bağışıklık sistemi neden zayıflar?
+    - sürekli hastalanıyorum bünyem zayıf
+    - vitamin alıyorum ama hala halsizim
+    - kışın hiç iyileşemiyorum
+    - kan değerlerim düşük bağışıklığım mı zayıf
+    - immün sistemi güçlendirmek için ne yemeli
+    - propolis bağışıklığı artırır mı
+    - zencefil zerdeçal kürü bağışıklık için
+    - çocuklarda bağışıklık nasıl güçlenir
+    - stres bağışıklığı çökertir mi
+    - uykusuzluk bağışıklığı düşürür mü
 
-- intent: gaz_siskinlik
-  examples: |
-    - sürekli gaz problemim var.
-    - gaz sancısı yaşıyorum.
-    - şişkinliğim var, ne yapabilirim?
-    - gaz ve şişkinlik için doğal çözümler nelerdir?
-    - gaz yapan yiyeceklerden nasıl uzak durabilirim?
-    - karnımda sürekli şişlik hissi var.
 
 - intent: uyku_problemleri
   examples: |
@@ -293,6 +582,16 @@ nlu:
     - uyku düzenim bozuk, çözüm var mı?
     - uykuya dalmakta çok zorlanıyorum.
     - uykusuzluğa iyi gelen bitkiler nelerdir?
+    - sabah dinç uyanamıyorum
+    - çok uyuyorum ama dinlenemiyorum
+    - rüyalar yüzünden uykum bölünüyor
+    - vardiyalı çalışma uyku düzenimi mahvetti
+    - uyku apnesi belirtileri nelerdir
+    - huzursuz bacak sendromu uykumu kaçırıyor
+    - uyku hijyeni nasıl sağlanır
+    - yastık seçimi uyku kalitesini etkiler mi
+    - uyumadan önce süt içmek
+    - horlama sorununa çözüm
 
 - intent: adet_duzensizligi
   examples: |
@@ -302,6 +601,16 @@ nlu:
     - regl tarihimi nasıl düzene sokabilirim?
     - adet gecikmesi için ne önerirsiniz?
     - adet düzensizliğim için doğal yöntemler nelerdir?
+    - 3 aydır adet olmuyorum
+    - yılda sadece 3-4 kez adet görüyorum
+    - adetim çok sık oluyor 15 günde bir
+    - polikistik over adet düzensizliği yapar mı
+    - doğum kontrol hapı adeti düzenler mi
+    - menopoz belirtileri ve adet kesilmesi
+    - tiroid bozukluğu adeti etkiler mi
+    - soğan kürü adet söktürür mü
+    - stresten adetim gecikti
+    - mevsimsel adet düzensizliği
 
 - intent: adet_sancisi
   examples: |
@@ -311,6 +620,16 @@ nlu:
     - regl ağrılarım için doğal çözümler nelerdir?
     - sancılı geçen regl dönemim için önerileriniz var mı?
     - adet ağrısını hafifletmek için ne yapabilirim?
+    - kasıklarımda kramplar var
+    - karnım ağrıyor belim kopuyor sanki
+    - sancıdan yerimde duramıyorum
+    - sıcak su torbası adet ağrısına konur mu
+    - majezik adet sancısını keser mi, zararlı mı
+    - çikolata kisti sancı yapar mı
+    - adet sancısı mide bulantısı yapıyor
+    - bitki çayları sancıyı hafifletir mi
+    - egzersiz yapmak adet ağrısına iyi gelir mi
+    - doğum yaptıktan sonra sancı geçer mi
 
 - intent: greet
   examples: |

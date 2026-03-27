@@ -1,721 +1,2358 @@
-version: "3.1"
-
+version: '3.1'
 nlu:
 - intent: bas_agrisi
-  examples: |
-    - başım ağrıyor
+  examples: '- başım ağrıyor
+
     - migrenim var
+
     - baş ağrısına iyi gelen bir şey var mı?
+
     - migrene ne önerirsiniz?
+
     - baş ağrısı nasıl geçer?
+
     - başım çok ağrıyor ne yapmalıyım?
+
     - başım ağrıyor ne önerirsin?
+
     - baş ağrısı için doğal çözümler nelerdir?
+
     - şiddetli baş ağrısına ne iyi gelir?
+
     - stres kaynaklı baş ağrısı nasıl geçer?
+
     - sinüzit baş ağrısı için ne yapabilirim?
+
     - baş ağrısı için bitkisel çözümler nelerdir?
+
     - başım zonkluyor resmen
+
     - şakaklarımda dayanılmaz bir ağrı var
+
     - gözlerime vuran baş ağrısı neden olur
+
     - ışığa bakamıyorum başım tuttu yine
+
     - başımın tepesinde basınç var
+
     - enseden gelen baş ağrısı nasıl geçer
+
     - sabahları baş ağrısıyla uyanıyorum
+
     - ağrı kesici içmeden baş ağrısı nasıl geçer
+
     - susuzluktan başım ağrıyor olabilir mi
 
+    '
 - intent: mide_bulantisi
-  examples: |
-    - Mide bulantım var.
+  examples: '- Mide bulantım var.
+
     - Mide bulantısı neden olur?
+
     - Mide bulantısına ne iyi gelir?
+
     - Araç tutması sonucu mide bulantısı yaşıyorum.
+
     - Mide bulantısını nasıl geçirebilirim?
+
     - Hamilelikten dolayı mide bulantım var, ne yapmalıyım?
+
     - sabahları midem çok bulanıyor
+
     - yemek kokusu alınca midem kalkıyor
+
     - sürekli öğürme hissi var ama kusamıyorum
+
     - midem bulanıyor ve başım dönüyor
+
     - araba yolculuğunda mide bulantısı hapı
+
     - nane limon mide bulantısını keser mi
+
     - zehirlendim sanırım midem bulanıyor
+
     - midemi üşüttüm galiba bulanıp duruyor
+
     - psikolojik mide bulantısı nasıl geçer
+
     - sarı safralı kusma ve mide bulantısı
 
+    '
 - intent: ishal
-  examples: |
-    - İshal oldum.
+  examples: '- İshal oldum.
+
     - İshale ne iyi gelir?
+
     - İshal neden olur?
+
     - Gıda zehirlenmesi sonrası ishal yaşıyorum.
+
     - İshali nasıl geçirebilirim?
+
     - İshal için ne yemeliyim?
+
     - karnım gurulduyor ve sürekli tuvalete çıkıyorum
+
     - su gibi ishal oldum halsizim
+
     - muz ve kola ishale iyi gelir mi
+
     - çocuklarda ishal kesici yiyecekler
+
     - ishalim 3 gündür geçmedi ne yapmalıyım
+
     - antibiyotik kullanımı sonrası ishal oldum
+
     - karın ağrısı ve ishal birlikte var
+
     - probiyotikler ishali durdurur mu
+
     - ishal olduğumda çok su kaybediyorum
 
+    '
 - intent: soguk_alginligi
-  examples: |
-    - Soğuk algınlığım var.
+  examples: '- Soğuk algınlığım var.
+
     - Nezleye ne iyi gelir?
+
     - Nezle nasıl geçer?
+
     - Soğuk algınlığı neden olur?
+
     - Mevsim geçişlerinde sürekli hasta oluyorum.
+
     - Soğuk algınlığı için doğal çözümler nelerdir?
+
     - burnum akıyor ve hapşırıyorum
+
     - hafif ateşim var ve vücudum kırgın
+
     - gribal enfeksiyon başlangıcı ne yapmalı
+
     - c vitamini takviyesi soğuk algınlığına iyi gelir mi
+
     - yorgan döşek yatıyorum şifayı kaptım
+
     - boğazımda gıcık var ve üşüyorum
+
     - terleyerek soğuk algınlığı atılır mı
+
     - kış aylarında bağışıklık için ne içilmeli
+
     - soğuk algınlığı için tylolhot benzeri dogal ne var
 
+    '
 - intent: bogaz_agrisi
-  examples: |
-    - Boğaz ağrım var.
+  examples: '- Boğaz ağrım var.
+
     - Boğaz ağrısına ne iyi gelir?
+
     - Boğaz ağrısını nasıl geçirebilirim?
+
     - Enfeksiyona bağlı boğaz ağrısı çekiyorum.
+
     - Bal ve limon boğaz ağrısına iyi gelir mi?
+
     - Boğaz ağrısı için bitki çayı önerir misiniz?
+
     - yutkunurken boğazım acıyor
+
     - bademciklerim şişti boğazım ağrıyor
+
     - boğazımda cam kırığı varmış gibi hissediyorum
+
     - sesim kısıldı boğazım tahriş oldu
+
     - sıcak şeyler içmek boğaza iyi gelir mi
+
     - sabaha karşı boğaz kuruluğu ve ağrısı
+
     - sirkeli su ile gargara boğazı yakar mı
+
     - iltihaplı boğaz ağrısına doğal antibiyotik
+
     - boğaz ağrısı için pastil mi sprey mi
+
     - boğazı yumuşatmak için ballı süt
 
+    '
 - intent: uykusuzluk
-  examples: |
-    - Uykusuzluk çekiyorum.
+  examples: '- Uykusuzluk çekiyorum.
+
     - Uykusuzluk neden olur?
+
     - Uyuyamıyorum, ne yapmalıyım?
+
     - Stres yüzünden uyuyamıyorum.
+
     - Uykusuzluk için bitki çayı önerir misiniz?
+
     - Melatonin takviyeleri işe yarar mı?
+
     - yatakta dönüp duruyorum uyku tutmuyor
+
     - sabaha kadar gözümü kırpmadım
+
     - kafam çok dolu uykuya dalamıyorum
+
     - gece uyanıp bir daha uyuyamıyorum
+
     - uyku ilacı kullanmadan nasıl uyurum
+
     - papatya çayı uyku getirir mi
+
     - derin uykuya geçemiyorum sürekli uyanıyorum
+
     - uyku düzenim bozuldu gece kuşuna döndüm
+
     - mavi ışık uykumu kaçırıyor mu
+
     - meditasyon ile uykuya dalma yöntemleri
 
+    '
 - intent: goz_yorgunlugu
-  examples: |
-    - Gözlerim çok yorgun.
+  examples: '- Gözlerim çok yorgun.
+
     - Göz yorgunluğu neden olur?
+
     - Ekrana bakmaktan gözlerim yoruldu.
+
     - Göz yorgunluğu için ne yapabilirim?
+
     - Gözlerim dinlenmiyor, ne önerirsiniz?
+
     - Göz damlaları işe yarar mı?
+
     - bilgisayar başında gözlerim kurudu ve acıyor
+
     - gözlerimde ağırlık var açamıyorum
+
     - kitap okurken gözlerim sulanıyor
+
     - gözlerimi dinlendirmek için ne yapmalıyım
+
     - ekrana bakmaktan gözlerim kanlandı
+
     - göz kaslarımın ağrıdığını hissediyorum
+
     - uzaklara bakmak göz yorgunluğunu alır mı
+
     - göz yorgunluğu baş ağrısı yapar mı
+
     - suni gözyaşı damlası yorgunluğa iyi gelir mi
+
     - bulanık görmeye başladım yorgunluktan mı
 
+    '
 - intent: sirt_agrisi
-  examples: |
-    - Sırtım ağrıyor.
+  examples: '- Sırtım ağrıyor.
+
     - Sırt ağrısına ne iyi gelir?
+
     - Yanlış duruştan sırt ağrısı çekiyorum.
+
     - Sırt ağrısını nasıl geçirebilirim?
+
     - Hafif egzersizler sırt ağrısına iyi gelir mi?
+
     - Sırt ağrısı için masaj önerir misiniz?
+
     - kürek kemiklerimin arası ağrıyor
+
     - sabah kalktığımda sırtım tutulmuş oluyor
+
     - bilgisayar başında kambur durmaktan sırtım ağrıdı
+
     - ağır kaldırdım sırtıma bıçak saplanıyor sanki
+
     - sırt ağrısı için sıcak mı soğuk mu iyi gelir
+
     - ortopedik yastık sırt ağrısını çözer mi
+
     - sırt kaslarını güçlendirmek için egzersizler
+
     - yel girmesi sonucu sırt ağrısı
+
     - sırtıma masaj yaptırmak istiyorum
+
     - omurga eğriliği sırt ağrısı yapar mı
 
+    '
 - intent: gaz_siskinlik
-  examples: |
-    - Gaz problemim var.
+  examples: '- Gaz problemim var.
+
     - Şişkinlik yaşıyorum.
+
     - Gaz ve şişkinlik neden olur?
+
     - Sindirim sorunlarından dolayı şişkinlik çekiyorum.
+
     - Gaz ve şişkinliğe ne iyi gelir?
+
     - Nane çayı şişkinliği geçirir mi?
+
     - yemekten sonra karnım davul gibi şişiyor
+
     - sürekli gaz çıkarma isteği var
+
     - bağırsaklarımda aşırı gaz birikmesi
+
     - karnıma dokununca sertlik ve ağrı var
+
     - gaz sancısı göğsüme vuruyor
+
     - rezene çayı gazı alır mı
+
     - baklagiller midemi çok şişirdi
+
     - hızlı yemek yemek gaz yapar mı
+
     - soda içmek şişkinliği azaltır mı
+
     - gaz sıkışması için hareketler
 
+    '
 - intent: burun_tikanikligi
-  examples: |
-    - Burnum tıkalı.
+  examples: '- Burnum tıkalı.
+
     - Burun tıkanıklığı neden olur?
+
     - Burnumun açılması için ne yapabilirim?
+
     - Gripten dolayı burnum tıkandı.
+
     - Tuzlu su burun tıkanıklığına iyi gelir mi?
+
     - Gece burun tıkanıklığı çekiyorum, ne önerirsiniz?
+
     - burnumdan nefes alamıyorum ağzım kuruyor
+
     - tek taraflı burun tıkanıklığı can sıkıcı
+
     - gece yatınca burnum tıkanıyor
+
     - burun spreyi bağımlılığı nasıl geçer
+
     - mentollü buhar burnu açar mı
+
     - alerjik burun tıkanıklığı için ne yapılmalı
+
     - burun kemiği eğriliği tıkanıklık yapar mı
+
     - burun bandı işe yarıyor mu
+
     - okaliptüs yağı burun açmak için nasıl kullanılır
+
     - sinüzit yüzünden burnum tıkalı
 
+    '
 - intent: kulak_agrisi
-  examples: |
-    - Kulak ağrım var.
+  examples: '- Kulak ağrım var.
+
     - Kulak ağrısına ne iyi gelir?
+
     - Enfeksiyona bağlı kulak ağrısı çekiyorum.
+
     - Kulak ağrısını nasıl geçirebilirim?
+
     - Ilık kompres kulak ağrısına iyi gelir mi?
+
     - Uçak yolculuğu sonrası kulak ağrısı yaşıyorum.
+
     - kulağıma sancı giriyor
+
     - kulağımın içi zonkluyor
+
     - rüzgarda kaldım kulağım ağrıyor
+
     - kulağıma su kaçtı ağrı yapıyor
+
     - kulak çöpü kullanmak ağrıyı artırır mı
+
     - çene hareketlerinde kulak ağrısı
+
     - orta kulak iltihabı belirtileri
+
     - zeytinyağı damlatmak kulağa iyi gelir mi
+
     - kulak kepçesinde hassasiyet ve ağrı
 
+    '
 - intent: cilt_kurulugu
-  examples: |
-    - Cildim çok kuru.
+  examples: '- Cildim çok kuru.
+
     - Cilt kuruluğuna ne iyi gelir?
+
     - Soğuk havalardan dolayı cildim kuruyor.
+
     - Cilt kuruluğu neden olur?
+
     - Nemlendirici kullanmak işe yarar mı?
+
     - Kuru cilt için doğal yöntemler nelerdir?
+
     - cildim pul pul dökülüyor
+
     - duştan sonra cildim geriliyor
+
     - bacaklarımda aşırı kuruluk ve kaşıntı var
+
     - yüzümdeki kuruluk için hangi yağ iyi gelir
+
     - ellerim kurudu ve çatladı
+
     - bol su içmek cilt kuruluğunu geçirir mi
+
     - kışın cildim nemsiz kalıyor
+
     - hindistan cevizi yağı cilde sürülür mü
+
     - atopik cilt kuruluğu nasıl geçer
+
     - sabun cildimi kurutuyor ne kullanmalıyım
 
+    '
 - intent: hemoroid
-  examples: |
-    - hemoroidim var ne yapabilirim?
+  examples: '- hemoroidim var ne yapabilirim?
+
     - hemoroid ağrısı için öneriniz var mı?
+
     - evde hemoroide ne iyi gelir?
+
     - hemoroid nasıl geçer?
+
     - doğal yöntemlerle hemoroid tedavisi
+
     - hemoroid tedavisi var mı?
+
     - makatta ağrı ve yanma var
+
     - tuvalet sonrası kanama oluyor
+
     - basur memesi şişti ne yapmalıyım
+
     - acı yemek basuru tetikler mi
+
     - oturma banyosu hemoroide iyi gelir mi
+
     - kabızlık basuru artırır mı
+
     - basur kremi kullanmalı mıyım
+
     - mayasıl ile basur aynı şey mi
+
     - hemoroid yastığı işe yarar mı
+
     - makatta kaşıntı ve batma hissi
 
-- intent: benler
-  examples: |
-    - cildimde çok fazla ben var
-    - yeni çıkan benler için ne yapmalıyım?
-    - ben aldırma işlemi nasıl olur?
-    - benler neden oluşur?
-    - benler zararlı mı?
-    - ciltteki benler için çözüm var mı?
-    - vücudumda et beni çıktı
-    - yüzümdeki ben büyüyor tehlikeli mi
-    - ben kanaması normal mi
-    - kırmızı noktalar ben midir
-    - lazerle ben sildirme iz bırakır mı
-    - güneşe çıkınca benlerim koyulaşıyor
-    - sırtımdaki ben kaşınıyor
-    - benlerin şekil değiştirmesi kanser belirtisi mi
-    - iple ben boğmak sağlıklı mı
-    - estetik amaçlı ben aldırmak
-
+    '
 - intent: cilt_lekeleri
-  examples: |
-    - yüzümde cilt lekeleri oluştu
+  examples: '- yüzümde cilt lekeleri oluştu
+
     - güneş lekeleri için ne yapmalıyım?
+
     - cilt lekelerine iyi gelen doğal çözümler
+
     - cilt lekelerini nasıl azaltırım?
+
     - evde cilt lekesi tedavisi
+
     - cilt lekeleri neden olur?
+
     - hamilelik sonrası yüzümde lekeler kaldı
+
     - sivilce sıktım izi kaldı geçmiyor
+
     - dudak üstünde kararma var
+
     - yaşlılık lekeleri nasıl geçer
+
     - pirinç suyu cilt rengini açar mı
+
     - c vitamini serumu lekelere iyi gelir mi
+
     - güneş koruyucu kullanmadım leke oldu
+
     - lazer leke tedavisi kesin çözüm mü
+
     - patates suyu leke açar mı
+
     - kollardaki kahverengi lekeler
 
+    '
 - intent: sac_dokulmesi
-  examples: |
-    - saçlarım çok dökülüyor
+  examples: '- saçlarım çok dökülüyor
+
     - saç dökülmesine iyi gelen bir şey var mı?
+
     - saç dökülmesi nasıl durdurulur?
+
     - saç dökülmesi için doğal yöntemler
+
     - stres saç dökülmesi yapar mı?
+
     - saç dökülmesi neden olur?
+
     - banyo gideri saçla doluyor
+
     - elimi saçıma atsam tutam tutam geliyor
+
     - tepem açılmaya başladı
+
     - demir eksikliği saç döker mi
+
     - şampuan değiştirdim saçım döküldü
+
     - sarımsaklı şampuan saç çıkarır mı
+
     - erkek tipi saç dökülmesi tedavisi
+
     - saç kıran için ne yapılır
+
     - mevsim geçişlerinde saç dökülmesi normal mi
+
     - biotin takviyesi saç dökülmesini durdurur mu
 
+    '
 - intent: sivilce
-  examples: |
-    - yüzümde çok sivilce çıktı
+  examples: '- yüzümde çok sivilce çıktı
+
     - sivilce nasıl geçer?
+
     - doğal sivilce tedavisi var mı?
+
     - ergenlik sivilcelerine ne önerirsiniz?
+
     - yüzümdeki sivilceler için maske önerisi
+
     - sivilce izleri nasıl geçer?
+
     - çenemde kistik sivilceler çıkıyor
+
     - alnım pütür pütür oldu
+
     - sivilceyi sıkınca daha çok yayılıyor
+
     - yağlı cildim var sivilce bitmiyor
+
     - roaccutane kullanmadan sivilce geçer mi
+
     - adet öncesi sivilce artışı
+
     - sırtımdaki sivilceler nasıl kurur
+
     - çay ağacı yağı sivilceye sürülür mü
+
     - kil maskesi sivilceleri kurutur mu
+
     - beyaz uçlu iltihaplı sivilce
 
+    '
 - intent: egzama
-  examples: |
-    - egzama için ne yapmalıyım?
+  examples: '- egzama için ne yapmalıyım?
+
     - egzama nasıl tedavi edilir?
+
     - egzama kaşıntısına ne iyi gelir?
+
     - evde egzama tedavisi var mı?
+
     - egzama neden olur?
+
     - egzama için doğal çözümler nelerdir?
+
     - ellerimde sulu yaralar çıkıyor
+
     - stresten egzamam azdı
+
     - kaşımaktan kanattım egzama
+
     - saç derimde egzama var kabuklanıyor
+
     - deterjan egzama yapıyor eldiven takmalı mıyım
+
     - kortizonlu krem egzama için zararlı mı
+
     - sedef ile egzama farkı nedir
+
     - kuru egzama için nemlendirici önerisi
+
     - bebeklerde egzama nasıl geçer
+
     - egzama bulaşıcı mıdır
 
-- intent: mantar_enfeksiyonlari
-  examples: |
-    - ayak mantarım var ne yapmalıyım?
-    - mantar enfeksiyonu nasıl tedavi edilir?
-    - vajinal mantara ne iyi gelir?
-    - mantar için doğal çözümler
-    - mantar neden olur?
-    - mantar enfeksiyonundan nasıl korunurum?
-    - ayak parmak aralarım kaşınıyor ve soyuluyor
-    - tırnağım sarardı ve kalınlaştı
-    - kasık mantarı için pudra kullanılır mı
-    - ortak terlik kullanımı mantar bulaştırır mı
-    - sirkeli su mantarı öldürür mü
-    - vücudumda halka şeklinde leke var mantar mı
-    - dilimde beyaz pamukçuk var mantar olabilir mi
-    - nemli kalmak mantarı artırır mı
-    - antifungal krem ne kadar sürede etki eder
-    - saç mantarı kel bırakır mı
-
-- intent: goz_enfeksiyonlari
-  examples: |
-    - gözümde enfeksiyon var
-    - göz enfeksiyonu için ne yapabilirim?
-    - gözde çapaklanma nasıl geçer?
-    - göz enfeksiyonu için evde çözüm var mı?
-    - enfeksiyon nedeniyle gözüm kızardı
-    - göz enfeksiyonuna iyi gelen damlalar nelerdir?
-    - gözüm kıpkırmızı oldu ve sulanıyor
-    - katarakt değil ama görmem bulanıklaştı iltihap mı
-    - sabahları gözlerim yapışık uyanıyorum
-    - göz kapağım şişti arpacık mı
-    - lens kullanımı gözümü enfekte etti
-    - göz nezlesi bulaşıcı mı
-    - papatya çayı ile göz pansumanı
-    - ışığa bakınca gözümde batma oluyor
-    - göz oyması iltihap belirtisi mi
-    - antibiyotikli damla göz enfeksiyonuna iyi gelir mi
-
+    '
 - intent: dis_agrisi
-  examples: |
-    - dişim çok ağrıyor
+  examples: '- dişim çok ağrıyor
+
     - diş ağrısına ne iyi gelir?
+
     - diş ağrısı nasıl geçer?
+
     - evde diş ağrısını ne geçirir?
+
     - diş ağrısı için doğal çözümler
+
     - diş ağrısı neden olur?
+
     - 20lik dişim çıkıyor çok ağrıyor
+
     - dişim dolgulu olduğu halde ağrıyor
+
     - soğuk su içince dişim sızlıyor
+
     - diş etim şişti ve ağrı yapıyor
+
     - gece başlayan diş ağrısı
+
     - karanfil yağı dişe iyi gelir mi
+
     - diş apsesi yüzümü şişirdi
+
     - kanal tedavisi gereken diş ağrır mı
+
     - tuzlu su gargarası dişi uyuşturur mu
+
     - ağrı kesici dişimdeki ağrıyı kesmiyor
 
+    '
 - intent: agiz_yaralari
-  examples: |
-    - ağzımda yara çıktı
+  examples: '- ağzımda yara çıktı
+
     - ağız yarasına ne iyi gelir?
+
     - ağız içindeki yaralar nasıl geçer?
+
     - evde ağız yarası tedavisi
+
     - ağız yaraları neden olur?
+
     - ağız yaralarına iyi gelen bitkisel çözümler
+
     - dilimin kenarında aft çıktı
+
     - yanak içimi ısırdım yara oldu
+
     - protez diş vurması sonucu yara
+
     - ağız yarası vitamin eksikliğinden mi olur
+
     - karbonatlı su ağız yarasına iyi gelir mi
+
     - behçet hastalığı ağız yarası yapar mı
+
     - ağız içi mantarı ve yaralar
+
     - sigara içmek ağız yarasını geciktirir mi
+
     - ağız yarası yemek yememi engelliyor
+
     - karadut şurubu afta iyi gelir mi
 
+    '
 - intent: kabizlik
-  examples: |
-    - kabız oldum ne yapmalıyım?
+  examples: '- kabız oldum ne yapmalıyım?
+
     - kabızlığa ne iyi gelir?
+
     - kabızlık nasıl geçer?
+
     - kabızlık için doğal yöntemler
+
     - kabızlık çayı tarifi
+
     - kabızlık neden olur?
+
     - günlerdir büyük tuvaletime çıkamıyorum
+
     - bağırsaklarım tembelleşti
+
     - dışkılama sırasında zorlanma ve ağrı
+
     - keçi dışkısı gibi parça parça yapıyorum
+
     - lifli gıdalar kabızlığı çözer mi
+
     - sinameki çayı kabızlık için zararlı mı
+
     - sabah aç karnına kayısı yemek
+
     - hamilelikte kabızlık normal mi
+
     - zeytinyağı içmek bağırsakları yumuşatır mı
+
     - kronik kabızlık için doktora gitmeli miyim
 
+    '
 - intent: mide_yanmasi
-  examples: |
-    - midem yanıyor
+  examples: '- midem yanıyor
+
     - mide yanmasına ne iyi gelir?
+
     - mide yanması nasıl geçer?
+
     - asit reflü nasıl tedavi edilir?
+
     - mide yanması için evde çözüm
+
     - mide yanması neden olur?
+
     - boğazıma kadar acı su geliyor
+
     - göğsümün ortasında yanma var
+
     - yemekten hemen sonra midem ekşiyor
+
     - kahve içince midem yanıyor
+
     - hamur işi midemi yakıyor ne yapmalıyım
+
     - soğuk süt mide yanmasını keser mi
+
     - mide yanması kalp kriziyle karışır mı
+
     - sol tarafa yatmak reflüye iyi gelir mi
+
     - rennie çiğneme tableti işe yarar mı
+
     - sürekli mide koruyucu kullanmak zararlı mı
 
+    '
 - intent: bas_donmesi
-  examples: |
-    - başım dönüyor
+  examples: '- başım dönüyor
+
     - baş dönmesine ne iyi gelir?
+
     - baş dönmesi nasıl geçer?
+
     - baş dönmesinin nedeni nedir?
+
     - baş dönmesine karşı doğal çözümler
+
     - aniden başım döndü, ne yapmalıyım?
+
     - yer ayağımın altından kayıyor
+
     - yataktan kalkınca gözüm kararıyor
+
     - vertigom mu var acaba her yer dönüyor
+
     - kulak kristallerim oynamış olabilir mi
+
     - tansiyon düşünce baş dönmesi olur mu
+
     - baş dönmesiyle birlikte mide bulantısı
+
     - kansızlık baş dönmesi yapar mı
+
     - kafamı çevirince dünya dönüyor
+
     - yorgunluktan başım dönüyor
+
     - deprem oluyor gibi sallanıyorum
 
-- intent: kulak_cinlamasi
-  examples: |
-    - kulağım çınlıyor
-    - kulak çınlamasına ne iyi gelir?
-    - kulak çınlaması nasıl geçer?
-    - kulak çınlaması neden olur?
-    - kulak çınlamasına karşı bitkisel çözümler
-    - kulak çınlaması için doktora gitmeli miyim?
-    - kulağımda sürekli bir uğultu var
-    - sinek vızıltısı gibi ses duyuyorum
-    - sessiz ortamda çınlama artıyor
-    - yüksek sese maruz kaldım çınlama başladı
-    - kulak kiri çınlama yapar mı
-    - tansiyon yüksekliği kulak çınlatır mı
-    - ginkgo biloba çınlamaya iyi gelir mi
-    - gece yatarken kulak çınlamasından uyuyamıyorum
-    - işitme kaybı ve çınlama ilişkisi
-    - kulak çınlaması hiç geçmez mi
-
+    '
 - intent: goz_seyirmesi
-  examples: |
-    - gözüm seyiriyor
+  examples: '- gözüm seyiriyor
+
     - göz seyirmesi neden olur?
+
     - göz seyirmesine ne iyi gelir?
+
     - göz seyirmesi nasıl geçer?
+
     - stres göz seyirmesi yapar mı?
+
     - sağ gözüm sürekli seyiriyor, çözüm var mı?
+
     - sol göz kapağım pır pır ediyor
+
     - gözümün altı sürekli atıyor
+
     - sağ göz seyirmesi hayra mı şerre mi
+
     - magnezyum eksikliği göz seyirtir mi
+
     - uykusuz kalınca gözüm seyiriyor
+
     - kafein tüketimi göz seyirmesini artırır mı
+
     - göz yorgunluğu ve seyirme
+
     - tik haline gelen göz seyirmesi
+
     - ne zaman geçeceği belli olmayan seyirme
+
     - botoks ile göz seyirmesi tedavisi
 
-- intent: ucuk
-  examples: |
-    - dudağımda uçuk çıktı
-    - uçuk nasıl geçer?
-    - uçuk tedavisi var mı?
-    - uçuk için doğal çözümler
-    - uçuk neden olur?
-    - uçuğu nasıl önleyebilirim?
-    - dudak kenarımda kabarcıklar oluştu
-    - stres yapınca hemen uçuk çıkıyor
-    - uçuk kremi sürdüm ama geçmedi
-    - uçuk patlatılmalı mı
-    - sarımsak sürmek uçuğu kurutur mu
-    - uçuk virüsü vücuttan atılır mı
-    - korkudan uçuk çıkar mı
-    - uçuk varken ruj sürülür mü
-    - genital uçuk ile dudak uçuğu farkı
-    - aseton uçuğu yakar mı
-
+    '
 - intent: dis_eti_kanamasi
-  examples: |
-    - diş etlerim kanıyor
+  examples: '- diş etlerim kanıyor
+
     - diş eti kanaması nasıl geçer?
+
     - diş eti kanamasına ne iyi gelir?
+
     - evde diş eti kanaması tedavisi
+
     - diş eti kanaması neden olur?
+
     - diş eti kanaması için doğal çözümler
+
     - diş fırçalarken lavabo kan oluyor
+
     - elma ısırınca kan izi kalıyor
+
     - kendiliğinden diş etim kanıyor
+
     - diş taşları kanama yapar mı
+
     - c vitamini eksikliği diş eti kanatır mı
+
     - diş ipi kullanırken kanama olması
+
     - diş eti çekilmesi ve kanama
+
     - tuzlu su ile gargara kanamayı durdurur mu
+
     - yumuşak diş fırçası kullanmak gerekir mi
+
     - diş eti iltihabı ve kanama tedavisi
 
+    '
 - intent: bagisiklik_gucsuzlugu
-  examples: |
-    - bağışıklık sistemim çok zayıf.
+  examples: '- bağışıklık sistemim çok zayıf.
+
     - bağışıklık güçsüzlüğü nasıl giderilir?
+
     - bağışıklık sistemimi nasıl güçlendirebilirim?
+
     - vücudum çok kolay hasta oluyor, ne yapabilirim?
+
     - bağışıklığı güçlendiren bitkiler nelerdir?
+
     - bağışıklık sistemi neden zayıflar?
+
     - sürekli hastalanıyorum bünyem zayıf
+
     - vitamin alıyorum ama hala halsizim
+
     - kışın hiç iyileşemiyorum
+
     - kan değerlerim düşük bağışıklığım mı zayıf
+
     - immün sistemi güçlendirmek için ne yemeli
+
     - propolis bağışıklığı artırır mı
+
     - zencefil zerdeçal kürü bağışıklık için
+
     - çocuklarda bağışıklık nasıl güçlenir
+
     - stres bağışıklığı çökertir mi
+
     - uykusuzluk bağışıklığı düşürür mü
 
-
+    '
 - intent: uyku_problemleri
-  examples: |
-    - uykusuzluk yaşıyorum.
+  examples: '- uykusuzluk yaşıyorum.
+
     - uyuyamıyorum, ne yapmalıyım?
+
     - rahat bir uyku için önerileriniz var mı?
+
     - uyku düzenim bozuk, çözüm var mı?
+
     - uykuya dalmakta çok zorlanıyorum.
+
     - uykusuzluğa iyi gelen bitkiler nelerdir?
+
     - sabah dinç uyanamıyorum
+
     - çok uyuyorum ama dinlenemiyorum
+
     - rüyalar yüzünden uykum bölünüyor
+
     - vardiyalı çalışma uyku düzenimi mahvetti
+
     - uyku apnesi belirtileri nelerdir
+
     - huzursuz bacak sendromu uykumu kaçırıyor
+
     - uyku hijyeni nasıl sağlanır
+
     - yastık seçimi uyku kalitesini etkiler mi
+
     - uyumadan önce süt içmek
+
     - horlama sorununa çözüm
 
+    '
 - intent: adet_duzensizligi
-  examples: |
-    - adetim düzensizleşti.
+  examples: '- adetim düzensizleşti.
+
     - adet döngüm bozuldu, neden olabilir?
+
     - adet düzenleyici bitkisel çözümler var mı?
+
     - regl tarihimi nasıl düzene sokabilirim?
+
     - adet gecikmesi için ne önerirsiniz?
+
     - adet düzensizliğim için doğal yöntemler nelerdir?
+
     - 3 aydır adet olmuyorum
+
     - yılda sadece 3-4 kez adet görüyorum
+
     - adetim çok sık oluyor 15 günde bir
+
     - polikistik over adet düzensizliği yapar mı
+
     - doğum kontrol hapı adeti düzenler mi
+
     - menopoz belirtileri ve adet kesilmesi
+
     - tiroid bozukluğu adeti etkiler mi
+
     - soğan kürü adet söktürür mü
+
     - stresten adetim gecikti
+
     - mevsimsel adet düzensizliği
 
+    '
 - intent: adet_sancisi
-  examples: |
-    - regl dönemimde çok sancı çekiyorum.
+  examples: '- regl dönemimde çok sancı çekiyorum.
+
     - adet sancısını nasıl hafifletebilirim?
+
     - adet sancısına iyi gelen bitkiler var mı?
+
     - regl ağrılarım için doğal çözümler nelerdir?
+
     - sancılı geçen regl dönemim için önerileriniz var mı?
+
     - adet ağrısını hafifletmek için ne yapabilirim?
+
     - kasıklarımda kramplar var
+
     - karnım ağrıyor belim kopuyor sanki
+
     - sancıdan yerimde duramıyorum
+
     - sıcak su torbası adet ağrısına konur mu
+
     - majezik adet sancısını keser mi, zararlı mı
+
     - çikolata kisti sancı yapar mı
+
     - adet sancısı mide bulantısı yapıyor
+
     - bitki çayları sancıyı hafifletir mi
+
     - egzersiz yapmak adet ağrısına iyi gelir mi
+
     - doğum yaptıktan sonra sancı geçer mi
 
+    '
 - intent: greet
-  examples: |
-    - hey
+  examples: '- hey
+
     - hello
+
     - hi
+
     - hello there
+
     - good morning
+
     - good evening
+
     - moin
+
     - hey there
-    - let's go
+
     - hey dude
+
     - goodmorning
+
     - goodevening
+
     - good afternoon
 
+    - selam
+
+    - merhaba
+
+    - selamlar
+
+    - nasılsın
+
+    - naber
+
+    - iyi günler
+
+    - hayırlı sabahlar
+
+    - iyi akşamlar
+
+    - günaydın
+
+    - buralarda mısın
+
+    - merhaba bot
+
+    - selam şifa bardakta
+
+    '
 - intent: goodbye
-  examples: |
-    - cu
+  examples: '- cu
+
     - good by
+
     - cee you later
+
     - good night
+
     - bye
+
     - goodbye
+
     - have a nice day
+
     - see you around
+
     - bye bye
+
     - see you later
 
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - görüşürüz
 
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - hoşçakal
 
+    - baybay
+
+    - kendine iyi bak
+
+    - güle güle
+
+    - görüşmek üzere
+
+    - elveda
+
+    '
 - intent: mood_great
-  examples: |
-    - perfect
+  examples: '- perfect
+
     - great
+
     - amazing
+
     - feeling like a king
+
     - wonderful
+
     - I am feeling very good
+
     - I am great
+
     - I am amazing
+
     - I am going to save the world
+
     - super stoked
+
     - extremely good
+
     - so so perfect
-    - so good
-    - so perfect
 
+    - harikayım
+
+    - süper
+
+    - her şey yolunda
+
+    - bomba gibiyim
+
+    '
 - intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+  examples: '- my day was horrible
 
+    - I am sad
+
+    - I don''t feel very well
+
+    - I am disappointed
+
+    - super sad
+
+    - I''m so sad
+
+    - sad
+
+    - very sad
+
+    - unhappy
+
+    - üzgünüm
+
+    - mutsuzum
+
+    - moralim bozuk
+
+    - kötü hissediyorum
+
+    - hiç iyi değilim
+
+    - canım sıkkın
+
+    '
 - intent: bot_challenge
-  examples: |
-    - are you a bot?
+  examples: '- are you a bot?
+
     - are you a human?
+
     - am I talking to a bot?
+
     - am I talking to a human?
+
+    - sen bir robot musun?
+
+    - makine misin?
+
+    - gerçek bir insanla mı konuşuyorum?
+
+    - nesin sen?
+
+    - yapay zeka mısın?
+
+    - bot musun sen?
+
+    - yazılım mısın?
+
+    - program mısın?
+
+    - otomatik bir sistem mi bu?
+
+    - bana kim cevap veriyor?
+
+    - sen bir bilgisayar mısın?
+
+    '
+- intent: stres
+  examples: '- çok stresliyim
+
+    - stresimi azaltmak istiyorum
+
+    - nasıl gevşeyebilirim?
+
+    - sinirlerim çok gerildi
+
+    - sakinleşmeye yardımcı bir şey var mı?
+
+    - stres için bitki çayı önerir misiniz?
+
+    - kendimi çok gergin hissediyorum
+
+    - çok fazla iş yüküm var stres oldum
+
+    - stresle nasıl başa çıkabilirim?
+
+    - rahatlamaya ihtiyacım var
+
+    - sinir krizinin eşiğindeyim
+
+    - çok baskı altındayım
+
+    - stresim uykumu kaçırıyor
+
+    - kafam çok dolu sakinleşemiyorum
+
+    - günlük stres için doğal çözüm
+
+    '
+- intent: hafif_anksiyete
+  examples: '- hafif anksiyetem var
+
+    - biraz gergin hissediyorum
+
+    - endişem var ne yapmalıyım?
+
+    - rahatlatıcı bir çay önerir misiniz?
+
+    - kalbim hızlı atıyor ama panik değilim
+
+    - gerginlik için doğal çözüm var mı?
+
+    - içimde bir huzursuzluk var
+
+    - sürekli bir şey olacakmış gibi hissediyorum
+
+    - hafif kaygı bozukluğu yaşıyorum
+
+    - sakinleşmek için ne içebilirim?
+
+    - kendimi tedirgin hissediyorum
+
+    - anksiyetem tuttu yine
+
+    - endişelerimden kurtulmak istiyorum
+
+    - hafif telaşlı ve kaygılıyım
+
+    - doğal sakinleştirici önerisi
+
+    '
+- intent: odaklanma_zorlugu
+  examples: '- odaklanmakta zorlanıyorum
+
+    - konsantrasyonum düşük
+
+    - çalışma sırasında dikkatimi toparlayamıyorum
+
+    - ders çalışırken zihnim dağılıyor
+
+    - odaklanmaya yardımcı bir içecek varmı?
+
+    - zihinsel canlılık için öneriniz nedir?
+
+    - dikkatim çok çabuk dağılıyor
+
+    - kafamı bir türlü toplayamıyorum
+
+    - işime konsantre olamıyorum
+
+    - zihnimi berraklaştırmak istiyorum
+
+    - unutkanlık ve odaklanma sorunu
+
+    - bir konuya 5 dakikadan fazla bakamıyorum
+
+    - dikkati toplamak için ne yapmalı?
+
+    - beyin sisi yaşıyorum sanki
+
+    - odaklanma gücünü artıran bitkiler
+
+    '
+- intent: zihinsel_yorgunluk
+  examples: '- zihinsel olarak çok yorgunum
+
+    - beynim yoruldu, verimli olamıyorum
+
+    - konsantrasyonum hiç yok
+
+    - enerji düşüklüğü hissediyorum
+
+    - zihinsel yorgunluk için ne içmeliyim?
+
+    - uyanık kalmam gerekiyor ama çok yorgunum
+
+    - kafam kalkmıyor yorgunluktan
+
+    - çok fazla düşündüm beynim yandı
+
+    - zihinsel kapasitem dolmuş gibi
+
+    - hiçbir şeyi anlayacak halim yok
+
+    - kafa yorgunluğuna ne iyi gelir?
+
+    - zihni dinlendiren bitki çayları
+
+    - aşırı zihinsel efor sarf ettim
+
+    - beyin yorgunluğu hissediyorum
+
+    - zihinsel netlik için ne önerirsiniz?
+
+    '
+- intent: sinirlik
+  examples: '- bugün çok sinirliyim
+
+    - çabuk sinirleniyorum
+
+    - sinirlilik hissini azaltmak istiyorum
+
+    - kolayca öfkeleniyorum
+
+    - sinirli hissettiren durumlarda ne yapmalıyım?
+
+    - sakinleşmeme yardımcı olacak bir çay var mı?
+
+    - barut gibiyim her şeye kızıyorum
+
+    - tahammül seviyem çok düştü
+
+    - sinirden elim ayağım titriyor
+
+    - öfkemi kontrol edemiyorum
+
+    - bugün her şey ters gidiyor sinirliyim
+
+    - kime çatsam diye bakıyorum resmen
+
+    - agresif hissediyorum kendimi
+
+    - sakinleşmek için bitkisel bir yol
+
+    - sinir bozukluğuna ne iyi gelir?
+
+    '
+- intent: hazimsizlik
+  examples: '- hazımsızlık yaşıyorum
+
+    - mideden rahatsızlık var, hazımsızlık olabilir
+
+    - yemek sonrası midem ağırlaşıyor
+
+    - hazımsızlığa ne iyi gelir?
+
+    - gaz ve hazımsızlık için öneriniz nedir?
+
+    - yemekten sonra şişkinlik oluyor
+
+    - sindiremiyorum yediğimi
+
+    - midem çok kabarık hissediyorum
+
+    - hazımsızlık sancısı çekiyorum
+
+    - yemeği geç sindiriyorum
+
+    - mide ağırlığı nasıl geçer?
+
+    - sindirim sistemim yavaş çalışıyor
+
+    - yemekten sonra bir ağırlık çöküyor
+
+    - hazımsızlığı gideren bitkisel çaylar
+
+    - midem çok dolu ve rahatsızım
+
+    '
+- intent: ishtah_kaybi
+  examples: '- iştahım yok
+
+    - yemek yemek istemiyorum
+
+    - iştahımı nasıl geri kazanabilirim?
+
+    - uzun süredir iştahım az
+
+    - iştah açıcı doğal öneri var mı?
+
+    - mide sıkıntısı nedeniyle iştahım kapandı
+
+    - ağzımın tadı yok yemek yiyemiyorum
+
+    - canım hiçbir şey çekmiyor
+
+    - yemek kokusundan bile rahatsız oluyorum
+
+    - iştahsızlık yaşıyorum ne yapmalı?
+
+    - yemek yemek bana zul geliyor resmen
+
+    - iştah kaybı halsizlik yapıyor
+
+    - iştahımı ne açar?
+
+    - zorla yemek yiyorum
+
+    - kilo veriyorum iştahsızlıktan
+
+    '
+- intent: mide_kramplari
+  examples: '- midemde kramp var
+
+    - karın krampları çekiyorum
+
+    - mide krampları için ne önerirsiniz?
+
+    - adet dışı mide krampları yaşıyorum
+
+    - yemek sonrası kramp oluyor
+
+    - krampa iyi gelen çay hangisi?
+
+    - karnım düğümleniyor sanki kramptan
+
+    - şiddetli mide kasılmalarım var
+
+    - mideme sancı girip çıkıyor
+
+    - mide spazmı geçirmek için ne yapmalı?
+
+    - kramp şeklinde bir ağrı var karnımda
+
+    - soğuk alınca mideme kramp giriyor
+
+    - spazm giderici bitki çayları
+
+    - midem sürekli kasılıyor
+
+    - karnımdaki kramplar uykumu kaçırıyor
+
+    '
+- intent: kas_agrisi
+  examples: '- kas ağrılarım var
+
+    - spor sonrası kas ağrısı için ne önerirsiniz?
+
+    - kas yorgunluğunu azaltmak istiyorum
+
+    - vücudum ağrıyor, hangi içecek yardımcı olur?
+
+    - iltihap kaynaklı kas ağrısı mı olabilir?
+
+    - kas gevşetici etkisi olan çay var mı?
+
+    - her yerim tutulmuş gibi ağrıyor
+
+    - hamlık ağrısı çekiyorum spordan sonra
+
+    - kaslarımda sızı var
+
+    - bacak kaslarım çok ağrıyor
+
+    - vücut kırgınlığı ve kas ağrısı
+
+    - kas krampları ve ağrılar
+
+    - doğal kas gevşetici bitkiler
+
+    - egzersiz sonrası vücut sızlaması
+
+    - kollarımda ve omuzlarımda kas ağrısı
+
+    '
+- intent: boyun_agrisi
+  examples: '- boynum tutuldu
+
+    - boyun ağrısı için öneriniz var mı?
+
+    - boyun kaslarım çok gergin
+
+    - telefon kullanırken boyun ağrısı çekiyorum
+
+    - boyun ağrısına iyi gelen içecek var mı?
+
+    - boyun gerilmesine ne iyi gelir?
+
+    - boynumu sağa sola çeviremiyorum
+
+    - enseden gelen bir ağrı var
+
+    - boyun fıtığı ağrısı için ne yapılabilir?
+
+    - yanlış yattım boynum çok ağrıyor
+
+    - boyun kaslarım taş gibi olmuş
+
+    - bilgisayar başında boynum tutuldu
+
+    - boyun sızlaması nasıl geçer?
+
+    - boyun düzleşmesi ağrısı için öneri
+
+    - ense ve boyun bölgesinde sertlik
+
+    '
+- intent: adet_oncesi_gerginlik
+  examples: '- adet öncesi sinirliyim
+
+    - PMS belirtilerim var, yardım edin
+
+    - regl öncesi gerilim yaşıyorum
+
+    - adet öncesi ruh halim bozuluyor
+
+    - PMS için rahatlatıcı öneriniz var mı?
+
+    - adet öncesi gerginlik için bitki çayı?
+
+    - regl olacağım çok huzursuzum
+
+    - adet öncesi ağlama krizleri
+
+    - PMS sendromu yaşıyorum sanırım
+
+    - adet öncesi memelerde hassasiyet ve gerginlik
+
+    - duygusal dalgalanmalarım var regl öncesi
+
+    - her şeye sinirleniyorum adet olacağım için
+
+    - PMS gerginliğini ne azaltır?
+
+    - adet öncesi şişkinlik ve gerginlik
+
+    - regl öncesi bitki çayı önerisi
+
+    '
+- intent: gun_ici_halsizlik
+  examples: '- gün içinde çok halsiz hissediyorum
+
+    - enerjim düşük öğlenleri
+
+    - gün ortasında uyku geliyor
+
+    - gün içi halsizliğe ne iyi gelir?
+
+    - enerji veren içecek önerir misiniz?
+
+    - sürekli yorgun hissediyorum gün boyu
+
+    - öğleden sonraları pilim bitiyor
+
+    - ayakta duracak halim yok gün içinde
+
+    - zihinsel ve bedensel bir halsizlik var
+
+    - canım hiçbir şey yapmak istemiyor halsizim
+
+    - gün içi yorgunluğunu ne alır?
+
+    - enerjim çok çabuk tükeniyor
+
+    - halsizliği gideren doğal yollar
+
+    - gün içinde uykulu ve bitkinim
+
+    - vücudumda genel bir dermansızlık var
+
+    '
+- intent: bogaz_kurulugu
+  examples: '- boğazım çok kuru
+
+    - boğaz kuruluğu için ne iyi gelir?
+
+    - konuşunca boğazım kuruyor
+
+    - boğazımı nemlendirmek istiyorum
+
+    - boğazım kaşıntılı ve kuru
+
+    - gece boğazım kuruyor uyuyamıyorum
+
+    - yutkunurken boğazımda kuruluk hissediyorum
+
+    - boğazım tahriş olmuş ve kurumuş
+
+    - sabahları ağzım boğazım kupkuru uyanıyorum
+
+    - boğaz kuruluğu öksürük yapıyor
+
+    - boğazımı ne yumuşatır?
+
+    - sürekli su içsem de boğazım kuruyor
+
+    - nemsiz ortam boğazımı kurutuyor
+
+    - boğaz kuruluğuna karşı bitkisel çözüm
+
+    - boğazda kum varmış gibi kuruluk hissi
+
+    '
+- intent: ses_kisikligi
+  examples: '- sesim kısıldı
+
+    - sesimin çıkmaması için ne yapmalıyım?
+
+    - konuşurken sesim zor çıkıyor
+
+    - ses kısıklığına iyi gelen şeyler nelerdir?
+
+    - uzun süre konuşunca sesim kısılıyor
+
+    - boğazım tahriş oldu sesim kısıldı
+
+    - sesim çatallaşıyor ve gidiyor
+
+    - bağırmaktan sesim kısıldı
+
+    - soğuk algınlığı sonrası sesim kısıldı
+
+    - ses tellerimi nasıl dinlendiririm?
+
+    - ses kısıklığını ne hemen geçirir?
+
+    - sesim çok az çıkıyor zorlanıyorum
+
+    - ses kısılınca ne içilmeli?
+
+    - boğaz ağrısı ve ses kaybı
+
+    - sesin geri gelmesi için doğal yöntemler
+
+    '
+- intent: cilt_canliligi
+  examples: '- cildim cansız görünüyor
+
+    - cilt canlılığını nasıl artırırım?
+
+    - daha parlak bir cilt için ne içmeliyim?
+
+    - cilt sağlığı için içecek öneriniz var mı?
+
+    - cildimi içeriden desteklemek istiyorum
+
+    - antioksidan içecek cilde iyi gelir mi?
+
+    - yüzüm çok solgun ve donuk
+
+    - cildim yorgun gözüküyor ne yapmalı?
+
+    - cildime ışıltı katacak bir içecek
+
+    - sağlıklı cilt için bitki çayları
+
+    - cilt tonumu eşitleyen bir içecek var mı?
+
+    - cildimi canlandırmak istiyorum
+
+    - yaşlanma karşıtı ve canlandırıcı içecekler
+
+    - pürüzsüz cilt için içeriden destek
+
+    - cilt güzelliği için doğal tavsiyeler
+
+    '
+- intent: antioxidant_destek
+  examples: '- antioksidan desteği istiyorum
+
+    - bağışıklık ve antioksidan için öneriniz nedir?
+
+    - antioksidan içecekler nelerdir?
+
+    - zerdeçal limon karabiber kürünün faydaları nelerdir?
+
+    - antioksidan günlük destek almak istiyorum
+
+    - genel sağlık için antioksidan içecek önerin
+
+    - vücudumu temizlemek için antioksidan
+
+    - detoks etkisi yapan antioksidanlar
+
+    - yaşlanmayı geciktiren antioksidan içecekler
+
+    - antioksidan kapasitesi yüksek bitki çayları
+
+    - hücre yenileyici içecek önerisi
+
+    - serbest radikallere karşı antioksidan
+
+    - doğal antioksidan kaynakları nelerdir?
+
+    - bağışıklığı güçlendiren antioksidan kürler
+
+    - günlük antioksidan ihtiyacı için ne içilmeli
+
+    '
+- intent: uyku_gecisi_zorlugu
+  examples: '- uykuya dalmakta zorlanıyorum
+
+    - yatarken uykuya geçemiyorum
+
+    - uykuya geçişte problem yaşıyorum
+
+    - lavanta melisa çayı uyku getirir mi
+
+    - gözümü kapatıyorum ama uyku gelmiyor
+
+    - uykuya dalma sürem çok uzun
+
+    - kafamda düşünceler dönüyor uyuyamıyorum
+
+    - rahatça uykuya dalmak istiyorum
+
+    - uyku öncesi gevşemek için ne yapmalı?
+
+    - yatakta saatlerce dönüyorum
+
+    - uykuya geçişi hızlandıran çaylar
+
+    - akşamları uyku bastırsa da yatağa girince kaçıyor
+
+    - dalgınlık ve uyuyamama sorunu
+
+    - uykusuz geçirdiğim geceler son bulsun
+
+    - uykuya dalmaya yardımcı doğal çözüm
+
+    '
+- intent: kas_sirt_gerginligi
+  examples: '- sırtım çok gerildi rahatlamak istiyorum
+
+    - kaslarım ve sırtım gergin ne iyi gelir?
+
+    - kas gerginliği için içecek önerir misiniz?
+
+    - omuzlarım ve sırtım kaskatı oldu
+
+    - sırt kaslarımda aşırı gerginlik var
+
+    - masa başında oturmaktan sırtım gerildi
+
+    - kaslarımı gevşetmek için ne içebilirim?
+
+    - sırtımda düğüm düğüm ağrılar var
+
+    - stresten sırtım gerildi
+
+    - omurgamda bir gerginlik hissediyorum
+
+    - sırt kasları nasıl rahatlar?
+
+    - zencefil çayı sırt gerginliğine iyi gelir mi?
+
+    - sırt ağrısı ve kasılmalar
+
+    - vücudumda genel bir gerginlik var
+
+    - kas sertleşmesi ve sırt sızısı
+
+    '
+- intent: agiz_bogaz_kurulugu
+  examples: '- ağzım ve boğazım çok kuru
+
+    - boğaz kuruluğu ne iyi gelir?
+
+    - hatmi çiçeği boğazı rahatlatır mı
+
+    - ağız ve boğaz kuruluğu için ne içilir?
+
+    - sürekli susama ve kuruluk hissi
+
+    - ağız içi ve boğazda yanma ve kuruluk
+
+    - boğazımı ne nemlendirir?
+
+    - ağız kuruluğu ile birlikte boğazda gıcık
+
+    - sabahları yutkunma zorluğu ve kuruluk
+
+    - ağız boğaz kuruluğu bitkisel tedavi
+
+    - tükürük salgısı azlığı ve kuruluk
+
+    - boğazı nemli tutan bitki çayları
+
+    - ağız ve boğaz kuruluğuna çözüm
+
+    - konuşurken boğazın hemen kuruması
+
+    - ağız ve boğaz kuruluğu neden olur?
+
+    '
+- intent: genel_iyi_hissetme
+  examples: '- kendimi iyi hissetmek istiyorum
+
+    - ruh halimi iyileştirecek bir içecek var mı?
+
+    - genel iyi hissetme için öneriniz nedir
+
+    - modum düşük keyfim yerine gelsin
+
+    - zinde ve iyi hissetmek için ne içmeli?
+
+    - kendimi her gün iyi hissetmek istiyorum
+
+    - genel sağlık ve esenlik için çay önerisi
+
+    - pozitif hissettiren bitkisel karışımlar
+
+    - ruh ve beden sağlığı için iyi gelen şeyler
+
+    - enerjik ve mutlu hissettiren içecekler
+
+    - kendini iyi hissetme kürleri
+
+    - yaşam kalitesini artıran içecek tavsiyeleri
+
+    - stresden uzak iyi hissetmek için
+
+    - her sabah iyi uyanmak için
+
+    - genel zindelik için doğal yöntemler
+
+    '
+- intent: kulak_agrisi_dolayli
+  examples: '- kulağım ağrıyor ama direk tedavi istemiyorum
+
+    - kulak ağrısına rahatlama sağlayan bir şey var mı
+
+    - papatya ıhlamur kulağa iyi gelir mi
+
+    - kulak çevresindeki ağrıyı ne hafifletir?
+
+    - kulak ağrısı kaynaklı huzursuzluğa çözüm
+
+    - kulak sızısı için dolaylı rahatlama
+
+    - kulağım zonkluyor ne yapmalıyım?
+
+    - kulak bölgesini rahatlatan bitki çayları
+
+    - boğaz ağrısı kulağıma vuruyor
+
+    - kulak hassasiyeti ve sızlaması
+
+    - kulağımı ne yatıştırır?
+
+    - kulak ağrısının geçmesine ne yardımcı olur?
+
+    - kulağa vuran ağrılar için doğal öneri
+
+    - kulak sızısına iyi gelen çaylar
+
+    - dolaylı yoldan kulak ağrısını azaltmak
+
+    '
+- intent: nefes_darligi_hissi
+  examples: '- nefesim dar geliyor ama panik olabilir
+
+    - hafif nefes darlığı hissediyorum
+
+    - anksiyete kaynaklı nefes darlığı için ne önerirsiniz
+
+    - nefes alırken zorlanıyor gibi oluyorum
+
+    - göğsüm sıkışıyor nefesim yetmiyor sanki
+
+    - derin nefes alamıyorum
+
+    - heyecanlanınca nefesim daralıyor
+
+    - stresli anlarda nefes darlığı hissi
+
+    - nefesi açan bitki çayları
+
+    - göğüs kafesinde darlık hissi
+
+    - nefesimi ne rahatlatır?
+
+    - akciğerleri ferahlatan içecek önerisi
+
+    - nefes daralmasına anlık çözüm
+
+    - hafif bir solunum güçlüğü çekiyorum
+
+    - stresten nefesim kesilir gibi oluyor
+
+    '
+- intent: asiri_yorgunluk
+  examples: '- aşırı yorgun hissediyorum
+
+    - enerji kaybı yaşıyorum sürekli yorgunum
+
+    - kuşburnu çayı enerji verir mi
+
+    - parmağımı kaldıracak halim yok yorgunluktan
+
+    - kronik yorgunluk yaşıyorum sanki
+
+    - vücudumda aşırı bir tükenmişlik var
+
+    - dinlenmeme rağmen yorgun uyanıyorum
+
+    - yorgunluktan bitap düştüm
+
+    - aşırı yorgunluğu ne geçirir?
+
+    - enerji depolarımı nasıl doldurabilirim?
+
+    - kendimi çok güçsüz ve bitkin hissediyorum
+
+    - yorgunluğu gideren doğal kürler
+
+    - bitmeyen bir yorgunluk hissi
+
+    - her gün aşırı yorgun oluyorum
+
+    - canım yorgunluktan hiçbir şey istemiyor
+
+    '
+- intent: terleme_dengesizligi
+  examples: '- terleme dengem bozuldu
+
+    - çok terleme problemi yaşıyorum ne önerirsiniz?
+
+    - adaçayı terlemeyi azaltır mı
+
+    - gece terlemelerim arttı neden acaba?
+
+    - soğuk soğuk terliyorum bazen
+
+    - aşırı terleme sorunuma çözüm arıyorum
+
+    - vücut ısım dengesiz çok terliyorum
+
+    - terlemeyi kontrol altına alan bitkiler
+
+    - normalden fazla terlemeye ne iyi gelir?
+
+    - durduk yere ter basıyor
+
+    - terleme dengesizliği için bitki çayı
+
+    - sıcak basması ve aşırı terleme
+
+    - ter kokusu ve aşırı terlemeye karşı
+
+    - el ayak terlemesi neden olur?
+
+    - ter dengesini sağlayan doğal yollar
+
+    '
+- intent: carpinti_hissi
+  examples: '- kalbim hızlı atıyor ama doktora gitmedim
+
+    - stres kaynaklı çarpıntım var ne içmeliyim
+
+    - çarpıntı için rahatlatıcı ne var
+
+    - kalbim yerinden çıkacakmış gibi atıyor
+
+    - nabzım çok yüksek çarpıntım var
+
+    - heyecanlanınca kalbim küt küt atıyor
+
+    - çarpıntı hissini ne yatıştırır?
+
+    - anlamsız bir kalp çarpıntısı yaşıyorum
+
+    - kalbimi sakinleştirecek bir içecek
+
+    - stresten dolayı kalbim hızlanıyor
+
+    - çarpıntıya karşı bitkisel çözüm
+
+    - kalp çarpıntısı ve huzursuzluk
+
+    - nabzı dengeleyen bitki çayları
+
+    - panik anında kalp çarpıntısı
+
+    - kalbim kuş gibi çırpınıyor resmen
+
+    '
+- intent: agirlik_tokluk_hissi
+  examples: '- aşırı tok hissediyorum
+
+    - yemek sonrası ağırlık hissi var
+
+    - tokluk hissini hafifletmek istiyorum
+
+    - çok fazla yedim mideme öküz oturdu sanki
+
+    - yemek sonrası gelen uykulu ağırlık
+
+    - midem çok şiş ve ağır hissediyorum
+
+    - ağırlık çökmesini ne engeller?
+
+    - yemekten sonra sindirim için ne içilmeli?
+
+    - aşırı tokluktan rahatsızım
+
+    - midemi ne rahatlatır bu ağırlıktan?
+
+    - tokluk hissini dağıtan çaylar
+
+    - yemek sonrası bitkinliği
+
+    - midem çok kabarık ve ağır
+
+    - fazla kaçırdım mideme ağırlık yaptı
+
+    - yemek sonrası rahatlamak istiyorum
+
+    '
+- intent: bacak_yorgunlugu
+  examples: '- bacaklarım çok yorgun
+
+    - uzun yürüyüş sonrası bacak yorgunluğu için öneriniz nedir?
+
+    - ısırgan çayı bacaklara iyi gelir mi?
+
+    - bacaklarımda derman kalmadı
+
+    - ayakta durmaktan bacaklarım sızlıyor
+
+    - bacaklarımda ağırlık hissi var
+
+    - yorgun bacaklar için dinlendirici bir şey
+
+    - bacak kaslarım çok yoruldu
+
+    - alt bacaklarım sızlıyor
+
+    - bacak yorgunluğunu ne alır?
+
+    - gün boyu koşturdum bacaklarım bitik
+
+    - bacaklarda halsizlik ve yorgunluk
+
+    - bacakları rahatlatan bitki çayları
+
+    - merdiven çıktım bacaklarım çok ağrıyor
+
+    - bacak sızlaması için doğal çözüm
+
+    '
+- intent: boyun_tutulmasi_gerginlik
+  examples: '- boynum tutuldu ne iyi gelir?
+
+    - boyun tutulması için evde ne yapabilirim
+
+    - boyun gerginliği için rahatlatıcı bir içecek var mı
+
+    - boynumu hareket ettiremiyorum
+
+    - sabah uyandığımda boynum tutulmuştu
+
+    - boyun kasılmasını ne geçirir?
+
+    - boyun tutulması ve sertliği
+
+    - boyun spazmı yaşıyorum sanki
+
+    - rüzgardan boynum tutuldu
+
+    - boyun gerginliğini azaltan bitkiler
+
+    - boynum kaskatı kesildi
+
+    - boyun tutulması için sıcak kompres mi bitki çayı mı?
+
+    - boyun ağrısı ve tutulma
+
+    - boynumu çevirmek çok canımı yakıyor
+
+    - kasılmış boyun için rahatlatıcı çay
+
+    '
+- intent: gun_sonu_zihinsel_tukenme
+  examples: '- gün sonunda zihinsel olarak tükeniyorum
+
+    - işten sonra tamamen bitmiş hissediyorum
+
+    - gün sonu zihinsel yorgunluk için ne içmeliyim
+
+    - akşam olunca kafam hiç çalışmıyor
+
+    - mesai bitiminde zihnim iflas ediyor
+
+    - gün boyu çalışmaktan zihinsel olarak tükendim
+
+    - akşamları çok bitkin oluyorum zihnen
+
+    - kafa yorgunluğu akşamları çok artıyor
+
+    - günün yorgunluğu zihnime vurdu
+
+    - akşam dinlenmek için zihni ne rahatlatır?
+
+    - zihinsel tükenmişlik hissi
+
+    - gün sonunda odaklanamıyorum artık
+
+    - kafa olarak çok doluyum akşamları
+
+    - zihinsel enerji akşam bitiyor
+
+    - gün sonu bitkinliği için bitkisel çözüm
+
+    '
+- intent: mevsimsel_duygusal_dalgalanma
+  examples: '- mevsimsel duygusal dalgalanma yaşıyorum
+
+    - ruh halim mevsimlerle değişiyor ne yapmalıyım
+
+    - lavanta papatya çayı ruh haline iyi gelir mi
+
+    - sonbahar gelince modum düşüyor
+
+    - kışın kendimi çok mutsuz hissediyorum
+
+    - mevsim geçişlerinde moralim bozuluyor
+
+    - havalar kapalıyken canım sıkkın oluyor
+
+    - mevsimsel depresyon belirtileri gibi hissediyorum
+
+    - hava değişimi ruh halimi etkiliyor
+
+    - mevsimsel olarak enerjim düşüyor
+
+    - bahar aylarında duygusal dalgalanma
+
+    - kapalı havalarda içim kararıyor
+
+    - mevsimsel değişim ve mutsuzluk
+
+    - güneş gidince moralim de gidiyor
+
+    - mevsimsel yorgunluk ve ruh hali
+
+    '
+- intent: hastalik_sonrasi_toparlanma
+  examples: '- hastalıktan sonra toparlanamıyorum
+
+    - iyileştikten sonra enerjim düşük ne önerirsiniz?
+
+    - hastalık sonrası toparlanma için içecek önerisi
+
+    - hastalığı atlattım ama halsizim
+
+    - vücudumun direncini nasıl artırabilirim?
+
+    - hastalık sonrasında kendimi güçlendirmek istiyorum
+
+    - nekahet döneminde ne içmeli?
+
+    - hastalıktan kalan kırgınlığı ne atar?
+
+    - vücudumu toparlamaya ihtiyacım var
+
+    - hastalık sonrası enerji veren gıdalar
+
+    - bağışıklığı yeniden inşa etmek için
+
+    - ayağa kalkmak istiyorum hastalıktan sonra
+
+    - hastalık sonrası bitkinlik nasıl geçer?
+
+    - vücuda canlılık veren iyileşme kürleri
+
+    - toparlanma sürecini hızlandıran çaylar
+
+    '
+- intent: aksam_huzursuzlugu
+  examples: '- akşam huzursuzluğu yaşıyorum
+
+    - akşamları rahatlayamıyorum ne içmeliyim
+
+    - ıhlamur hatmi çayı uyku öncesi iyi gelir mi
+
+    - akşam güneş batınca içim daralıyor
+
+    - akşamları bir huzursuzluk çöküyor üstüme
+
+    - gece yaklaşınca kaygılı hissediyorum
+
+    - akşam saatlerinde gerginlik artıyor
+
+    - gün biterken gelen huzursuzluk
+
+    - akşam evde otururken sıkılıyorum
+
+    - akşam huzursuzluğunu ne yatıştırır?
+
+    - gece olmadan gelen bir darlık hissi
+
+    - akşamları sakinleşmek istiyorum
+
+    - günün sonunda gelen anlamsız huzursuzluk
+
+    - akşam modu düşük ve sinirli
+
+    - akşamları rahatlatan bitki çayları
+
+    '
+- intent: agiz_kurulugu
+  examples: '- ağzım çok kuruyor
+
+    - ağız kuruluğu çekiyorum
+
+    - ağız kuruluğuna ne iyi gelir?
+
+    - sürekli ağzımın içi kuruyor
+
+    - ağız kuruluğu için bitkisel çay var mı?
+
+    - uyandığımda ağzım kupkuru oluyor
+
+    - tükürüğüm yetmiyor ağzım kuruyor
+
+    - konuşurken ağzımın kuruması canımı yakıyor
+
+    - ağız kuruluğu ve susuzluk hissi
+
+    - gece susayıp kurulukla uyanıyorum
+
+    - ağız nemini nasıl korurum?
+
+    - ağız kuruluğu nedenleri ve çözümleri
+
+    - dili ağza yapıştıran kuruluk
+
+    - ağız kuruluğunu gideren bitki çayları
+
+    - ağzımın içi çöl gibi oldu resmen
+
+    '
+- intent: about_project
+  examples: '- Şifa Bardakta nedir?
+
+    - Bu uygulama ne işe yarıyor?
+
+    - Şifa Bardakta ne yapıyor?
+
+    - Şifa Bardakta hakkında bilgi verir misin?
+
+    - Bu projenin amacı nedir?
+
+    - Şifa Bardakta uygulaması ne için geliştirildi?
+
+    - Uygulamanın içeriğinde ne var?
+
+    - Bu sistem nasıl bir hizmet sunuyor?
+
+    - Şifa Bardakta projesini tanıtır mısın?
+
+    - Bu uygulama hangi sorunlara çözüm buluyor?
+
+    - Şifa Bardakta nedir ne değildir?
+
+    - Uygulamanın kapsamı nedir?
+
+    - Şifa Bardakta tam olarak ne işe yarar?
+
+    - Bu uygulama kimler için?
+
+    - Şifa Bardakta nın temel özelliği nedir?
+
+    '
+- intent: how_it_works
+  examples: '- Nasıl kullanılır?
+
+    - Nasıl çalışıyor?
+
+    - Ne yapmam gerekiyor?
+
+    - Uygulamayı nasıl kullanabilirim?
+
+    - Sistem nasıl işliyor?
+
+    - Tariflere nasıl ulaşırım?
+
+    - Şifa Bardakta yı nasıl kullanmalıyım?
+
+    - Adım adım nasıl çalışır?
+
+    - Uygulamanın çalışma prensibi nedir?
+
+    - Cevapları nasıl üretiyorsun?
+
+    - Sana nasıl soru sormalıyım?
+
+    - Süreç nasıl ilerliyor?
+
+    - Kullanım kılavuzu var mı?
+
+    - Ne yazarsam bana yardımcı olursun?
+
+    - Şifa Bardakta sistemi nasıl sonuç veriyor?
+
+    '
+- intent: scientific_sources
+  examples: '- Bu bilgiler güvenilir mi?
+
+    - Kaynaklarınız nedir?
+
+    - Bilimsel mi?
+
+    - Bilgileri nereden alıyorsunuz?
+
+    - Bu tariflerin dayanağı nedir?
+
+    - Kaynak gösterir misiniz?
+
+    - Bilgileriniz ne kadar doğru?
+
+    - Tıbbi makalelere mi dayanıyor?
+
+    - Güvenilir kaynak kullanıyor musunuz?
+
+    - Bilgilerin doğruluğunu nasıl teyit edebilirim?
+
+    - Kaynakçanızda neler var?
+
+    - Hangi kurumlardan bilgi alıyorsunuz?
+
+    - Veriler bilimsel literatüre uygun mu?
+
+    - Bilgilerin kaynağı hakkında bilgi verir misin?
+
+    - Referanslarınız nelerdir?
+
+    '
+- intent: safety_info
+  examples: '- Güvenli mi?
+
+    - Herkes kullanabilir mi?
+
+    - Zararlı mı?
+
+    - Yan etkileri olur mu?
+
+    - Kimler bu içecekleri içmemeli?
+
+    - Güvenlik uyarısı var mı?
+
+    - Sağlık açısından riskli mi?
+
+    - İlaç kullananlar içebilir mi?
+
+    - Hamileler için uygun mu?
+
+    - Alerjisi olanlar ne yapmalı?
+
+    - Bu öneriler kesin çözüm mü?
+
+    - Sağlık uyarısı verir misin?
+
+    - Bitkisel çayların zararı olur mu?
+
+    - Herhangi bir riski var mı?
+
+    - Dikkat edilmesi gerekenler nelerdir?
+
+    '
+- intent: project_team
+  examples: '- Bu projeyi kim yaptı?
+
+    - Kim geliştirdi?
+
+    - Bu uygulamanın arkasında kim var?
+
+    - Şifa Bardakta kimin projesi?
+
+    - Geliştiricisi kim?
+
+    - Proje ekibi hakkında bilgi verir misin?
+
+    - Kimin tarafından hazırlandı?
+
+    - Bu uygulamayı kim kodladı?
+
+    - Oğuzhan Göktemir kimdir?
+
+    - Projenin sahibi kim?
+
+    - İletişim bilgileriniz nedir?
+
+    - Kim bu projeyi yönetiyor?
+
+    - Uygulamayı kim tasarladı?
+
+    - Takımınızda kimler var?
+
+    - Destek için kime ulaşabilirim?
+
+    '

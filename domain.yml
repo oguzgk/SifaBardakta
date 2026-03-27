@@ -1,601 +1,2126 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - bas_agrisi
-  - mide_bulantisi
-  - ishal
-  - soguk_alginligi
-  - bogaz_agrisi
-  - uykusuzluk
-  - goz_yorgunlugu
-  - sirt_agrisi
-  - gaz_siskinlik
-  - burun_tikanikligi
-  - kulak_agrisi
-  - cilt_kurulugu
-  - hemoroid
-  - benler
-  - cilt_lekeleri
-  - sac_dokulmesi
-  - sivilce
-  - egzama
-  - mantar_enfeksiyonlari
-  - goz_enfeksiyonlari
-  - dis_agrisi
-  - agiz_yaralari
-  - kabizlik
-  - mide_yanmasi
-  - bas_donmesi
-  - kulak_cinlamasi
-  - goz_seyirmesi
-  - ucuk
-  - dis_eti_kanamasi
-  - bagisiklik_gucsuzlugu
-  - uyku_problemleri
-  - adet_duzensizligi
-  - adet_sancisi
+    - greet
+    - goodbye
+    - mood_great
+    - mood_unhappy
+    - bot_challenge
+    - bas_agrisi
+    - mide_bulantisi
+    - ishal
+    - soguk_alginligi
+    - bogaz_agrisi
+    - uykusuzluk
+    - goz_yorgunlugu
+    - sirt_agrisi
+    - gaz_siskinlik
+    - burun_tikanikligi
+    - kulak_agrisi
+    - cilt_kurulugu
+    - hemoroid
+    - cilt_lekeleri
+    - sac_dokulmesi
+    - sivilce
+    - egzama
+    - dis_agrisi
+    - agiz_yaralari
+    - kabizlik
+    - mide_yanmasi
+    - bas_donmesi
+    - goz_seyirmesi
+    - dis_eti_kanamasi
+    - bagisiklik_gucsuzlugu
+    - uyku_problemleri
+    - adet_duzensizligi
+    - adet_sancisi
+    - stres
+    - hafif_anksiyete
+    - odaklanma_zorlugu
+    - zihinsel_yorgunluk
+    - sinirlik
+    - hazimsizlik
+    - ishtah_kaybi
+    - mide_kramplari
+    - kas_agrisi
+    - boyun_agrisi
+    - adet_oncesi_gerginlik
+    - gun_ici_halsizlik
+    - bogaz_kurulugu
+    - ses_kisikligi
+    - cilt_canliligi
+    - antioxidant_destek
+    - uyku_gecisi_zorlugu
+    - kas_sirt_gerginligi
+    - agiz_bogaz_kurulugu
+    - genel_iyi_hissetme
+    - kulak_agrisi_dolayli
+    - nefes_darligi_hissi
+    - asiri_yorgunluk
+    - terleme_dengesizligi
+    - agiz_kurulugu
+    - carpinti_hissi
+    - agirlik_tokluk_hissi
+    - bacak_yorgunlugu
+    - boyun_tutulmasi_gerginlik
+    - gun_sonu_zihinsel_tukenme
+    - mevsimsel_duygusal_dalgalanma
+    - hastalik_sonrasi_toparlanma
+    - aksam_huzursuzlugu
+    - about_project
+    - how_it_works
+    - scientific_sources
+    - safety_info
+    - project_team
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
+  - text: "Selamlarrr... Şifa Bardakta'ya hoş geldin. :) Senin için neler yapabilirim?"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Görüşürüz Dikkat et kendine :)"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Ben Şifa Bardakta için geliştirilmiş bir yapay zeka asistanıyım. Size yardımcı olmaktan mutluluk duyarım :)"
+
+  utter_mood_great_response:
+  - text: "Bunu duyduğuma çok sevindim! 😊 Size bugün başka nasıl yardımcı olabilirim?"
+
+  utter_mood_unhappy_response:
+  - text: "Bunu duyduğuma üzüldüm... 😟 Umarım şifalı içecek tariflerimizle size biraz da olsa destek olabiliriz. Başka bir şikayetiniz veya sorunuz var mı?"
 
   utter_bas_agrisi:
   - text: |
-      Baş Ağrısı İçin: Zencefil Çayı
-      Faydaları:
-      Zencefil, anti-inflamatuar özellikleri sayesinde baş ağrısını hafifletmeye yardımcı olabilir. Ayrıca mide bulantısını da azaltabilir.
-      Malzemeler:
-      - 1 tatlı kaşığı taze rendelenmiş zencefil
-      - 1 su bardağı su
-      - İsteğe bağlı olarak bal ve limon
-      Yapılışı:
+      🤕 Baş Ağrısı (Destekleyici İçecek)
+
+      🌿 Nane – Zencefil Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA Herbal Monograph – Peppermint leaf
+      • PubMed – Ginger and headache/migraine support
+      • WHO Traditional Herbal Use
+
+      🧾 Açıklama:
+      Nane ve zencefil geleneksel tıpta rahatlatıcı bitkiler olarak kullanılır. 
+      Antioksidan ve ferahlatıcı özellikleri nedeniyle baş ağrısı yaşayan kişilerde 
+      genel rahatlama ve destek sağlayabilir.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı kuru nane veya birkaç taze nane yaprağı
+      - 1 çay kaşığı rendelenmiş taze zencefil
+      - 1 su bardağı sıcak su
+      - İsteğe bağlı bal
+
+      🔥 Hazırlanışı:
       1. Suyu kaynatın.
-      2. Kaynar suya rendelenmiş zencefili ekleyin.
-      3. 5-10 dakika demlemeye bırakın.
-      4. Süzerek fincana alın.
-      5. İsteğe bağlı olarak bal ve limon ekleyerek tüketin.
-      Not: Zencefile karşı alerjiniz varsa veya kan sulandırıcı ilaç kullanıyorsanız, zencefil tüketiminden kaçınmalısınız.
+      2. Nane ve zencefili ekleyin.
+      3. 5-8 dakika demleyin.
+      4. Süzerek tüketin.
+
+      ⚠️ Uyarı:
+      Zencefil kan sulandırıcı ilaç kullanan kişilerde dikkatli tüketilmelidir.
+
+      ℹ️ Bu içecek destekleyici amaçlıdır, tıbbi tedavi yerine geçmez.
 
   utter_mide_bulantisi:
   - text: |
-      Mide Bulantısı İçin: Nane Çayı
-      Faydaları: 
-      Nane, mide kaslarını gevşeterek bulantıyı azaltabilir ve sindirimi destekleyebilir.
-      Malzemeler: 
-      - 1 tatlı kaşığı kuru nane veya birkaç taze nane yaprağı 
-      - 1 su bardağı su 
-      - İsteğe bağlı olarak bal
-      Yapılışı:
-      1. Suyu kaynatın.
-      2. Kaynar suya nane yapraklarını ekleyin.
-      3. 5-10 dakika demlemeye bırakın.
-      4. Süzerek fincana alın.
-      5. İsteğe bağlı olarak bal ekleyerek tüketin.
-      Not: Nane, reflü şikayetlerini artırabileceğinden, reflü sorunu yaşayan bireylerin dikkatli tüketmesi önerilir.
+      🤢 Mide Bulantısı (Destekleyici)
+
+      🌿 Zencefil Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA – Zingiber officinale monograph
+      • PubMed – Ginger for nausea studies
+      • WHO Traditional Medicine
+
+      🧾 Açıklama:
+      Zencefil mide bulantısı için en çok araştırılmış bitkilerden biridir.
+      Sindirim sistemini destekleyebilir ve bulantı hissinin azalmasına yardımcı olabilir.
+
+      🥄 Malzemeler:
+      - 1 çay kaşığı rendelenmiş taze zencefil
+      - 1 su bardağı sıcak su
+      - İsteğe bağlı bal
+
+      🔥 Hazırlanışı:
+      1. Zencefili sıcak suya ekleyin.
+      2. 5-7 dakika demleyin.
+      3. Süzerek tüketin.
+
+      ⚠️ Uyarı:
+      Hamilelikte veya mide hassasiyetinde doktora danışılması önerilir.
+
+      ℹ️ Bu içerik bilgilendirme amaçlıdır.
 
   utter_ishal:
   - text: |
-      İshal İçin: Pirinç Suyu
-      Faydaları:
-      Pirinç suyu, sindirimi düzenlemeye yardımcı olabilir ve ishal nedeniyle kaybedilen sıvının yerine konmasına katkı sağlayabilir.
-      Malzemeler:
-      - Yarım su bardağı pirinç
-      - 4 su bardağı su
-      Yapılışı:
-      1. Pirinçleri iyice yıkayın.
-      2. Suyu kaynatın ve pirinci ekleyin.
-      3. Pirinçler yumuşayana kadar yaklaşık 15-20 dakika pişirin.
-      4. Karışımı süzün ve elde edilen suyu oda sıcaklığına gelene kadar soğutun.
-      5. Gün içinde küçük yudumlarla tüketin.
-      Not: Pirinç alerjisi nadir olsa da, böyle bir durumunuz varsa bu içeceği tüketmeyin.
+      💧 İshal (Sindirim Destekleyici)
+
+      🌿 Papatya – Rezene Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA – Chamomile monograph
+      • EMA – Fennel seed digestive use
+      • WHO Traditional Herbal Medicine
+
+      🧾 Açıklama:
+      Papatya ve rezene geleneksel olarak sindirim sistemini desteklemek 
+      ve bağırsak rahatsızlıklarında rahatlama sağlamak amacıyla kullanılmaktadır.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı papatya
+      - 1 çay kaşığı rezene tohumu
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 6-8 dakika demleyin.
+      3. Süzerek tüketin.
+
+      ⚠️ Uyarı:
+      Şiddetli veya uzun süren ishal durumunda sağlık uzmanına başvurulmalıdır.
 
   utter_soguk_alginligi:
   - text: |
-      Soğuk Algınlığı İçin: Zencefil ve Bal Karışımı
-      Faydaları:
-      Zencefil, anti-inflamatuar ve antioksidan özellikleriyle bağışıklık sistemini desteklerken, bal antibakteriyel özellikleriyle boğazı yatıştırabilir.
-      Malzemeler:
-      - 1 tatlı kaşığı taze rendelenmiş zencefil
+      🤧 Soğuk Algınlığı (Bağışıklık Destekleyici)
+
+      🌿 Zencefil – Limon – Bal İçeceği
+
+      📚 Bilimsel Dayanak:
+      • WHO Traditional Medicine
+      • EMA herbal monographs
+      • PubMed – Ginger antioxidant properties
+
+      🧾 Açıklama:
+      Zencefil ve limon antioksidan içerikleri sayesinde bağışıklık sistemini 
+      destekleyebilir ve soğuk algınlığı dönemlerinde rahatlatıcı bir içecek olabilir.
+
+      🥄 Malzemeler:
+      - 1 çay kaşığı rendelenmiş zencefil
+      - 1 çay kaşığı limon suyu
       - 1 tatlı kaşığı bal
       - 1 su bardağı sıcak su
-      - İsteğe bağlı olarak limon dilimi
-      Yapılışı:
-      1. Sıcak suya rendelenmiş zencefili ekleyin.
-      2. 5-10 dakika demlemeye bırakın.
-      3. Süzerek fincana alın.
-      4. Balı ekleyip karıştırın.
-      5. İsteğe bağlı olarak limon dilimi ekleyerek tüketin.
-      Not: Zencefil ve bala karşı alerjiniz varsa veya kan sulandırıcı ilaç kullanıyorsanız, bu karışımı tüketmeden önce doktorunuza danışın.
+
+      🔥 Hazırlanışı:
+      1. Zencefili sıcak suya ekleyin.
+      2. 5 dakika demleyin.
+      3. Limon ve bal ekleyerek karıştırın.
+
+      ⚠️ Uyarı:
+      Bal 1 yaşından küçük çocuklara verilmemelidir.
 
   utter_bogaz_agrisi:
   - text: |
-      Boğaz Ağrısı İçin: Adaçayı Çayı
-      Faydaları:
-      Adaçayı, boğazı yumuşatarak ağrıyı hafifletebilir ve antiseptik özellikleri sayesinde enfeksiyonla mücadeleye yardımcı olabilir.
-      Malzemeler:
-      - 1 tatlı kaşığı kuru adaçayı yaprağı
-      - 1 su bardağı su
-      - İsteğe bağlı olarak bal ve limon
-      Yapılışı:
-      1. Suyu kaynatın: Bir su ısıtıcısı veya tencerede suyu kaynatın.
-      2. Adaçayını ekleyin: Kaynar suyu bir demliğe veya bardağa alın. İçine adaçayını ekleyin.
-      3. Demleyin: Adaçayının 5-7 dakika kadar demlenmesini bekleyin. Bu süre, adaçayının türüne ve istediğiniz yoğunluğa göre değişebilir. Daha yoğun bir tat için daha uzun süre demleyebilirsiniz.
-      4. Süzün: Demlenen çayı süzerek bardağınıza alın.
-      5. Tatlandırın (isteğe bağlı): Adaçayınızı bal veya limon ile tatlandırabilirsiniz. Bal, adaçayının tadını yumuşatırken, limon ise daha ferahlatıcı bir lezzet verir.
-      İpuçları:
-      - Taze adaçayı: Taze adaçayı kullanacaksanız, yapraklarını yıkamayı ve ince ince doğramayı unutmayın.
-      - Suyun sıcaklığı: Adaçayını çok yüksek sıcaklıkta demlemek, acı bir tat oluşmasına neden olabilir. Bu nedenle, suyun kaynama noktasından biraz soğumasını beklemek daha iyi olacaktır.
-      - Demleme süresi: Demleme süresini deneyerek kendinize göre ayarlayabilirsiniz. Daha uzun süre demleyerek daha yoğun bir aroma elde edebilirsiniz.
-      - Saklama: Adaçayını buzdolabında birkaç gün saklayabilirsiniz. Ancak, taze demlenmiş adaçayı daha lezzetli olacaktır.
-      Not: Herhangi bir sağlık sorununuz varsa, adaçayı tüketmeden önce doktorunuza danışmanız önerilir.
+      😖 Boğaz Ağrısı (Destekleyici)
+
+      🌿 Adaçayı Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA Herbal Monograph – Salvia officinalis
+      • PubMed – Sage throat irritation studies
+      • WHO Traditional Use
+
+      🧾 Açıklama:
+      Adaçayı geleneksel olarak boğaz tahrişi ve ağız-boğaz bölgesindeki
+      rahatsızlıklarda destekleyici olarak kullanılmaktadır.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı kuru adaçayı
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Adaçayını sıcak suya ekleyin.
+      2. 5-7 dakika demleyin.
+      3. Ilık olarak tüketin.
+
+      ⚠️ Uyarı:
+      Aşırı tüketim önerilmez.
 
   utter_uykusuzluk:
   - text: |
-      Uykusuzluk İçin: Papatya Çayı
-      Faydaları:
-      Papatya çayı, doğal bir sakinleştirici olarak bilinir ve uyku kalitesini artırmaya yardımcı olabilir.
-      Malzemeler:
-      - 1 tatlı kaşığı kurutulmuş papatya çiçeği
-      - 1 su bardağı su
-      - İsteğe bağlı olarak bal veya limon
-      Yapılışı:
-      1. Suyu kaynatın.
-      2. Kaynar suya papatya çiçeklerini ekleyin.
-      3. 5-10 dakika demlemeye bırakın.
-      4. Süzerek fincana alın.
-      5. İsteğe bağlı olarak bal veya limon ekleyerek tüketin.
-      Not: Papatyaya karşı alerjiniz varsa veya hamileyseniz, papatya çayı tüketmeden önce doktorunuza danışın.
+      😴 Uykusuzluk (Rahatlatıcı Bitki Çayı)
+
+      🌿 Papatya – Melisa Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA – Chamomile monograph
+      • EMA – Melissa officinalis
+      • PubMed – Herbal sleep support studies
+
+      🧾 Açıklama:
+      Papatya ve melisa geleneksel olarak rahatlatıcı ve sakinleştirici 
+      özellikleri nedeniyle uyku öncesinde tüketilen bitkiler arasındadır.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı papatya
+      - 1 tatlı kaşığı melisa
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 7-8 dakika demleyin.
+      3. Yatmadan önce tüketebilirsiniz.
+
 
   utter_goz_yorgunlugu:
   - text: |
-      Göz Yorgunluğu İçin: Yaban Mersini Smoothie
-      Faydaları:
-      Yaban mersini, yüksek antioksidan içeriği sayesinde göz sağlığını destekler ve göz yorgunluğunu azaltmaya yardımcı olabilir.
-      Malzemeler:
-      - 1 su bardağı taze veya donmuş yaban mersini
-      - 1 adet muz
-      - 1 su bardağı süt veya badem sütü
-      - 1 tatlı kaşığı bal (isteğe bağlı)
-      Yapılışı:
-      1. Tüm malzemeleri blender'a ekleyin.
-      2. Pürüzsüz bir kıvam alana kadar karıştırın.
-      3. Bardağa dökerek hemen tüketin.
+      👀 Göz Yorgunluğu (Dolaylı Destek)
+
+      🌿 Ihlamur – Melisa Çayı
+
+      📚 Bilimsel Dayanak:
+      • WHO Traditional Use – Relaxation herbs
+      • EMA Herbal Monographs
+
+      🧾 Açıklama:
+      Bu bitkiler stres azaltıcı ve rahatlatıcı özellikleriyle bilinir.
+      Stres ve yorgunluğun azalması göz yorgunluğu hissinin dolaylı olarak 
+      azalmasına katkı sağlayabilir.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı ıhlamur
+      - 1 tatlı kaşığı melisa
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 6-7 dakika demleyin.
+      3. Ilık olarak tüketin.
+
 
   utter_sirt_agrisi:
   - text: |
-      Sırt Ağrısı İçin: Zerdeçal Sütü (Altın Süt)
-      Faydaları:
-      Zerdeçal, anti-inflamatuar özellikleri sayesinde kas ve eklem ağrılarını hafifletmeye yardımcı olabilir.
-      Malzemeler:
-      - 1 su bardağı süt (isteğe bağlı olarak badem veya hindistancevizi sütü)
-      - 1 çay kaşığı toz zerdeçal
-      - Yarım çay kaşığı toz zencefil
-      - Yarım çay kaşığı tarçın
-      - 1 tatlı kaşığı bal
-      - Bir tutam karabiber
-      Yapılışı:
-      1. Sütü bir tencereye dökün ve ısıtmaya başlayın.
-      2. Zerdeçal, zencefil, tarçın ve karabiberi ekleyin.
-      3. Karışımı karıştırarak 5 dakika kadar ısıtın, ancak kaynamamasına dikkat edin.
-      4. Ocaktan alın, balı ekleyin ve karıştırın.
-      5. Fincana dökerek sıcak olarak tüketin.
-      Not: Zerdeçal ve zencefil, kan sulandırıcı ilaçlarla etkileşime girebilir. Düzenli ilaç kullanıyorsanız veya alerjiniz varsa, bu içeceği tüketmeden önce doktorunuza danışın.
+      🧍♂️ Sırt Ağrısı (Antioksidan Destek)
+
+      🌿 Zerdeçal – Zencefil Çayı
+
+      📚 Bilimsel Dayanak:
+      • PubMed – Curcumin anti-inflammatory studies
+      • EMA Herbal Monographs
+
+      🧾 Açıklama:
+      Zerdeçal ve zencefil antioksidan özellikleri ile bilinir ve 
+      inflamasyon süreçlerinde destekleyici olarak araştırılmaktadır.
+
+      🥄 Malzemeler:
+      - 1 çay kaşığı zerdeçal
+      - 1 çay kaşığı zencefil
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 7 dakika demleyin.
+      3. Ilık olarak tüketin.
+
 
   utter_gaz_siskinlik:
   - text: |
-      Gaz ve Şişkinlik İçin: Rezene Çayı
-      Faydaları:
-      Rezene, sindirimi destekler ve gaz ile şişkinlik şikayetlerini azaltmaya yardımcı olabilir.
-      Malzemeler:
-      - 1 tatlı kaşığı rezene tohumu
-      - 1 su bardağı su
-      Yapılışı:
-      1. Suyu kaynatın.
-      2. Kaynar suya rezene tohumlarını ekleyin.
-      3. 5-10 dakika demlemeye bırakın.
-      4. Süzerek fincana alın ve sıcak olarak tüketin.
-      Not: Rezeneye karşı alerjiniz varsa veya hamileyseniz, rezene çayı tüketmeden önce doktorunuza danışın.
+      💨 Gaz ve Şişkinlik (Sindirim Destekleyici)
+
+      🌿 Rezene – Anason Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA – Fennel seed monograph
+      • WHO Traditional Medicine
+
+      🧾 Açıklama:
+      Rezene ve anason sindirim sistemini destekleyen ve 
+      gaz oluşumunu azaltmaya yardımcı olabilecek bitkiler arasında yer alır.
+
+      🥄 Malzemeler:
+      - 1 çay kaşığı rezene
+      - ½ çay kaşığı anason
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Tohumları sıcak suya ekleyin.
+      2. 6-8 dakika demleyin.
+      3. Süzerek tüketin.
+
 
   utter_burun_tikanikligi:
   - text: |
-      Burun Tıkanıklığı İçin: Nane ve Zencefil Çayı
-      Faydaları:
-      Nane ve zencefil, burun tıkanıklığını azaltmaya ve solunum yollarını açmaya yardımcı olabilir.
+      🤧 Burun Tıkanıklığı
+
+      Öneri 1 — Zencefil – Nane Buhar Çayı
+      📚 Dayanak: WHO Traditional Medicine (decongestant), EMA Herbal Monographs
+
       Malzemeler:
       - 1 tatlı kaşığı taze rendelenmiş zencefil
-      - Birkaç taze nane yaprağı
-      - 1 su bardağı su
-      - İsteğe bağlı olarak bal ve limon
+      - 1 tatlı kaşığı kuru nane
+      - 1 su bardağı sıcak su
+      - İsteğe bağlı bal
+
       Yapılışı:
       1. Suyu kaynatın.
-      2. Kaynar suya zencefil ve nane yapraklarını ekleyin.
-      3. 5-10 dakika demlemeye bırakın.
-      4. Süzerek fincana alın.
+      2. Zencefil ve naneyi ekleyin.
+      3. 5-10 dakika demleyin.
+      4. Başınızı bir havlu ile örterek buharını 2-3 dakika soluyun (opsiyonel).
+      5. Süzün ve bal ekleyip tüketin.
+
+      Öneri 2 — Kekik – Adaçayı Çayı
+      📚 Dayanak: EMA (thyme antimicrobial), WHO Traditional Use
+
+      Malzemeler:
+      - 1 tatlı kaşığı kuru kekik
+      - 1 tatlı kaşığı kuru adaçayı
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Kekik ve adaçayını ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ılık olarak tüketin.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
 
   utter_kulak_agrisi:
   - text: |
-      Kulak Ağrısı İçin İçecek Tarifi
-      Uyarı: Kulak ağrısının birçok nedeni olabilir. Bu tarifler ağrının semptomlarını hafifletmeye yardımcı olabilir ancak altta yatan nedeni tedavi etmez.
-      İçecek: Zencefil Çayı
-      Faydaları:
-      Zencefil, anti-inflamatuar özellikleri sayesinde kulak ağrısına bağlı iltihabı azaltmaya yardımcı olabilir.
-      Malzemeler:
-      - 1 parça taze zencefil (yaklaşık 2 cm)
-      - 1 su bardağı su
-      - Bal (isteğe bağlı)
-      Yapılışı:
-      1. Zencefili yıkayıp rendeleyin.
-      2. Suyu kaynatın ve içine rendelenmiş zencefili ekleyin.
-      3. 5-10 dakika demleyin.
-      4. İsteğe bağlı olarak bal ekleyerek tatlandırabilirsiniz.
-      5. Ilık olarak tüketin.
-      Alerjik Durumlar: Zencefilir alerjisi olan kişiler bu çayı tüketmemelidir.
+      👂 Kulak Ağrısı (Dolaylı Rahatlama)
 
-  utter_cilt_kurulugu:
-  - text: |
-      Cilt Kuruluğu İçin: Aloe Vera Suyu
-      Faydaları:
-      Aloe vera, ciltteki nemi koruyarak kuruluğu azaltır. Ayrıca ciltteki iltihabı yatıştırır ve yenilenmeyi destekler.
+      Öneri 1 — Papatya – Ihlamur Çayı
+      📚 Dayanak: WHO Traditional Use (general relaxation), PubMed (stress reduction)
+
       Malzemeler:
-      - 1 yaprak aloe vera
-      - 1 su bardağı soğuk su
+      - 1 tatlı kaşığı kurutulmuş papatya
+      - 1 tatlı kaşığı ıhlamur çiçeği
+      - 1 su bardağı sıcak su
+
       Yapılışı:
-      1. Aloe vera yaprağını yarıdan keserek iç kısmındaki jeli çıkarın.
-      2. Jeli küçük parçalar halinde doğrayın.
-      3. Doğradığınız jeli ve suyu blender'da pürüzsüz olana kadar karıştırın.
-      4. Karışımı süzerek bir bardağa alın.
-      5. Buzdolabında soğutup için.
-      Not: Aloe verayı ilk kez kullanıyorsanız, küçük bir alanda cilt testini yaparak alerjik reaksiyon olup olmadığını kontrol edin.
+      1. Suyu kaynatın.
+      2. Papatya ve ihlamuru ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      Öneri 2 — Melisa – Lavanta Çayı
+      📚 Dayanak: EMA (melissa nervous tension), PubMed (lavender anxiolytic)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş melisa
+      - 1 tatlı kaşığı kurutulmuş lavanta
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Melisa ve lavantayı ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ⚠️ NOT: Bu içecekler dolaylı rahatlama (genel stress azaltma) sağlar. Şiddetli veya süregelen kulak ağrısında doktora başvurunuz.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
 
   utter_sac_dokulmesi:
   - text: |
-      Saç Dökülmesi İçin: Isırgan Otu Çayı
-      Faydaları:
-      Isırgan otu, saç köklerini güçlendirerek saç dökülmesini önlemeye yardımcı olur. Ayrıca saç derisini besler ve kaşıntıyı azaltır.
+      💇‍♀️ Saç Dökülmesi (Destekleyici)
+
+      Öneri 1 — Isırgan – Kuşburnu – Limon Kabuğu Çayı
+      📚 Dayanak: WHO Traditional Use (nettle minerals for hair), PubMed (iron & silica content)
+
       Malzemeler:
-      - 2 yemek kaşığı kurutulmuş ısırgan otu
-      - 1 su bardağı kaynar su
+      - 1 tatlı kaşığı kurutulmuş ısırgan otu
+      - 1 tatlı kaşığı kuşburnu
+      - Bir parça kurutulmuş limon kabuğu
+      - 1 su bardağı sıcak su
+
       Yapılışı:
-      1. Isırgan otunu bir kaba alın ve üzerine kaynar suyu dökün.
-      2. 15-20 dakika demleyin.
-      3. Çayı süzerek bir kaba alın.
-      4. Soğuduktan sonra saç derinize masaj yaparak uygulayın.
-      5. 30 dakika beklettikten sonra saçlarınızı şampuanla yıkayın.
-      Not: Isırgan otu, bazı kişilerde ciltte tahrişe neden olabilir. İlk kullanımda küçük bir alanda test etmeniz önerilir.
+      1. Suyu kaynatın.
+      2. Isırgan ve kuşburnu ekleyin.
+      3. 7-10 dakika demlemeye bırakın.
+      4. Limon kabuğu ekleyip 2 dakika daha demlemeye bırakın.
+      5. Süzün ve tüketin.
+
+      Öneri 2 — Biberiye – Papatya – Kızılcık Çayı
+      📚 Dayanak: WHO Traditional Use (rosemary circulation), EMA (chamomile support)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş biberiye
+      - 1 tatlı kaşığı papatya
+      - 1 tatlı kaşığı kurutulmuş kızılcık
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Tüm bitkileri kaynatılan su içinde bekletin.
+      2. 7-8 dakika demleyin.
+      3. Süzün ve sabah içeceğiniz için hazırlayın.
+
+      ⏰ Tüketim Önerisi: Günde 1 fincan, sabah veya öğle saatleri | 2-3 haftalık kür
+
+      ⚠️ Uyarı:
+      Hormonal, genetik veya ciddi saç dökülmelerinde bir uzmana danışılmalıdır.
+      Hamile/emziren kadınlar hekim onayıyla tüketmelidir.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
 
   utter_hemoroid:
   - text: |
-      Hemoroid İçin: Soğuk Aloe Vera Smoothie
-      Faydaları:
-      Aloe vera, anti-enflamatuar özellikleriyle hemoroid semptomlarını hafifletmeye yardımcı olabilir. Ayrıca bağırsak sağlığını destekler ve rahatlatıcı bir etki sunar.
-      Malzemeler:
-      - 2 yemek kaşığı taze aloe vera jeli
-      - 1 adet muz
-      - 1 su bardağı hindistancevizi sütü veya badem sütü
-      - 1 tatlı kaşığı bal (isteğe bağlı)
-      - Birkaç küp buz
-      Yapılışı:
-      1. Tüm malzemeleri blender'a ekleyin.
-      2. Pürüzsüz bir kıvam alana kadar karıştırın.
-      3. Soğuk olarak tüketin.
-      Not:
-      Aloe vera tüketimi aşırıya kaçmamalıdır. Aloe veraya alerjiniz varsa veya hamileyseniz kullanmadan önce doktorunuza danışın.
+      🍵 Hemoroid (Destekleyici)
 
-  utter_benler:
-  - text: |
-      Benler İçin: Yeşil Çay ve Limon Kürü
-      Faydaları:
-      Yeşil çay, cilt hücrelerini yenileyen antioksidanlar içerir ve limon cildin rengini açıcı özellikleriyle bilinir. Bu içecek cilt sağlığını genel olarak destekler.
+      Öneri 1 — Papatya – Rezene – Ihlamur Çayı
+      📚 Dayanak: WHO Traditional Use (chamomile soothing), EMA Herbal Monographs (fennel digestive)
+
       Malzemeler:
-      - 1 poşet yeşil çay
+      - 1 tatlı kaşığı papatya
+      - 1 çay kaşığı rezene tohumu
+      - 1 tatlı kaşığı ıhlamur
       - 1 su bardağı sıcak su
-      - 1 tatlı kaşığı taze sıkılmış limon suyu
-      - 1 tatlı kaşığı bal (isteğe bağlı)
+
       Yapılışı:
-      1. Yeşil çay poşetini sıcak suya ekleyin ve 5 dakika demleyin.
-      2. Limon suyunu ve balı ekleyip karıştırın.
-      3. Ilık veya soğuk olarak tüketin.
-      Not:
-      Limon asidik olduğu için mide problemlerine neden olabilir. Ayrıca, güneşe çıkmadan önce limon tüketiminin dikkatle yapılması gerekir.
+      1. Tüm bitkiler bir fincana alınır.
+      2. Üzerine sıcak su eklenir.
+      3. 7-8 dakika demlemeye bırakılır.
+      4. Süzülerek içilir.
+
+      Öneri 2 — Ot Çayı – Ihlamur – Anason Kombinasyonu
+      📚 Dayanak: PubMed (fennel seed digestive support), WHO Traditional Use
+
+      Malzemeler:
+      - 1 tatlı kaşığı ıhlamur çiçeği
+      - 1 çay kaşığı anason tohumu
+      - 1 tatlı kaşığı yaprak çay (tercihen yeşil çay)
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Tüm malzemeleri ekleyin.
+      3. 8-10 dakika demleyin.
+      4. Süzün ve akşam saatlerinde tüketin.
+
+      ⏰ Tüketim Önerisi: Günde 1 fincan, tercihen akşam | 1-2 haftalık düzenli tüketim
+
+      ⚠️ Uyarı:
+      Şiddetli ağrı, kanama veya uzun süren şikayetlerde mutlaka sağlık uzmanına başvurulmalıdır.
+      Hamile kadınlar hekim onayıyla kullanmalıdır.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
 
   utter_cilt_lekeleri:
   - text: |
-      Cilt Lekeleri İçin: Zerdeçallı Altın Süt
-      Faydaları:
-      Zerdeçal, cilt tonunu eşitlemeye ve lekeleri hafifletmeye yardımcı olan anti-inflamatuar özelliklere sahiptir.
+      🎭 Cilt Lekeleri (Cilt Sağlığı & Antioksidan Destek)
+
+      Öneri 1 — Yeşil Çay – Kuşburnu – Hibiskus Çayı
+      📚 Dayanak: WHO (green tea antioxidants), PubMed (polyphenol skin health), EMA (rosehip vitamin C)
+
       Malzemeler:
-      - 1 su bardağı süt (isteğe bağlı olarak bitkisel süt)
-      - 1 çay kaşığı toz zerdeçal
-      - Yarım çay kaşığı tarçın
-      - 1 tatlı kaşığı bal
-      - Bir tutam karabiber
+      - 1 çay kaşığı yeşil çay
+      - 1 tatı kaşığı kuşburnu
+      - 1 tatılı kaşığı kurutulmuş hibiskus
+      - 1 su bardağı sıcak su
+
       Yapılışı:
-      1. Sütü bir cezveye alın ve zerdeçal, tarçın, ve karabiberi ekleyin.
-      2. Orta ateşte ısıtarak karıştırın (kaynamamasına dikkat edin).
-      3. Ocaktan alın, balı ekleyin ve karıştırın.
-      4. Sıcak olarak tüketin.
-      Not:
-      Zerdeçal, bazı ilaçlarla etkileşime girebilir. Düzenli ilaç kullanıyorsanız doktorunuza danışın.
+      1. Suyu kaynatın.
+      2. Yeşil çayı ekleyin, 3-4 dakika demlemeye bırakın.
+      3. Kuşburnu ve hibiskusu ekleyin.
+      4. 4-5 dakika daha demlemeye bırakın.
+      5. Süzülerek tüketin.
+
+      Öneri 2 — Gül Taç – Papatya – Limon Çayı
+      📚 Dayanak: WHO Traditional Use (rose antioxidant), PubMed (chamomile skin support)
+
+      Malzemeler:
+      - 1 tatılı kaşığı kurutulmuş gül taç
+      - 1 tatılı kaşığı papatya
+      - Bir parça kurutulmuş limon kabuğu
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Gül taç ve papatyayı ekleyin.
+      3. 7-8 dakika demleyin.
+      4. Limon kabuğu ekleyip 1 dakika bekletin.
+      5. Süzülerek tüketin.
+
+      ⏰ Tüketim Önerisi: Günde 1-2 fincan, tercihen sabah veya öğle | 2-3 haftalık kür
+
+      ℹ️ Not: Cilt lekeleri çeşitli nedenlere (güneş, hormon, yaşlanma) bağlı olabilir. Antioksidan açısından zengin beslenme cilt sağlığını destekleyebilir.
+
+      ⚠️ Uyarı:
+      Şiddetli, büyüyen veya endişe verici lekeler için dermatolog değerlendirmesi gerekli olabilir.
+      Hamile/emziren kadınlar hekim onayıyla tüketmelidir.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
 
   utter_sivilce:
   - text: |
-      Sivilce İçin: Nane ve Salatalık Detoks İçeceği
-      Faydaları:
-      Nane ve salatalık, cildi nemlendirir ve yatıştırır. Ayrıca sivilce oluşumunu azaltmaya yardımcı olabilir.
+      🌸 Sivilce (Cilt Sağlığı Destekleyici)
+
+      Öneri 1 — Yeşil Çay – Papatya – Limon Kabuğu Çayı
+      📚 Dayanak: PubMed (green tea polyphenols EGCG), WHO (chamomile soothing)
+
       Malzemeler:
-      - 1 litre su
-      - 1 adet salatalık (dilimlenmiş)
-      - Birkaç taze nane yaprağı
-      - 1 tatlı kaşığı limon suyu
+      - 1 çay kaşığı yeşil çay
+      - 1 tatlı kaşığı papatya
+      - Bir parça kurutulmuş limon kabuğu
+      - 1 su bardağı sıcak su
+
       Yapılışı:
-      1. Tüm malzemeleri bir sürahiye ekleyin.
-      2. Buzdolabında en az 2 saat bekletin.
-      3. Gün boyunca tüketin.
-      Not:
-      Taze nane bazı kişilerde alerjik reaksiyonlara neden olabilir.
+      1. Yeşil çay eklenir ve 3-4 dakika demlenir.
+      2. Papatya ve limon kabuğu eklenerek 2-3 dakika daha beklenir.
+      3. Süzülerek tüketilir.
+
+      Öneri 2 — Ihlamur – Melisa – Limon Çayı
+      📚 Dayanak: WHO Traditional Use (linden antioxidant), EMA (melissa calming)
+
+      Malzemeler:
+      - 1 tatlı kaşığı ıhlamur çiçeği
+      - 1 tatlı kaşığı kurutulmuş melisa
+      - Bir parça kurutulmuş limon kabuğu
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Ihlamur ve melisayı ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Limon kabuğu ekleyip 1 dakika bekleyin.
+      5. Süzülerek tüketin.
+
+      ⏰ Tüketim Önerisi: Günde 1 fincan, tercihen öğleden sonra | 2 hafta düzenli
+
+      ⚠️ Uyarı:
+      Şiddetli veya iltihaplı akne durumlarında dermatoloğa başvurulmalıdır.
+      Polen alerjisi olan kişilerde alerjik reaksiyona neden olabilir.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
 
   utter_egzama:
   - text: |
-      Egzama İçin: Karahindiba Çayı
-      Faydaları:
-      Karahindiba, cilt hastalıklarının iyileşmesine yardımcı olan antioksidanlar ve anti-inflamatuar bileşikler içerir.
-      Malzemeler:
-      - 1 tatlı kaşığı kurutulmuş karahindiba kökü veya yaprağı
-      - 1 su bardağı sıcak su
-      Yapılışı:
-      1. Karahindibayı sıcak suya ekleyin ve 10 dakika demleyin.
-      2. Süzerek fincana alın ve sıcak olarak tüketin.
-      Not:
-      Karahindiba bazı ilaçlarla etkileşime girebilir, doktorunuza danışmanız önerilir.
+      🌼 Egzama (Cilt Sağlığı Destekleyici)
 
-  utter_mantar_enfeksiyonlari:
-  - text: |
-      Mantar Enfeksiyonları İçin: Tarçınlı Zencefil Çayı
-      Faydaları:
-      Tarçın ve zencefil, mantar enfeksiyonlarına karşı antimikrobiyal özellikler içerir. Bağışıklık sistemini destekler ve vücudu temizler.
-      Malzemeler:
-      - 1 çubuk tarçın
-      - 1 tatlı kaşığı taze rendelenmiş zencefil
-      - 1 su bardağı sıcak su
-      - 1 tatlı kaşığı bal (isteğe bağlı)
-      Yapılışı:
-      1. Zencefil ve tarçını sıcak suya ekleyin.
-      2. 10 dakika demleyin ve süzün.
-      3. Bal ekleyerek ılık olarak tüketin.
-      Not: Tarçın kan sulandırıcı etkisi yapabilir. Kan sulandırıcı ilaç kullanıyorsanız dikkat edin.
+      Öneri 1 — Papatya – Rezene – Zerdeçal Çayı
+      📚 Dayanak: WHO Traditional Use (chamomile inflammation), EMA (turmeric monograph)
 
-  utter_goz_enfeksiyonlari:
-  - text: |
-      Göz Enfeksiyonları İçin: Papatya Çayı
-      Faydaları:
-      Papatya, gözlerdeki enfeksiyonu yatıştırıcı ve rahatlatıcı etkiler sağlar. Ayrıca anti-enflamatuar özelliklere sahiptir.
       Malzemeler:
-      - 1 tatlı kaşığı kurutulmuş papatya
+      - 1 tatlı kaşığı papatya
+      - 1 çay kaşığı rezene tohumu
+      - 1 çay kaşığı toz zerdeçal
       - 1 su bardağı sıcak su
+      - (İsteğe bağlı: bir tutam karabiber – emilimi artırmak için)
+
       Yapılışı:
-      1. Papatyayı sıcak suya ekleyin ve 5-7 dakika demleyin.
-      2. Süzerek fincana alın ve tüketin.
-      Not: Papatya polen alerjisi olan kişilerde alerjik reaksiyona neden olabilir.
+      1. Tüm malzemeler fincana eklenir.
+      2. Üzerine sıcak su ilave edilir.
+      3. 7-8 dakika demlemeye bırakılır.
+      4. Süzülerek tüketilir.
+
+      Öneri 2 — Ihlamur – Papatya – Karabiber Çayı
+      📚 Dayanak: WHO (linden traditional use), PubMed (curcumin bioavailability)
+
+      Malzemeler:
+      - 1 tatlı kaşığı ıhlamur çiçeği
+      - 1 tatlı kaşığı papatya
+      - 1 çay kaşığı toz zerdeçal
+      - Bir tutam karabiber
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Ihlamur ve papatya ekleyin.
+      3. 6-7 dakika demleyin.
+      4. Zerdeçal ve karabiber ekleyip 1 dakika daha beklemeye bırakın.
+      5. Süzülerek tüketin.
+
+      ⏰ Tüketim Önerisi: Günde 1 fincan, tercihen akşam | 1-2 haftalık kür şeklinde
+
+      ⚠️ Uyarı:
+      Alerjik egzama, atopik dermatit veya şiddetli belirtilerde dermatoloji uzmanına başvurulmalıdır.
+      Hamile/emziren kadınlar hekim onayıyla kullanmalıdır.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
 
   utter_dis_agrisi:
   - text: |
-      Diş Ağrısı İçin: Karanfilli Nane Çayı
-      Faydaları:
-      Karanfil, doğal bir ağrı kesici olarak bilinir ve antiseptik özelliklere sahiptir. Nane ise ferahlık sağlar ve ağrıyı hafifletebilir.
-      Malzemeler:
-      - 3-4 adet karanfil
-      - 1 tatlı kaşığı kuru nane
-      - 1 su bardağı sıcak su
-      Yapılışı:
-      1. Karanfil ve naneyi sıcak suya ekleyin.
-      2. 10 dakika demleyin ve süzün.
-      3. Ilık olarak tüketin.
-      Not: Karanfil yağına karşı hassasiyetiniz varsa tüketmeden önce doktorunuza danışın.
+      🦷 Diş Ağrısı
+
+      Karanfilli Ilık Su (topikal destek)
+      📚 Dayanak: WHO (clove – analgesic)
+
+      Kullanım:
+      - Ilık suya birkaç adet ezilmiş karanfil ekleyip süzün. Bu suyu ağızda gargara şeklinde kullanabilirsiniz (yutmayın).
+
+      Uyarı: Şiddetli diş ağrısında diş hekimine başvurun.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
 
   utter_agiz_yaralari:
   - text: |
-      Ağız Yaraları İçin: Ballı Ihlamur Çayı
-      Faydaları:
-      Ihlamur, yatıştırıcı etkisiyle ağız yaralarını hafifletir. Bal, doğal bir antibakteriyeldir ve iyileşmeyi hızlandırır.
-      Malzemeler:
-      - 1 tatlı kaşığı ıhlamur
+      👄 Ağız Yaraları (Destekleyici)
+
+      🌿 Adaçayı – Papatya Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA – Sage oral use
+      • PubMed – Chamomile anti-inflammatory properties
+
+      🧾 Açıklama:
+      Adaçayı ve papatya geleneksel olarak ağız ve boğaz bölgesinde 
+      rahatlatıcı özellikleri nedeniyle kullanılmaktadır.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı adaçayı
+      - 1 tatlı kaşığı papatya
       - 1 su bardağı sıcak su
-      - 1 tatlı kaşığı bal
-      Yapılışı:
-      1. Ihlamuru sıcak suya ekleyin ve 5-7 dakika demleyin.
-      2. Süzdükten sonra bal ekleyin ve karıştırın.
-      3. Ilık olarak tüketin.
-      Not: Bal, 1 yaş altındaki çocuklara verilmemelidir.
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 6-7 dakika demleyin.
+      3. Ilık olarak tüketebilir veya gargara olarak kullanabilirsiniz.
 
   utter_kabizlik:
   - text: |
-      Kabızlık İçin: Erik ve Zeytinyağı İçeceği
-      Faydaları:
-      Erik suyu bağırsak hareketlerini hızlandırır. Zeytinyağı ise sindirimi kolaylaştırır.
-      Malzemeler:
-      - 1 su bardağı erik suyu
-      - 1 tatlı kaşığı sızma zeytinyağı
-      Yapılışı:
-      1. Erik suyunu bir bardağa alın.
-      2. Zeytinyağını ekleyip karıştırın.
-      3. Sabahları aç karnına tüketin.
-      Not: Aşırı tüketim ishale neden olabilir, dikkatli olun.
+      🚽 Kabızlık (Sindirim Destekleyici)
+
+      🌿 Rezene – Papatya Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA – Fennel digestive support
+      • WHO Traditional Use
+
+      🧾 Açıklama:
+      Rezene ve papatya sindirim sisteminin düzenli çalışmasına 
+      destek sağlayabilecek bitkiler arasında yer alır.
+
+      🥄 Malzemeler:
+      - 1 çay kaşığı rezene
+      - 1 tatlı kaşığı papatya
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 6-8 dakika demleyin.
+      3. Ilık olarak tüketin.
+
+      ⚠️ Uyarı:
+      Uzun süren kabızlık durumunda sağlık uzmanına başvurulmalıdır.
+
 
   utter_mide_yanmasi:
   - text: |
-      Mide Yanması İçin: Rezene ve Anason Çayı
-      Faydaları:
-      Rezene ve anason, mideyi yatıştırıcı ve rahatlatıcı etkiler sunar. Asit seviyesini dengeleyebilir.
-      Malzemeler:
-      - 1 tatlı kaşığı rezene tohumu
-      - Yarım çay kaşığı anason tohumu
+      🔥 Mide Yanması (Sindirim Destekleyici)
+
+      🌿 Rezene – Papatya Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA – Fennel seed digestive support
+      • EMA – Chamomile monograph
+      • PubMed – herbal digestive comfort studies
+
+      🧾 Açıklama:
+      Rezene ve papatya sindirim sistemini destekleyici bitkiler arasında yer alır.
+      Geleneksel kullanımda mide hassasiyetinin azalmasına destek amacıyla tüketilmektedir.
+
+      🥄 Malzemeler:
+      - 1 çay kaşığı rezene tohumu
+      - 1 tatlı kaşığı papatya
       - 1 su bardağı sıcak su
-      Yapılışı:
-      1. Rezene ve anasonu sıcak suya ekleyin.
-      2. 5-7 dakika demleyin ve süzün.
-      3. Ilık olarak tüketin.
-      Not: Rezene ve anason alerjiniz varsa tüketmeyin.
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 6–8 dakika demleyin.
+      3. Süzerek tüketin.
+
+      ⚠️ Uyarı:
+      Şiddetli mide ağrısı veya reflü şikayetleri için doktora başvurulmalıdır.
+
+      ℹ️ Bu içecek destekleyici amaçlıdır.
 
   utter_bas_donmesi:
   - text: |
-      Baş Dönmesi İçin: Zencefil ve Limon Çayı
-      Faydaları:
-      Zencefil, dolaşımı düzenleyerek baş dönmesini hafifletir. Limon, enerji verir ve ferahlatıcıdır.
-      Malzemeler:
-      - 1 tatlı kaşığı taze rendelenmiş zencefil
-      - 1 tatlı kaşığı limon suyu
-      - 1 su bardağı sıcak su
-      Yapılışı:
-      1. Zencefili sıcak suya ekleyin ve 5 dakika demleyin.
-      2. Limon suyunu ekleyip karıştırın.
-      3. Ilık olarak tüketin.
-      Not: Zencefil, bazı kişilerde mide bulantısına neden olabilir.
+      🌿 Baş Dönmesi Hissi (Genel Rahatlatıcı)
 
-  utter_kulak_cinlamasi:
-  - text: |
-      Kulak Çınlaması İçin: Sarımsak ve Zeytinyağı Kürü
-      Faydaları:
-      Sarımsak, dolaşımı iyileştirerek kulak çınlamasını azaltabilir. Zeytinyağı ise rahatlatıcıdır.
-      Malzemeler:
-      - 1 diş ezilmiş sarımsak
-      - 2 yemek kaşığı zeytinyağı
-      Yapılışı:
-      1. Sarımsağı zeytinyağına ekleyip hafifçe ısıtın.
-      2. Soğuduktan sonra süzün.
-      3. Günde birkaç damla kulak çevresine masaj yaparak uygulayın.
-      Not: Doğrudan kulağa damlatmayın. Doktor tavsiyesi olmadan kullanmayın.
+      🌼 Melisa – Papatya Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA – Melissa officinalis
+      • EMA – Chamomile monograph
+      • PubMed – herbal calming effects
+
+      🧾 Açıklama:
+      Melisa ve papatya geleneksel olarak rahatlatıcı bitkiler olarak bilinir.
+      Stres veya yorgunluk kaynaklı baş dönmesi hissinde genel rahatlama sağlayabilir.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı melisa
+      - 1 tatlı kaşığı papatya
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 7 dakika demleyin.
+      3. Ilık olarak tüketin.
+
+      ⚠️ Uyarı:
+      Sürekli veya şiddetli baş dönmesi durumunda sağlık uzmanına başvurunuz.
 
   utter_goz_seyirmesi:
   - text: |
-      Göz Seyirmesi İçin: Magnezyumlu Smoothie
-      Faydaları:
-      Ispanak ve muz, magnezyum içerikleriyle kas kasılmalarını ve göz seyirmesini azaltabilir.
-      Malzemeler:
-      - 1 su bardağı ıspanak
-      - 1 adet muz
-      - 1 su bardağı badem sütü
-      Yapılışı:
-      1. Tüm malzemeleri blender'da karıştırın.
-      2. Pürüzsüz bir kıvam alınca soğuk olarak tüketin.
-      Not: Ispanak alerjisi olanlar için uygun değildir.
+      👁️ Göz Seyirmesi (Rahatlatıcı Destek)
 
-  utter_ucuk:
-  - text: |
-      Uçuk İçin: Melisa Çayı
-      Faydaları:
-      Melisa, antiviral özellikleriyle uçuklara iyi gelir ve stres seviyesini düşürerek tekrarlamayı önleyebilir.
-      Malzemeler:
-      - 1 tatlı kaşığı kurutulmuş melisa yaprağı
+      🌿 Melisa – Ihlamur Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA Herbal Monographs
+      • PubMed – herbal relaxation studies
+
+      🧾 Açıklama:
+      Göz seyirmesi çoğu zaman stres ve yorgunluk ile ilişkilidir.
+      Melisa ve ıhlamur rahatlatıcı özellikleriyle bilinir ve gevşemeye destek olabilir.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı melisa
+      - 1 tatlı kaşığı ıhlamur
       - 1 su bardağı sıcak su
-      Yapılışı:
-      1. Melisa yapraklarını sıcak suya ekleyin ve 5 dakika demleyin.
-      2. Süzerek fincana alın ve ılık olarak tüketin.
-      Not: Melisa bazı ilaçlarla etkileşime girebilir. Doktorunuza danışın.
 
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 6–7 dakika demleyin.
+      3. Ilık olarak tüketin.
   utter_dis_eti_kanamasi:
   - text: |
-      Diş Eti Kanaması İçin: Maydanozlu Limon Çayı
-      Faydaları:
-      Maydanoz, yüksek C vitamini içeriği sayesinde diş eti sağlığını destekler ve kanamaları azaltabilir. Limon da antiseptik özellikleriyle ağız hijyenine katkıda bulunur.
-      Malzemeler:
-      - 1 tutam taze maydanoz
-      - Yarım limonun suyu
-      - 1 su bardağı su
-      - 1 tatlı kaşığı bal (isteğe bağlı)
-      Yapılışı:
-      1. Suyu kaynatın ve ocaktan alın.
-      2. İnce doğranmış maydanozu ekleyip 5 dakika demleyin.
-      3. Süzdükten sonra limon suyunu ve balı ekleyin.
-      4. Ilık olarak tüketin.
-      Not: Maydanoz, bazı kişilerde alerjik reaksiyonlara neden olabilir. Ayrıca, kan sulandırıcı ilaç kullananlar dikkatli tüketmelidir.
+      🦷 Diş Eti Hassasiyeti (Destekleyici)
+
+      🌿 Adaçayı – Papatya Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA – Salvia officinalis
+      • PubMed – chamomile anti-inflammatory effects
+
+      🧾 Açıklama:
+      Adaçayı ve papatya geleneksel olarak ağız ve diş eti sağlığını desteklemek
+      amacıyla kullanılan bitkiler arasındadır.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı adaçayı
+      - 1 tatlı kaşığı papatya
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 6 dakika demleyin.
+      3. Ilık şekilde tüketilebilir veya gargara yapılabilir.
+
+      ⚠️ Uyarı:
+      Sürekli diş eti kanaması durumunda diş hekimine başvurulmalıdır.
 
   utter_bagisiklik_gucsuzlugu:
   - text: |
-      Bağışıklık Güçsüzlüğü İçin: Zerdeçallı Süt (Altın Süt)
-      Faydaları:
-      Zerdeçal, güçlü anti-inflamatuar ve antioksidan özelliklere sahiptir, bağışıklık sistemini destekler.
-      Malzemeler:
-      - 1 su bardağı süt (isteğe bağlı bitkisel süt)
-      - 1 çay kaşığı toz zerdeçal
-      - Yarım çay kaşığı toz zencefil
-      - Bir tutam karabiber
-      - 1 tatlı kaşığı bal (isteğe bağlı)
-      Yapılışı:
-      1. Sütü bir tencerede ısıtın.
-      2. Zerdeçal, zencefil ve karabiberi ekleyip karıştırın.
-      3. 5 dakika kısık ateşte ısıtmaya devam edin.
-      4. Ocaktan alıp bal ekleyin ve karıştırın.
-      5. Sıcak olarak tüketin.
-      Not: Zerdeçal, safra kesesi sorunları olan kişilerde rahatsızlık yaratabilir. Ayrıca, kan sulandırıcı ilaç kullananlar dikkatli olmalıdır.
+      🛡️ Bağışıklık Destekleyici
+
+      🌿 Kuşburnu – Zencefil Çayı
+
+      📚 Bilimsel Dayanak:
+      • PubMed – rosehip vitamin C studies
+      • EMA herbal monographs
+      • WHO traditional medicine
+
+      🧾 Açıklama:
+      Kuşburnu yüksek C vitamini içeriği ile bilinir.
+      Zencefil antioksidan özellikleri sayesinde bağışıklık sistemini destekleyebilir.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı kuşburnu
+      - 1 çay kaşığı zencefil
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 8 dakika demleyin.
+      3. Süzerek tüketin.
 
   utter_uyku_problemleri:
   - text: |
-      Uyku Problemleri İçin: Papatya Çayı
-      Faydaları:
-      Papatya, doğal bir yatıştırıcıdır ve uyku kalitesini artırabilir.
-      Malzemeler:
-      - 1 tatlı kaşığı kurutulmuş papatya
-      - 1 su bardağı sıcak su
-      - 1 tatlı kaşığı bal (isteğe bağlı)
-      Yapılışı:
-      1. Papatyayı sıcak suya ekleyin ve 5-7 dakika demleyin.
-      2. Süzdükten sonra bal ekleyin ve karıştırın.
-      3. Ilık olarak, özellikle yatmadan önce tüketin.
-      Not: Papatya, ragweed (ambrosia) ailesine alerjisi olan kişilerde reaksiyonlara neden olabilir.
+      🌙 Uyku Problemleri (Rahatlatıcı Bitki Çayı)
+
+      🌿 Melisa – Papatya – Lavanta Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA – Melissa officinalis
+      • EMA – Chamomile
+      • PubMed – lavender relaxation studies
+
+      🧾 Açıklama:
+      Bu bitkiler geleneksel olarak gevşeme ve uyku öncesi rahatlama
+      amacıyla kullanılan bitkiler arasındadır.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı melisa
+      - 1 tatlı kaşığı papatya
+      - Bir tutam lavanta
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 7 dakika demleyin.
+      3. Yatmadan önce tüketebilirsiniz.
 
   utter_adet_duzensizligi:
   - text: |
-      Adet Düzensizliği İçin: Adaçayı Çayı
-      Faydaları:
-      Adaçayı, hormonal dengeyi destekleyerek adet döngüsünü düzenlemeye yardımcı olabilir.
-      Malzemeler:
-      - 1 tatlı kaşığı kurutulmuş adaçayı
+      🌸 Adet Döngüsü Destekleyici
+
+      🌿 Rezene – Melisa Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA – Fennel seed
+      • PubMed – fennel and menstrual support
+
+      🧾 Açıklama:
+      Rezene geleneksel kullanımda kadın sağlığı ve sindirim sistemi
+      destekleyici bitkiler arasında yer almaktadır.
+
+      🥄 Malzemeler:
+      - 1 çay kaşığı rezene
+      - 1 tatlı kaşığı melisa
       - 1 su bardağı sıcak su
-      - 1 tatlı kaşığı bal (isteğe bağlı)
-      Yapılışı:
-      1. Adaçayını sıcak suya ekleyin ve 5 dakika demleyin.
-      2. Süzdükten sonra bal ekleyin ve karıştırın.
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 7 dakika demleyin.
       3. Ilık olarak tüketin.
-      Not: Adaçayı, hamilelik döneminde ve emziren anneler tarafından tüketilmemelidir. Ayrıca, tansiyon problemi olanlar dikkatli olmalıdır.
+
+      ⚠️ Uyarı:
+      Hamilelikte kullanmadan önce doktora danışılmalıdır.
 
   utter_adet_sancisi:
   - text: |
-      Adet Sancısı İçin: Tarçınlı Zencefil Çayı
-      Faydaları:
-      Zencefil ve tarçın, anti-inflamatuar özellikleriyle adet sancılarını hafifletebilir.
+      🌺 Adet Sancısı (Rahatlatıcı)
+
+      🌿 Zencefil – Rezene Çayı
+
+      📚 Bilimsel Dayanak:
+      • PubMed – ginger dysmenorrhea studies
+      • EMA herbal monographs
+
+      🧾 Açıklama:
+      Zencefil ve rezene geleneksel kullanımda adet döneminde
+      rahatlatıcı içecekler arasında yer almaktadır.
+
+      🥄 Malzemeler:
+      - 1 çay kaşığı zencefil
+      - 1 çay kaşığı rezene
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 7 dakika demleyin.
+      3. Ilık olarak tüketin.
+
+  utter_uyku_gecisi_zorlugu:
+  - text: |
+      🌙 Uykuya Geçiş Zorluğu
+
+      🌿 Melisa – Lavanta Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA – Melissa officinalis
+      • PubMed – lavender relaxation studies
+
+      🧾 Açıklama:
+      Melisa ve lavanta rahatlatıcı özellikleri ile bilinen bitkilerdir.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı melisa
+      - bir tutam lavanta
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 7 dakika demleyin.
+      3. Yatmadan önce tüketebilirsiniz.
+
+
+  utter_kas_sirt_gerginligi:
+  - text: |
+      💪 Kas ve Sırt Gerginliği
+
+      🌿 Zencefil – Zerdeçal Çayı
+
+      📚 Bilimsel Dayanak:
+      • PubMed – ginger anti-inflammatory research
+      • PubMed – turmeric anti-inflammatory studies
+
+      🧾 Açıklama:
+      Zencefil ve zerdeçal antioksidan özellikleri ile araştırılmış bitkilerdir.
+
+      🥄 Malzemeler:
+      - 1 çay kaşığı zencefil
+      - 1 çay kaşığı zerdeçal
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 7 dakika demleyin.
+      3. Ilık tüketin.
+
+
+  utter_agiz_bogaz_kurulugu:
+  - text: |
+      🌿 Ağız ve Boğaz Kuruluğu
+
+      🍯 Papatya – Bal Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA – Chamomile monograph
+
+      🧾 Açıklama:
+      Papatya geleneksel kullanımda boğaz ve ağız rahatlatıcı bitkiler arasında yer alır.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı papatya
+      - 1 çay kaşığı bal
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Papatyayı sıcak suya ekleyin.
+      2. 6 dakika demleyin.
+      3. Bal ekleyerek tüketin.
+
+
+  utter_cilt_kurulugu:
+  - text: |
+      🧴 Cilt Kuruluğu
+
+      Öneri 1 — Isırgan – Ihlamur Çayı
+      📚 Dayanak: WHO Traditional Use (mineral support), PubMed (skin hydration)
+
       Malzemeler:
-      - 1 tatlı kaşığı taze rendelenmiş zencefil
+      - 1 tatlı kaşığı kurutulmuş ısırgan
+      - 1 tatlı kaşığı ıhlamur çiçeği
+      - 1 su bardağı sıcak su
+      - İsteğe bağlı bal
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Isırgan ve ihlamuru ekleyin.
+      3. 5-10 dakika demleyin.
+      4. Süzün.
+      5. İsteğe bağlı bal ekleyin.
+      6. Ilık olarak tüketin.
+
+      Öneri 2 — Hatmi Çiçeği – Limon Kabuğu Çayı
+      📚 Dayanak: EMA Herbal Monographs (mucilage demulcent), WHO (skin support)
+
+      Malzemeler:
+      - 1 tatlı kaşığı hatmi çiçeği
+      - 1 tatlı kaşığı limon kabuğu
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Hatmi çiçeği ve limon kabuğunu ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve tüketin.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_genel_iyi_hissetme:
+  - text: |
+      🌿 Genel İyi Hissetme
+
+      🍋 Zencefil – Limon Çayı
+
+      📚 Bilimsel Dayanak:
+      • PubMed – ginger health support studies
+
+      🧾 Açıklama:
+      Zencefil geleneksel kullanımda genel sağlık destekleyici bitkiler arasında yer alır.
+
+      🥄 Malzemeler:
+      - 1 çay kaşığı zencefil
+      - birkaç damla limon
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Zencefili sıcak suya ekleyin.
+      2. 7 dakika demleyin.
+      3. Limon ekleyerek tüketin.
+
+
+  utter_kulak_agrisi_dolayli:
+  - text: |
+      👂 Kulak Ağrısı (Dolaylı Rahatlama)
+
+      Öneri 1 — Papatya – Ihlamur Çayı
+      📚 Dayanak: WHO Traditional Use (general relaxation), PubMed (stress reduction)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş papatya
+      - 1 tatlı kaşığı ıhlamur çiçeği
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Papatya ve ihlamuru ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      Öneri 2 — Melisa – Lavanta Çayı
+      📚 Dayanak: EMA (melissa nervous tension), PubMed (lavender anxiolytic)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş melisa
+      - 1 tatlı kaşığı kurutulmuş lavanta
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Melisa ve lavantayı ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ⚠️ NOT: Bu içecekler dolaylı rahatlama (genel stress azaltma) sağlar. Şiddetli veya süregelen kulak ağrısında doktora başvurunuz.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_nefes_darligi_hissi:
+  - text: |
+      😮‍💨 Nefes Darlığı Hissi (Hafif, Anksiyete Kaynaklı)
+
+      Öneri 1 — Ihlamur – Melisa Çayı
+      📚 Dayanak: WHO Traditional Use (breathing support), EMA (anxiety relaxation)
+
+      Malzemeler:
+      - 1 tatlı kaşığı ıhlamur çiçeği
+      - 1 tatlı kaşığı kurutulmuş melisa
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Ihlamur ve melisayı ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      Öneri 2 — Papatya – Lavanta Çayı
+      📚 Dayanak: PubMed (chamomile relaxation), WHO (lavender breathing support)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş papatya
+      - 1 tatlı kaşığı kurutulmuş lavanta
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Papatya ve lavantayı ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ⚠️ ÖNEMLİ: Aniden başlayan şiddetli nefes darlığı acil tıbbi durumdur. Derhal sağlık profesyoneline başvurunuz.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_asiri_yorgunluk:
+  - text: |
+      😵‍💫 Aşırı Yorgunluk Hissi
+
+      Öneri 1 — Kuşburnu – Elma Kabuğu Çayı
+      📚 Dayanak: PubMed (rosehip Vitamin C energy), WHO (apple antioxidants)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş kuşburnu
+      - 1 tatlı kaşığı kurutulmuş elma kabuğu
       - 1 çubuk tarçın
       - 1 su bardağı sıcak su
-      - 1 tatlı kaşığı bal (isteğe bağlı)
+
       Yapılışı:
-      1. Zencefil ve tarçını sıcak suya ekleyin.
-      2. 10 dakika demleyin ve süzün.
-      3. Bal ekleyerek ılık olarak tüketin.
-      Not: Zencefil, kan sulandırıcı ilaç kullananlar tarafından dikkatli tüketilmelidir.
+      1. Suyu kaynatın.
+      2. Kuşburnu, elma kabuğu ve tarçını ekleyin.
+      3. 10-15 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      Öneri 2 — Zencefil – Limon – Kızılcık Çayı
+      📚 Dayanak: PubMed (ginger circulation), WHO (goji berry energy support)
+
+      Malzemeler:
+      - 1 tatlı kaşığı taze rendelenmiş zencefil
+      - 1 çay kaşığı limon suyu
+      - Bir avuç kurutulmuş kızılcık
+      - 1 su bardağı sıcak su
+      - 1 tatlı kaşığı bal (isteğe bağlı)
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Zencefil ve kızılcığı ekleyin.
+      3. 10-15 dakika demleyin.
+      4. Limon suyu ve bal ekleyin.
+      5. Ilık olarak tüketin.
+
+      ⚠️ Uyarı: Persistan aşırı yorgunluk tıbbi değerlendirme gerektirir.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_terleme_dengesizligi:
+  - text: |
+      🥵 Terleme Dengesizliği
+
+      Öneri 1 — Adaçayı Çayı
+      📚 Dayanak: EMA Herbal Monographs (sage perspiration control), WHO Traditional Use
+
+      Malzemeler:
+      - 1 tatlı kaşığı kuru adaçayı
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Adaçayını ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün.
+      5. Ilık olarak günde 1-2 kez tüketin (sabah ve akşam iyi).
+
+      Öneri 2 — Mürver – Adaçayı Çayı
+      📚 Dayanak: WHO Traditional Use (cooling blend), EMA (herbal combination)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş mürver çiçeği
+      - 1 tatlı kaşığı kuru adaçayı
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Mürver ve adaçayını ekleyin.
+      3. 7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_agiz_kurulugu:
+  - text: |
+      🤐 Ağız Kuruluğu
+
+      Öneri 1 — Hatmi Çiçeği – Ihlamur Çayı
+      📚 Dayanak: EMA (mallow demulcent), WHO (linden flower soothing)
+
+      Malzemeler:
+      - 1 tatlı kaşığı hatmi çiçeği
+      - 1 tatlı kaşığı ıhlamur çiçeği
+      - 1 su bardağı sıcak su
+      - 1 tatlı kaşığı bal (isteğe bağlı)
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Hatmi ve ihlamuru ekleyin.
+      3. 7-10 dakika demleyin.
+      4. Süzün.
+      5. İsteğe bağlı bal ekleyin.
+      6. Sıcak olarak sıkça tüketin.
+
+      Öneri 2 — Yaygın Korunga – Limon Kabuğu Çayı
+      📚 Dayanak: WHO (herbal demulcent), EMA (coating herb properties)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş yaygın korunga
+      - 1 tatlı kaşığı limon kabuğu
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Korunga ve limon kabuğunu ekleyin.
+      3. 7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_carpinti_hissi:
+  - text: |
+      🫀 Çarpıntı Hissi (Stres Kaynaklı)
+
+      Öneri 1 — Alıç Çiçeği – Ihlamur Çayı
+      📚 Dayanak: EMA (hawthorn cardiovascular support), WHO Traditional Use
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş alıç çiçeği
+      - 1 tatlı kaşığı ıhlamur çiçeği
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Alıç çiçeği ve ihlamuru ekleyin.
+      3. 10 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      Öneri 2 — Melisa – Papatya Çayı
+      📚 Dayanak: WHO Traditional Use (cardiac stress), EMA (melissa relaxation)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş melisa
+      - 1 tatlı kaşığı kurutulmuş papatya
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Melisa ve papatyayı ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ⚠️ ÖNEMLİ: Şiddetli çarpıntı, göğüs ağrısı veya nefes darlığı kalp acil durumudur. Derhal sağlık profesyoneline başvurunuz.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_agirlik_tokluk_hissi:
+  - text: |
+      🤢 Ağırlık / Tokluk Hissi
+
+      Öneri 1 — Kişniş – Rezene Çayı
+      📚 Dayanak: WHO Traditional Use (digestive support), PubMed (carminative blend)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kişniş tohumu
+      - 1 tatlı kaşığı rezene tohumu
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Kişniş ve rezeneyi ekleyin.
+      3. 7-10 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      Öneri 2 — Nane – Papatya Çayı
+      📚 Dayanak: WHO (peppermint digestive), EMA (chamomile GI comfort)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kuru nane
+      - 1 tatlı kaşığı kurutulmuş papatya
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Nane ve papatyayı ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_bacak_yorgunlugu:
+  - text: |
+      🦵 Bacak Yorgunluğu
+
+      Öneri 1 — Isırgan – Limon Kabuğu Çayı
+      📚 Dayanak: WHO Traditional Use (mineral content), PubMed (leg fatigue support)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş ısırgan
+      - 1 tatlı kaşığı limon kabuğu
+      - 1 su bardağı sıcak su
+      - İsteğe bağlı bal
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Isırgan ve limon kabuğunu ekleyin.
+      3. 7-10 dakika demleyin.
+      4. Süzün.
+      5. İsteğe bağlı bal ekleyin.
+      6. Ilık olarak günde 1-2 kez tüketin.
+
+      Öneri 2 — Biberiye – Limon Çayı
+      📚 Dayanak: PubMed (rosemary circulation), WHO (herbal stimulant)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kuru biberiye
+      - 1 tatlı kaşığı limon kabuğu
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Biberiye ve limon kabuğunu ekleyin.
+      3. 7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_boyun_tutulmasi_gerginlik:
+  - text: |
+      😣 Boyun Tutulması / Gerginliği
+
+      Öneri 1 — Lavanta – Ihlamur Çayı
+      📚 Dayanak: EMA (lavender muscle relaxation), WHO (linden flower)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş lavanta
+      - 1 tatlı kaşığı ıhlamur çiçeği
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Lavanta ve ihlamuru ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      Öneri 2 — Kekik – Papatya Çayı
+      📚 Dayanak: WHO Traditional Use (muscle warming), EMA (chamomile relaxation)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kuru kekik
+      - 1 tatlı kaşığı kurutulmuş papatya
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Kekik ve papatyayı ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_gun_sonu_zihinsel_tukenme:
+  - text: |
+      🧠 Gün Sonu Zihinsel Tükenmişlik
+
+      Öneri 1 — Melisa – Rezene Çayı
+      📚 Dayanak: WHO Traditional Use (nervous system), EMA (melissa & fennel digestion)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş melisa
+      - 1 tatlı kaşığı rezene tohumu
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Melisa ve rezeneyi ekleyin.
+      3. 7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin (akşam).
+
+      Öneri 2 — Papatya – Lavanta Çayı
+      📚 Dayanak: PubMed (chamomile fatigue), WHO (lavender relaxation)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş papatya
+      - 1 tatlı kaşığı kurutulmuş lavanta
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Papatya ve lavantayı ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_mevsimsel_duygusal_dalgalanma:
+  - text: |
+      😶‍🌫️ Mevsimsel Duygusal Dalgalanma
+
+      Öneri 1 — Lavanta – Papatya Çayı
+      📚 Dayanak: EMA (lavender mood support), PubMed (seasonal variation support)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş lavanta
+      - 1 tatlı kaşığı kurutulmuş papatya
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Lavanta ve papatyayı ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      Öneri 2 — Melisa – Gül Taç Çayı
+      📚 Dayanak: WHO (melissa nervous mood), PubMed (rose essential properties)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş melisa
+      - 1 tatlı kaşığı kurutulmuş gül taç
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Melisa ve gül tacını ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ⚠️ Uyarı: Persistan duygusal dalgalanmalar için profesyonel yardım alınız.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_hastalik_sonrasi_toparlanma:
+  - text: |
+      🛡️ Hastalık Sonrası Toparlanma
+
+      Öneri 1 — Elma – Tarçın – Kuşburnu Çayı
+      📚 Dayanak: PubMed (antioxidant recovery support), WHO (herbal recovery blend)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş elma kabuğu
+      - 1 çubuk tarçın
+      - 1 tatlı kaşığı kurutulmuş kuşburnu
+      - 1 su bardağı sıcak su
+      - 1 tatlı kaşığı bal
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Elma kabuğu, tarçın ve kuşburnunu ekleyin.
+      3. 10-15 dakika demleyin.
+      4. Süzün.
+      5. Bal ekleyin.
+      6. Ilık olarak günde 1-2 kez tüketin.
+
+      Öneri 2 — Zencefil – Limon – Bal İçeceği
+      📚 Dayanak: PubMed (ginger post-illness support), WHO (honey recovery)
+
+      Malzemeler:
+      - 1 tatlı kaşığı taze rendelenmiş zencefil
+      - Yarım limonun suyu
+      - 1 tatlı kaşığı bal
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Zencefili ekleyin ve 10 dakika demleyin.
+      3. Limon suyu ve bal ekleyin.
+      4. Ilık olarak tüketin.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_aksam_huzursuzlugu:
+  - text: |
+      🌙 Akşam Huzursuzluğu
+
+      Öneri 1 — Ihlamur – Hatmi Çayı
+      📚 Dayanak: WHO (linden flower evening support), EMA (mallow soothing)
+
+      Malzemeler:
+      - 1 tatlı kaşığı ıhlamur çiçeği
+      - 1 tatlı kaşığı hatmi çiçeği
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Ihlamur ve hatmiyı ekleyin.
+      3. 7-10 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin (akşam).
+
+      Öneri 2 — Melisa – Lavanta Çayı
+      📚 Dayanak: WHO Traditional Use (evening relaxation), EMA (melissa & lavender)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş melisa
+      - 1 tatlı kaşığı kurutulmuş lavanta
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Melisa ve lavantayı ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_stres:
+  - text: |
+      😌 Stres (Rahatlatıcı Bitki Çayı)
+
+      🌿 Melisa – Lavanta Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA – Melissa officinalis
+      • PubMed – lavender relaxation research
+
+      🧾 Açıklama:
+      Melisa ve lavanta geleneksel olarak stres azaltıcı ve
+      rahatlatıcı bitkiler olarak kullanılmaktadır.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı melisa
+      - Bir tutam lavanta
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 6–7 dakika demleyin.
+      3. Ilık olarak tüketin.
+
+  utter_hafif_anksiyete:
+  - text: |
+      🌿 Hafif Anksiyete (Rahatlatıcı)
+
+      🌼 Papatya – Melisa Çayı
+
+      📚 Bilimsel Dayanak:
+      • EMA herbal monographs
+      • PubMed – chamomile anxiety studies
+
+      🧾 Açıklama:
+      Papatya ve melisa sakinleştirici özellikleri ile bilinir
+      ve hafif gerginlik durumlarında rahatlamaya destek olabilir.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı papatya
+      - 1 tatlı kaşığı melisa
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 7 dakika demleyin.
+      3. Ilık olarak tüketin.
+
+  utter_odaklanma_zorlugu:
+  - text: |
+      🧠 Odaklanma Zorluğu
+
+      🌿 Biberiye – Yeşil Çay
+
+      📚 Bilimsel Dayanak:
+      • PubMed – rosemary cognitive studies
+      • PubMed – green tea L-theanine research
+
+      🧾 Açıklama:
+      Biberiye ve yeşil çay zihinsel uyanıklık ve konsantrasyon
+      üzerine araştırılmış bitkiler arasında yer almaktadır.
+
+      🥄 Malzemeler:
+      - 1 çay kaşığı biberiye
+      - 1 çay kaşığı yeşil çay
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Yeşil çayı 3 dakika demleyin.
+      2. Biberiyeyi ekleyip 2 dakika daha bekletin.
+      3. Süzerek tüketin.
+
+  utter_zihinsel_yorgunluk:
+  - text: |
+      🧠 Zihinsel Yorgunluk
+
+      🌿 Biberiye – Limon Kabuğu Çayı
+
+      📚 Bilimsel Dayanak:
+      • PubMed – rosemary cognitive research
+
+      🧾 Açıklama:
+      Biberiye zihinsel uyanıklık ve dikkat üzerine araştırılan
+      aromatik bitkiler arasında yer almaktadır.
+
+      🥄 Malzemeler:
+      - 1 çay kaşığı biberiye
+      - Bir parça limon kabuğu
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Malzemeleri sıcak suya ekleyin.
+      2. 6 dakika demleyin.
+      3. Ilık olarak tüketin.
+
+  utter_sinirlik:
+  - text: |
+      😤 Sinirlilik
+
+      Öneri 1 — Ihlamur – Melisa Çayı
+      📚 Dayanak: WHO Traditional Use (nervous irritability), EMA Herbal Monographs
+
+      Malzemeler:
+      - 1 tatlı kaşığı ıhlamur çiçeği
+      - 1 tatlı kaşığı kurutulmuş melisa
+      - 1 su bardağı sıcak su
+      - 1 tatlı kaşığı bal (isteğe bağlı)
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Ihlamur ve melisayı ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün.
+      5. İsteğe bağlı bal ekleyin.
+      6. Gün içinde 2-3 kez ilık olarak tüketin.
+
+      Öneri 2 — Lavanta – Papatya Çayı
+      📚 Dayanak: PubMed (lavender calmative), WHO (chamomile nervous tension)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş lavanta
+      - 1 tatlı kaşığı kurutulmuş papatya
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Lavanta ve papatyayı ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_hazimsizlik:
+  - text: |
+      🍽️ Hazımsızlık
+
+      Öneri 1 — Rezene – Zencefil Çayı
+      📚 Dayanak: WHO Herbal Monographs (fennel & ginger digestive), PubMed (carminative effects)
+
+      Malzemeler:
+      - 1 tatlı kaşığı rezene tohumu
+      - 1 tatlı kaşığı taze rendelenmiş zencefil
+      - 1 su bardağı sıcak su
+      - İsteğe bağlı bal
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Rezene ve zencefili ekleyin.
+      3. 7-10 dakika demleyin.
+      4. Süzün.
+      5. İsteğe bağlı bal ekleyin.
+      6. Yemekten 30 dakika sonra ilık olarak tüketin.
+
+      Öneri 2 — Anason – Papatya – Nane Çayı
+      📚 Dayanak: WHO Traditional Use (digestive blend), EMA (carminative herbs)
+
+      Malzemeler:
+      - 1 tatlı kaşığı anason tohumu
+      - 1 tatlı kaşığı kurutulmuş papatya
+      - 1 tatlı kaşığı kurutulmuş nane
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Anason, papatya ve naneyi ekleyin.
+      3. 7-10 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ⚠️ Uyarı: Hazımsızlık persistan ise doktora başvurun. Şiddetli karın ağrısında tıbbi yardım alın.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_ishtah_kaybi:
+  - text: |
+      🍴 İştah Kaybı
+
+      Öneri 1 — Zencefil – Limon Ilık İçeceği
+      📚 Dayanak: WHO Herbal Monographs (ginger appetite stimulation), PubMed (ginger digestive enzymes)
+
+      Malzemeler:
+      - 1 tatlı kaşığı taze rendelenmiş zencefil
+      - Yarım limonun suyu
+      - 1 su bardağı ılık su
+      - 1 tatlı kaşığı bal (isteğe bağlı)
+
+      Yapılışı:
+      1. İlık suya rendelenmiş zencefili ekleyin.
+      2. 5-10 dakika demleyin.
+      3. Süzün.
+      4. Limon suyu ve bal ekleyin.
+      5. Yemekten 30 dakika önce tüketin.
+
+      Öneri 2 — Çörek Otu – Anason Çayı
+      📚 Dayanak: WHO Traditional Use (appetite support), PubMed (black cumin benefits)
+
+      Malzemeler:
+      - 1 çay kaşığı çörek otu (nigella sativa)
+      - 1 tatlı kaşığı anason tohumu
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Çörek otu ve anasonu ekleyin.
+      3. 7-10 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ⚠️ Uyarı: İştah kaybı şiddetli ise doktora başvurun. Altta yatan hastalıklar araştırılmalıdır.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_mide_kramplari:
+  - text: |
+      😖 Mide Krampları
+
+      Öneri 1 — Papatya – Rezene Çayı
+      📚 Dayanak: WHO (chamomile smooth muscle relaxant), EMA (fennel antispasmodic)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş papatya
+      - 1 tatlı kaşığı rezene tohumu
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Papatya ve rezeneyi ekleyin.
+      3. 7-10 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      Öneri 2 — Nane – Ginger – Limon Çayı
+      📚 Dayanak: PubMed (peppermint IBS relief), WHO (ginger antispasmodic)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kuru nane
+      - 1 tatlı kaşığı taze rendelenmiş zencefil
+      - 1 çay kaşığı limon suyu
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Nane ve zencefili ekleyin.
+      3. 7-10 dakika demleyin.
+      4. Süzün.
+      5. Limon suyu ekleyin.
+      6. Ilık olarak tüketin.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_kas_agrisi:
+  - text: |
+      💪 Kas Ağrısı
+
+      Öneri 1 — Zerdeçal – Zencefil Çayı
+      📚 Dayanak: PubMed (curcumin anti-inflammatory & muscle pain), WHO (ginger muscle relaxation)
+
+      Malzemeler:
+      - 1 çay kaşığı toz zerdeçal
+      - 1 tatlı kaşığı taze rendelenmiş zencefil
+      - 1 su bardağı sıcak su
+      - İsteğe bağlı bal ve limon
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Zerdeçal ve zencefili ekleyin.
+      3. 10 dakika demleyin.
+      4. Süzün.
+      5. İsteğe bağlı bal ve limon ekleyin.
+      6. Günde 1-2 kez ilık olarak tüketin.
+
+      Öneri 2 — Kekik – Karabiber Çayı
+      📚 Dayanak: WHO Traditional Use (thyme warming), EMA (muscle support herbs)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kuru kekik
+      - 1/4 çay kaşığı karabiber
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Kekik ve karabiberi ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ⚠️ Uyarı: Şiddetli kas ağrısında tıbbi yardım alınız. Zerdeçal kan sulandırıcılarla etkileşebilir.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_boyun_agrisi:
+  - text: |
+      🧍 Boyun Ağrısı
+
+      Öneri 1 — Zencefil – Papatya Çayı
+      📚 Dayanak: PubMed (ginger anti-inflammatory), WHO (chamomile relaxation)
+
+      Malzemeler:
+      - 1 tatlı kaşığı taze rendelenmiş zencefil
+      - 1 tatlı kaşığı kurutulmuş papatya
+      - 1 su bardağı sıcak su
+      - İsteğe bağlı bal
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Zencefil ve papatyayı ekleyin.
+      3. 7-10 dakika demleyin.
+      4. Süzün.
+      5. İsteğe bağlı bal ekleyin.
+      6. Ilık olarak tüketin.
+
+      Öneri 2 — Lavanta – Ihlamur Çayı
+      📚 Dayanak: EMA (lavender muscular relaxation), PubMed (muscle tension)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş lavanta
+      - 1 tatlı kaşığı ıhlamur çiçeği
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Lavanta ve ihlamuru ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ⚠️ Uyarı: Şiddetli ağrı veya hareketi sınırlayan ağrıda doktora başvurun.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_adet_oncesi_gerginlik:
+  - text: |
+      🌸 Adet Öncesi Gerginlik (PMS)
+
+      Öneri 1 — Melisa – Papatya Çayı
+      📚 Dayanak: WHO Traditional Use (premenstrual support), EMA (melissa nervosa)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş melisa
+      - 1 tatlı kaşığı kurutulmuş papatya
+      - 1 su bardağı sıcak su
+      - 1 tatlı kaşığı bal (isteğe bağlı)
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Melisa ve papatyayı ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün.
+      5. İsteğe bağlı bal ekleyin.
+      6. Adet öncesi 5-7 gün boyunca günde 2-3 kez tüketin.
+
+      Öneri 2 — Ihlamur – Adaçayı Çayı
+      📚 Dayanak: WHO (linden flower wellness), EMA (sage hormonal support)
+
+      Malzemeler:
+      - 1 tatlı kaşığı ıhlamur çiçeği
+      - 1 tatlı kaşığı kuru adaçayı
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Ihlamur ve adaçayını ekleyin.
+      3. 5-7 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ⚠️ Uyarı: Hamilelik döneminde tüketmeyin. Şiddetli PMS semptomları doktor konsültasyonu gerektirir.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_gun_ici_halsizlik:
+  - text: |
+      🛌 Gün İçi Halsizlik
+
+      Öneri 1 — Zencefil – Limon Ilık İçeceği
+      📚 Dayanak: PubMed (ginger circulation & energy), WHO Traditional Use
+
+      Malzemeler:
+      - 1 tatlı kaşığı taze rendelenmiş zencefil
+      - 1 çay kaşığı limon suyu
+      - 1 su bardağı ılık su
+      - 1 tatlı kaşığı bal
+
+      Yapılışı:
+      1. İlık suya zencefili ekleyin.
+      2. 5-10 dakika demleyin.
+      3. Süzün.
+      4. Limon suyu ve bal ekleyin.
+      5. Sabah veya öğleden sonra tüketin.
+
+      Öneri 2 — Kuşburnu – Elma Kabuğu Çayı
+      📚 Dayanak: PubMed (rosehip Vitamin C energy), WHO (apple peel antioxidants)
+
+      Malzemeler:
+      - 1 tatlı kaşığı kurutulmuş kuşburnu
+      - 1 tatlı kaşığı kurutulmuş elma kabuğu
+      - 1 çubuk tarçın
+      - 1 su bardağı sıcak su
+
+      Yapılışı:
+      1. Suyu kaynatın.
+      2. Kuşburnu, elma kabuğu ve tarçını ekleyin.
+      3. 10-15 dakika demleyin.
+      4. Süzün ve ilık olarak tüketin.
+
+      ⚠️ Uyarı: Persistan halsizlik doktor değerlendirmesi gerektirir.
+
+      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
+      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+
+  utter_bogaz_kurulugu:
+  - text: |
+      🌿 Boğaz Kuruluğu (Yumuşatıcı Bitki Çayı)
+
+      🍋 Ihlamur – Bal – Limon
+
+      📚 Bilimsel Dayanak:
+      • EMA – Tilia cordata monograph
+      • PubMed – honey throat soothing research
+
+      🧾 Açıklama:
+      Ihlamur geleneksel kullanımda boğazı yumuşatıcı bitkiler arasında yer alır.
+      Bal ve limon boğaz kuruluğu hissinin azalmasına destek olabilir.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı ıhlamur
+      - 1 çay kaşığı bal
+      - birkaç damla limon
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Ihlamuru sıcak suya ekleyin.
+      2. 6-7 dakika demleyin.
+      3. Bal ve limonu ekleyip tüketin.
+
+
+  utter_ses_kisikligi:
+  - text: |
+      🎤 Ses Kısıklığı (Boğaz Rahatlatıcı)
+
+      🌿 Adaçayı – Bal
+
+      📚 Bilimsel Dayanak:
+      • EMA – Salvia officinalis
+      • PubMed – sage throat studies
+
+      🧾 Açıklama:
+      Adaçayı geleneksel olarak boğaz rahatlatıcı içecekler arasında yer alır.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı adaçayı
+      - 1 çay kaşığı bal
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Adaçayını sıcak suya ekleyin.
+      2. 6 dakika demleyin.
+      3. Ilık tüketin.
+
+
+  utter_cilt_canliligi:
+  - text: |
+      ✨ Cilt Canlılığı (Antioksidan Destek)
+
+      🍊 Kuşburnu – Hibiskus Çayı
+
+      📚 Bilimsel Dayanak:
+      • PubMed – rosehip antioxidant research
+      • PubMed – hibiscus antioxidant studies
+
+      🧾 Açıklama:
+      Kuşburnu ve hibiskus yüksek antioksidan içeriği ile bilinen bitkiler arasındadır.
+
+      🥄 Malzemeler:
+      - 1 tatlı kaşığı kuşburnu
+      - 1 tatlı kaşığı hibiskus
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Bitkileri sıcak suya ekleyin.
+      2. 8 dakika demleyin.
+      3. Süzerek tüketin.
+
+
+  utter_antioxidant_destek:
+  - text: |
+      🛡️ Antioksidan Destek
+
+      🌿 Yeşil Çay – Limon
+
+      📚 Bilimsel Dayanak:
+      • PubMed – green tea antioxidant studies
+
+      🧾 Açıklama:
+      Yeşil çay polifenoller açısından zengin olup antioksidan destek sağlayabilir.
+
+      🥄 Malzemeler:
+      - 1 çay kaşığı yeşil çay
+      - birkaç damla limon
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı:
+      1. Yeşil çayı 3 dakika demleyin.
+      2. Limon ekleyerek tüketin.
+
+  utter_about_project:
+  - text: |
+      🌿 Şifa Bardakta Nedir?
+
+      Şifa Bardakta, kullanıcıların yaşadıkları bazı günlük rahatsızlıklara yönelik
+      geleneksel bitkisel içecek önerileri sunan bir bilgi uygulamasıdır.
+
+      Kullanıcılar bir belirti yazdığında, sistem o belirtiye yönelik
+      bitki çayı veya doğal içecek tarifleri önerir.
+
+      📌 Amaç:
+      Güvenilir kaynaklara dayalı bitkisel içecek bilgilerini
+      kolay erişilebilir hale getirmektir.
+
+      ⚠️ Önemli:
+      Bu uygulama tıbbi teşhis veya tedavi amacı taşımaz.
+
+  utter_how_it_works:
+  - text: |
+      🤖 Şifa Bardakta Nasıl Çalışır?
+
+      1️⃣ Yaşadığınız bir belirtiyi yazın
+      (örnek: baş ağrısı, mide bulantısı, stres)
+
+      2️⃣ Sistem bu belirtiye uygun
+      bitkisel içecek önerilerini analiz eder.
+
+      3️⃣ Size:
+      • içecek tarifi
+      • malzemeler
+      • hazırlanış
+      • bilimsel kaynak bilgisi
+
+      sunulur.
+
+      Böylece doğal içecek tariflerine hızlıca ulaşabilirsiniz.
+
+  utter_scientific_sources:
+  - text: |
+      🔬 Bilimsel Kaynaklar
+
+      Şifa Bardakta'daki içerikler şu kaynaklara dayanmaktadır:
+
+      • Dünya Sağlık Örgütü (WHO)
+      • Avrupa İlaç Ajansı bitki monografları (EMA)
+      • PubMed bilimsel makaleleri
+      • Geleneksel bitkisel kullanım literatürü
+
+      Bu sayede öneriler mümkün olduğunca
+      güvenilir kaynaklara dayandırılmaktadır.
+
+      ⚠️ Ancak uygulama tıbbi tedavi yerine geçmez.
+
+  utter_safety_info:
+  - text: |
+      ⚠️ Sağlık Bilgilendirmesi
+
+      Şifa Bardakta uygulamasındaki öneriler
+      bilgilendirme amaçlıdır. Tedavi amaçlı değildir.
+
+      Şu durumlarda bitkisel ürün kullanmadan önce
+      sağlık uzmanına danışmanız önerilir:
+
+      • kronik hastalık
+      • hamilelik
+      • emzirme
+      • düzenli ilaç kullanımı
+      • bitki alerjileri
+
+      Sağlığınızla ilgili ciddi şikayetlerde
+      mutlaka bir doktora başvurunuz.
+
+  utter_project_team:
+  - text: |
+      👨‍💻 Proje Hakkında
+
+      Şifa Bardakta, kullanıcıların güvenilir bitkisel
+      içecek tariflerine ulaşmasını kolaylaştırmak amacıyla
+      geliştirilen bir mobil uygulama projesidir.
+
+      Proje kapsamında topladığımız güvenilir verilerle beraber eğittiğimiz doğal dil algılama modelimiz ile kullanıcıdan aldığımız mesajı algılayıp önceden bilimsel makaleler ve yayınları tarayarak hazırladığımız menü ile eşleşerek projemizi çalıştırıyoruz. 
+
+      Bu Proje Selçuk Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisi Oğuzhan Göktemir ve Hasan Türk tarafından geliştirilmiştir. 
+
+      Destekleriniz, İş birliği ve daha fazlası için bizimle iletişime geçebilirsiniz. 
+
+      Mail : sifabardakta@gmail.com
+
 
 session_config:
   session_expiration_time: 60

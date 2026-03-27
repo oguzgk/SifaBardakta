@@ -7,26 +7,21 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: mood_great
-  - action: utter_happy
+  - action: utter_mood_great_response
 
 - story: sad path 1
   steps:
   - intent: greet
   - action: utter_greet
   - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - action: utter_mood_unhappy_response
 
 - story: sad path 2
   steps:
   - intent: greet
   - action: utter_greet
   - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
+  - action: utter_mood_unhappy_response
   - action: utter_goodbye
 
 - story: Baş ağrısı tedavisi
@@ -95,11 +90,6 @@ stories:
     - intent: hemoroid
     - action: utter_hemoroid
 
-- story: Benler tedavisi
-  steps:
-    - intent: benler
-    - action: utter_benler
-
 - story: Cilt lekeleri tedavisi
   steps:
     - intent: cilt_lekeleri
@@ -119,16 +109,6 @@ stories:
   steps:
     - intent: egzama
     - action: utter_egzama
-
-- story: Mantar enfeksiyonları tedavisi
-  steps:
-    - intent: mantar_enfeksiyonlari
-    - action: utter_mantar_enfeksiyonlari
-
-- story: Göz enfeksiyonları tedavisi
-  steps:
-    - intent: goz_enfeksiyonlari
-    - action: utter_goz_enfeksiyonlari
 
 - story: Diş ağrısı tedavisi
   steps:
@@ -155,20 +135,10 @@ stories:
     - intent: bas_donmesi
     - action: utter_bas_donmesi
 
-- story: Kulak çınlaması tedavisi
-  steps:
-    - intent: kulak_cinlamasi
-    - action: utter_kulak_cinlamasi
-
 - story: Göz seyirmesi tedavisi
   steps:
     - intent: goz_seyirmesi
     - action: utter_goz_seyirmesi
-
-- story: Uçuk tedavisi
-  steps:
-    - intent: ucuk
-    - action: utter_ucuk
 
 - story: Diş eti kanaması tedavisi
   steps:
@@ -194,3 +164,207 @@ stories:
   steps:
     - intent: adet_sancisi
     - action: utter_adet_sancisi
+
+- story: Stres destek
+  steps:
+    - intent: stres
+    - action: utter_stres
+
+- story: Hafif anksiyete destek
+  steps:
+    - intent: hafif_anksiyete
+    - action: utter_hafif_anksiyete
+
+- story: Odaklanma zorluğu destek
+  steps:
+    - intent: odaklanma_zorlugu
+    - action: utter_odaklanma_zorlugu
+
+- story: Zihinsel yorgunluk destek
+  steps:
+    - intent: zihinsel_yorgunluk
+    - action: utter_zihinsel_yorgunluk
+
+- story: Sinirlilik destek
+  steps:
+    - intent: sinirlik
+    - action: utter_sinirlik
+
+- story: Hazımsızlık destek
+  steps:
+    - intent: hazimsizlik
+    - action: utter_hazimsizlik
+
+- story: İştah kaybı destek
+  steps:
+    - intent: ishtah_kaybi
+    - action: utter_ishtah_kaybi
+
+- story: Mide krampları destek
+  steps:
+    - intent: mide_kramplari
+    - action: utter_mide_kramplari
+
+- story: Kas ağrısı destek
+  steps:
+    - intent: kas_agrisi
+    - action: utter_kas_agrisi
+
+- story: Boyun ağrısı destek
+  steps:
+    - intent: boyun_agrisi
+    - action: utter_boyun_agrisi
+
+- story: Adet öncesi gerginlik (PMS)
+  steps:
+    - intent: adet_oncesi_gerginlik
+    - action: utter_adet_oncesi_gerginlik
+
+- story: Gün içi halsizlik destek
+  steps:
+    - intent: gun_ici_halsizlik
+    - action: utter_gun_ici_halsizlik
+
+- story: Boğaz kuruluğu destek
+  steps:
+    - intent: bogaz_kurulugu
+    - action: utter_bogaz_kurulugu
+
+- story: Ses kısıklığı destek
+  steps:
+    - intent: ses_kisikligi
+    - action: utter_ses_kisikligi
+
+- story: Cilt canlılığı destek
+  steps:
+    - intent: cilt_canliligi
+    - action: utter_cilt_canliligi
+
+- story: Antioksidan destek
+  steps:
+    - intent: antioxidant_destek
+    - action: utter_antioxidant_destek
+
+- story: Uykuya geçişte zorluk
+  steps:
+    - intent: uyku_gecisi_zorlugu
+    - action: utter_uyku_gecisi_zorlugu
+
+- story: Kas & sırt gerginliği
+  steps:
+    - intent: kas_sirt_gerginligi
+    - action: utter_kas_sirt_gerginligi
+
+- story: Ağız & boğaz kuruluğu
+  steps:
+    - intent: agiz_bogaz_kurulugu
+    - action: utter_agiz_bogaz_kurulugu
+
+- story: Cilt kuruluğu destek
+  steps:
+    - intent: cilt_kurulugu
+    - action: utter_cilt_kurulugu
+
+- story: Genel iyi hissetme
+  steps:
+    - intent: genel_iyi_hissetme
+    - action: utter_genel_iyi_hissetme
+
+- story: Kulak ağrısı (dolaylı)
+  steps:
+    - intent: kulak_agrisi_dolayli
+    - action: utter_kulak_agrisi_dolayli
+
+- story: Nefes darlığı hissi (hafif)
+  steps:
+    - intent: nefes_darligi_hissi
+    - action: utter_nefes_darligi_hissi
+
+- story: Aşırı yorgunluk
+  steps:
+    - intent: asiri_yorgunluk
+    - action: utter_asiri_yorgunluk
+
+- story: Terleme dengesizliği
+  steps:
+    - intent: terleme_dengesizligi
+    - action: utter_terleme_dengesizligi
+
+- story: Ağız kuruluğu
+  steps:
+    - intent: agiz_kurulugu
+    - action: utter_agiz_kurulugu
+
+- story: Çarpıntı hissi (stres)
+  steps:
+    - intent: carpinti_hissi
+    - action: utter_carpinti_hissi
+
+- story: Ağırlık / tokluk hissi
+  steps:
+    - intent: agirlik_tokluk_hissi
+    - action: utter_agirlik_tokluk_hissi
+
+- story: Bacak yorgunluğu
+  steps:
+    - intent: bacak_yorgunlugu
+    - action: utter_bacak_yorgunlugu
+
+- story: Boyun tutulması - gerginlik tipi
+  steps:
+    - intent: boyun_tutulmasi_gerginlik
+    - action: utter_boyun_tutulmasi_gerginlik
+
+- story: Gün sonu zihinsel tükenme
+  steps:
+    - intent: gun_sonu_zihinsel_tukenme
+    - action: utter_gun_sonu_zihinsel_tukenme
+
+- story: Mevsimsel duygusal dalgalanma
+  steps:
+    - intent: mevsimsel_duygusal_dalgalanma
+    - action: utter_mevsimsel_duygusal_dalgalanma
+
+- story: Hastalık sonrası toparlanma
+  steps:
+    - intent: hastalik_sonrasi_toparlanma
+    - action: utter_hastalik_sonrasi_toparlanma
+
+- story: Akşam huzursuzluğu
+  steps:
+    - intent: aksam_huzursuzlugu
+    - action: utter_aksam_huzursuzlugu
+
+- story: Elveda
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Bot sorgusu
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+- story: Proje tanitimi
+  steps:
+  - intent: about_project
+  - action: utter_about_project
+
+- story: Nasil calisir
+  steps:
+  - intent: how_it_works
+  - action: utter_how_it_works
+
+- story: Bilimsel kaynaklar
+  steps:
+  - intent: scientific_sources
+  - action: utter_scientific_sources
+
+- story: Guvenlik bilgisi
+  steps:
+  - intent: safety_info
+  - action: utter_safety_info
+
+- story: Proje ekibi
+  steps:
+  - intent: project_team
+  - action: utter_project_team

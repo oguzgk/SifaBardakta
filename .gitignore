@@ -10,6 +10,7 @@ ENV/
 
 # Rasa
 .rasa/
+rasa_env/
 
 # OS
 .DS_Store

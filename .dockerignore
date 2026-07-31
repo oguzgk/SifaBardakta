@@ -1,0 +1,11 @@
+.git
+.gitignore
+.venv
+rasa_env
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.rasa
+*.log

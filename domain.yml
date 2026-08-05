@@ -120,7 +120,8 @@ responses:
       ⚠️ Uyarı:
       Zencefil kan sulandırıcı ilaç kullanan kişilerde dikkatli tüketilmelidir.
 
-      ℹ️ Bu içecek destekleyici amaçlıdır, tıbbi tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_mide_bulantisi:
   - text: |
@@ -150,7 +151,8 @@ responses:
       ⚠️ Uyarı:
       Hamilelikte veya mide hassasiyetinde doktora danışılması önerilir.
 
-      ℹ️ Bu içerik bilgilendirme amaçlıdır.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_ishal:
   - text: |
@@ -179,6 +181,9 @@ responses:
 
       ⚠️ Uyarı:
       Şiddetli veya uzun süren ishal durumunda sağlık uzmanına başvurulmalıdır.
+
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_soguk_alginligi:
   - text: |
@@ -209,6 +214,9 @@ responses:
       ⚠️ Uyarı:
       Bal 1 yaşından küçük çocuklara verilmemelidir.
 
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
+
   utter_bogaz_agrisi:
   - text: |
       😖 Boğaz Ağrısı (Destekleyici)
@@ -236,6 +244,9 @@ responses:
       ⚠️ Uyarı:
       Aşırı tüketim önerilmez.
 
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
+
   utter_uykusuzluk:
   - text: |
       😴 Uykusuzluk (Rahatlatıcı Bitki Çayı)
@@ -260,6 +271,8 @@ responses:
       1. Bitkileri sıcak suya ekleyin.
       2. 7-8 dakika demleyin.
       3. Yatmadan önce tüketebilirsiniz.
+
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
 
 
   utter_goz_yorgunlugu:
@@ -287,6 +300,8 @@ responses:
       2. 6-7 dakika demleyin.
       3. Ilık olarak tüketin.
 
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_sirt_agrisi:
   - text: |
@@ -312,6 +327,8 @@ responses:
       2. 7 dakika demleyin.
       3. Ilık olarak tüketin.
 
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_gaz_siskinlik:
   - text: |
@@ -336,6 +353,8 @@ responses:
       1. Tohumları sıcak suya ekleyin.
       2. 6-8 dakika demleyin.
       3. Süzerek tüketin.
+
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
 
 
   utter_burun_tikanikligi:
@@ -372,8 +391,8 @@ responses:
       3. 5-7 dakika demleyin.
       4. Süzün ve ılık olarak tüketin.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_kulak_agrisi:
   - text: |
@@ -409,11 +428,8 @@ responses:
 
       ⚠️ NOT: Bu içecekler dolaylı rahatlama (genel stress azaltma) sağlar. Şiddetli veya süregelen kulak ağrısında doktora başvurunuz.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
 
   utter_sac_dokulmesi:
   - text: |
@@ -455,8 +471,8 @@ responses:
       Hormonal, genetik veya ciddi saç dökülmelerinde bir uzmana danışılmalıdır.
       Hamile/emziren kadınlar hekim onayıyla tüketmelidir.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_hemoroid:
   - text: |
@@ -498,8 +514,8 @@ responses:
       Şiddetli ağrı, kanama veya uzun süren şikayetlerde mutlaka sağlık uzmanına başvurulmalıdır.
       Hamile kadınlar hekim onayıyla kullanmalıdır.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_cilt_lekeleri:
   - text: |
@@ -539,14 +555,12 @@ responses:
 
       ⏰ Tüketim Önerisi: Günde 1-2 fincan, tercihen sabah veya öğle | 2-3 haftalık kür
 
-      ℹ️ Not: Cilt lekeleri çeşitli nedenlere (güneş, hormon, yaşlanma) bağlı olabilir. Antioksidan açısından zengin beslenme cilt sağlığını destekleyebilir.
-
       ⚠️ Uyarı:
       Şiddetli, büyüyen veya endişe verici lekeler için dermatolog değerlendirmesi gerekli olabilir.
       Hamile/emziren kadınlar hekim onayıyla tüketmelidir.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_sivilce:
   - text: |
@@ -588,8 +602,7 @@ responses:
       Şiddetli veya iltihaplı akne durumlarında dermatoloğa başvurulmalıdır.
       Polen alerjisi olan kişilerde alerjik reaksiyona neden olabilir.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
 
   utter_egzama:
   - text: |
@@ -634,23 +647,39 @@ responses:
       Alerjik egzama, atopik dermatit veya şiddetli belirtilerde dermatoloji uzmanına başvurulmalıdır.
       Hamile/emziren kadınlar hekim onayıyla kullanmalıdır.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_dis_agrisi:
   - text: |
-      🦷 Diş Ağrısı
+      🦷 Diş Ağrısı (Geçici Destek & Gargara)
 
-      Karanfilli Ilık Su (topikal destek)
-      📚 Dayanak: WHO (clove – analgesic)
+      🌿 Karanfil Demlemesi (Gargara)
 
-      Kullanım:
-      - Ilık suya birkaç adet ezilmiş karanfil ekleyip süzün. Bu suyu ağızda gargara şeklinde kullanabilirsiniz (yutmayın).
+      📚 Bilimsel Dayanak:
+      • EMA – Syzygium aromaticum (Clove) dental use
+      • WHO Monographs – Flos Caryophylli (Analgesic effect)
+      • PubMed – Eugenol in dental pain relief
 
-      Uyarı: Şiddetli diş ağrısında diş hekimine başvurun.
+      🧾 Açıklama:
+      Karanfil, içeriğinde bulunan doğal "Öjenol (Eugenol)" etken maddesi sayesinde geleneksel tıpta ve diş hekimliğinde geçici rahatlatıcı ve antiseptik (mikrop kırıcı) olarak kullanılmaktadır. Ağız içi florasında ferahlama sağlayabilir.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      🥄 Malzemeler:
+      - 4-5 adet kuru karanfil tomurcuğu
+      - 1 su bardağı sıcak su
+
+      🔥 Hazırlanışı ve Kullanımı:
+      1. Sıcak suya karanfilleri ekleyin.
+      2. 8-10 dakika demlemeye bırakın.
+      3. Süzüp ılık kıvama geldikten sonra ağzınızda 1-2 dakika gargara yapın.
+      4. Gargara sonrası suyu tükürün (yutmayın).
+
+      ⚠️ Uyarı:
+      Diş ağrısı enfeksiyon veya çürük kaynaklı olabilir; karanfil yalnızca geçici bir destektir. Ağrıyan bölgeye karanfil yağını direkt sürmek diş etini yakabilir. Şiddetli ağrıda mutlaka diş hekimine başvurunuz.
+
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
+
 
   utter_agiz_yaralari:
   - text: |
@@ -675,6 +704,9 @@ responses:
       1. Bitkileri sıcak suya ekleyin.
       2. 6-7 dakika demleyin.
       3. Ilık olarak tüketebilir veya gargara olarak kullanabilirsiniz.
+
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_kabizlik:
   - text: |
@@ -702,6 +734,8 @@ responses:
 
       ⚠️ Uyarı:
       Uzun süren kabızlık durumunda sağlık uzmanına başvurulmalıdır.
+
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
 
 
   utter_mide_yanmasi:
@@ -732,7 +766,8 @@ responses:
       ⚠️ Uyarı:
       Şiddetli mide ağrısı veya reflü şikayetleri için doktora başvurulmalıdır.
 
-      ℹ️ Bu içecek destekleyici amaçlıdır.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_bas_donmesi:
   - text: |
@@ -762,6 +797,9 @@ responses:
       ⚠️ Uyarı:
       Sürekli veya şiddetli baş dönmesi durumunda sağlık uzmanına başvurunuz.
 
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
+
   utter_goz_seyirmesi:
   - text: |
       👁️ Göz Seyirmesi (Rahatlatıcı Destek)
@@ -785,6 +823,10 @@ responses:
       1. Bitkileri sıcak suya ekleyin.
       2. 6–7 dakika demleyin.
       3. Ilık olarak tüketin.
+
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
+
   utter_dis_eti_kanamasi:
   - text: |
       🦷 Diş Eti Hassasiyeti (Destekleyici)
@@ -812,6 +854,9 @@ responses:
       ⚠️ Uyarı:
       Sürekli diş eti kanaması durumunda diş hekimine başvurulmalıdır.
 
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
+
   utter_bagisiklik_gucsuzlugu:
   - text: |
       🛡️ Bağışıklık Destekleyici
@@ -837,6 +882,9 @@ responses:
       2. 8 dakika demleyin.
       3. Süzerek tüketin.
 
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
+
   utter_uyku_problemleri:
   - text: |
       🌙 Uyku Problemleri (Rahatlatıcı Bitki Çayı)
@@ -861,6 +909,9 @@ responses:
       1. Bitkileri sıcak suya ekleyin.
       2. 7 dakika demleyin.
       3. Yatmadan önce tüketebilirsiniz.
+
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_adet_duzensizligi:
   - text: |
@@ -889,6 +940,9 @@ responses:
       ⚠️ Uyarı:
       Hamilelikte kullanmadan önce doktora danışılmalıdır.
 
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
+
   utter_adet_sancisi:
   - text: |
       🌺 Adet Sancısı (Rahatlatıcı)
@@ -913,6 +967,9 @@ responses:
       2. 7 dakika demleyin.
       3. Ilık olarak tüketin.
 
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
+
   utter_uyku_gecisi_zorlugu:
   - text: |
       🌙 Uykuya Geçiş Zorluğu
@@ -935,6 +992,8 @@ responses:
       1. Bitkileri sıcak suya ekleyin.
       2. 7 dakika demleyin.
       3. Yatmadan önce tüketebilirsiniz.
+
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
 
 
   utter_kas_sirt_gerginligi:
@@ -960,6 +1019,8 @@ responses:
       2. 7 dakika demleyin.
       3. Ilık tüketin.
 
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_agiz_bogaz_kurulugu:
   - text: |
@@ -982,6 +1043,8 @@ responses:
       1. Papatyayı sıcak suya ekleyin.
       2. 6 dakika demleyin.
       3. Bal ekleyerek tüketin.
+
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
 
 
   utter_cilt_kurulugu:
@@ -1019,8 +1082,8 @@ responses:
       3. 5-7 dakika demleyin.
       4. Süzün ve tüketin.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_genel_iyi_hissetme:
   - text: |
@@ -1043,6 +1106,8 @@ responses:
       1. Zencefili sıcak suya ekleyin.
       2. 7 dakika demleyin.
       3. Limon ekleyerek tüketin.
+
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
 
 
   utter_kulak_agrisi_dolayli:
@@ -1079,10 +1144,8 @@ responses:
 
       ⚠️ NOT: Bu içecekler dolaylı rahatlama (genel stress azaltma) sağlar. Şiddetli veya süregelen kulak ağrısında doktora başvurunuz.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
 
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
 
   utter_nefes_darligi_hissi:
   - text: |
@@ -1118,8 +1181,8 @@ responses:
 
       ⚠️ ÖNEMLİ: Aniden başlayan şiddetli nefes darlığı acil tıbbi durumdur. Derhal sağlık profesyoneline başvurunuz.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_asiri_yorgunluk:
   - text: |
@@ -1159,8 +1222,8 @@ responses:
 
       ⚠️ Uyarı: Persistan aşırı yorgunluk tıbbi değerlendirme gerektirir.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_terleme_dengesizligi:
   - text: |
@@ -1194,8 +1257,8 @@ responses:
       3. 7 dakika demleyin.
       4. Süzün ve ilık olarak tüketin.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_agiz_kurulugu:
   - text: |
@@ -1232,8 +1295,7 @@ responses:
       3. 7 dakika demleyin.
       4. Süzün ve ilık olarak tüketin.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
 
   utter_carpinti_hissi:
   - text: |
@@ -1269,8 +1331,8 @@ responses:
 
       ⚠️ ÖNEMLİ: Şiddetli çarpıntı, göğüs ağrısı veya nefes darlığı kalp acil durumudur. Derhal sağlık profesyoneline başvurunuz.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_agirlik_tokluk_hissi:
   - text: |
@@ -1304,8 +1366,8 @@ responses:
       3. 5-7 dakika demleyin.
       4. Süzün ve ilık olarak tüketin.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_bacak_yorgunlugu:
   - text: |
@@ -1342,8 +1404,8 @@ responses:
       3. 7 dakika demleyin.
       4. Süzün ve ilık olarak tüketin.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_boyun_tutulmasi_gerginlik:
   - text: |
@@ -1377,8 +1439,8 @@ responses:
       3. 5-7 dakika demleyin.
       4. Süzün ve ilık olarak tüketin.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_gun_sonu_zihinsel_tukenme:
   - text: |
@@ -1412,8 +1474,8 @@ responses:
       3. 5-7 dakika demleyin.
       4. Süzün ve ilık olarak tüketin.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_mevsimsel_duygusal_dalgalanma:
   - text: |
@@ -1449,8 +1511,7 @@ responses:
 
       ⚠️ Uyarı: Persistan duygusal dalgalanmalar için profesyonel yardım alınız.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
 
   utter_hastalik_sonrasi_toparlanma:
   - text: |
@@ -1489,8 +1550,8 @@ responses:
       3. Limon suyu ve bal ekleyin.
       4. Ilık olarak tüketin.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_aksam_huzursuzlugu:
   - text: |
@@ -1524,8 +1585,8 @@ responses:
       3. 5-7 dakika demleyin.
       4. Süzün ve ilık olarak tüketin.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_stres:
   - text: |
@@ -1551,6 +1612,9 @@ responses:
       2. 6–7 dakika demleyin.
       3. Ilık olarak tüketin.
 
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
+
   utter_hafif_anksiyete:
   - text: |
       🌿 Hafif Anksiyete (Rahatlatıcı)
@@ -1574,6 +1638,9 @@ responses:
       1. Bitkileri sıcak suya ekleyin.
       2. 7 dakika demleyin.
       3. Ilık olarak tüketin.
+
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_odaklanma_zorlugu:
   - text: |
@@ -1599,6 +1666,9 @@ responses:
       2. Biberiyeyi ekleyip 2 dakika daha bekletin.
       3. Süzerek tüketin.
 
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
+
   utter_zihinsel_yorgunluk:
   - text: |
       🧠 Zihinsel Yorgunluk
@@ -1621,6 +1691,9 @@ responses:
       1. Malzemeleri sıcak suya ekleyin.
       2. 6 dakika demleyin.
       3. Ilık olarak tüketin.
+
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_sinirlik:
   - text: |
@@ -1657,8 +1730,8 @@ responses:
       3. 5-7 dakika demleyin.
       4. Süzün ve ilık olarak tüketin.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_hazimsizlik:
   - text: |
@@ -1698,8 +1771,8 @@ responses:
 
       ⚠️ Uyarı: Hazımsızlık persistan ise doktora başvurun. Şiddetli karın ağrısında tıbbi yardım alın.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_ishtah_kaybi:
   - text: |
@@ -1737,8 +1810,8 @@ responses:
 
       ⚠️ Uyarı: İştah kaybı şiddetli ise doktora başvurun. Altta yatan hastalıklar araştırılmalıdır.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_mide_kramplari:
   - text: |
@@ -1775,8 +1848,8 @@ responses:
       5. Limon suyu ekleyin.
       6. Ilık olarak tüketin.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_kas_agrisi:
   - text: |
@@ -1815,8 +1888,8 @@ responses:
 
       ⚠️ Uyarı: Şiddetli kas ağrısında tıbbi yardım alınız. Zerdeçal kan sulandırıcılarla etkileşebilir.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_boyun_agrisi:
   - text: |
@@ -1855,8 +1928,8 @@ responses:
 
       ⚠️ Uyarı: Şiddetli ağrı veya hareketi sınırlayan ağrıda doktora başvurun.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_adet_oncesi_gerginlik:
   - text: |
@@ -1895,8 +1968,8 @@ responses:
 
       ⚠️ Uyarı: Hamilelik döneminde tüketmeyin. Şiddetli PMS semptomları doktor konsültasyonu gerektirir.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_gun_ici_halsizlik:
   - text: |
@@ -1935,8 +2008,8 @@ responses:
 
       ⚠️ Uyarı: Persistan halsizlik doktor değerlendirmesi gerektirir.
 
-      ℹ️ Bilgi Kaynağı: WHO • EMA • PubMed
-      ℹ️ Bu içerik bilgilendirme amaçlıdır, tedavi yerine geçmez.
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_bogaz_kurulugu:
   - text: |
@@ -1963,6 +2036,8 @@ responses:
       2. 6-7 dakika demleyin.
       3. Bal ve limonu ekleyip tüketin.
 
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_ses_kisikligi:
   - text: |
@@ -1986,6 +2061,8 @@ responses:
       1. Adaçayını sıcak suya ekleyin.
       2. 6 dakika demleyin.
       3. Ilık tüketin.
+
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
 
 
   utter_cilt_canliligi:
@@ -2011,6 +2088,8 @@ responses:
       2. 8 dakika demleyin.
       3. Süzerek tüketin.
 
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
 
   utter_antioxidant_destek:
   - text: |
@@ -2033,95 +2112,98 @@ responses:
       1. Yeşil çayı 3 dakika demleyin.
       2. Limon ekleyerek tüketin.
 
+      ℹ️ Destekleyici amaçlıdır, tıbbi tedavi yerine geçmez. Özel sağlık durumlarında doktorunuza danışınız.
+
+
   utter_about_project:
   - text: |
       🌿 Şifa Bardakta Nedir?
 
-      Şifa Bardakta, kullanıcıların yaşadıkları bazı günlük rahatsızlıklara yönelik
-      geleneksel bitkisel içecek önerileri sunan bir bilgi uygulamasıdır.
+      Şifa Bardakta; günlük hafif rahatsızlıklar için uluslararası bilimsel kaynaklara dayalı destekleyici bitkisel içecek tarifleri sunan bir bilgi asistanıdır.
 
-      Kullanıcılar bir belirti yazdığında, sistem o belirtiye yönelik
-      bitki çayı veya doğal içecek tarifleri önerir.
+      💡 Nasıl Kullanılır? 
+      
+      Yaşadığınız şikayeti sohbet ekranına yazın; asistanımız malzeme listesi, pratik hazırlanış adımları ve bilimsel kaynak bilgisi içeren en uygun tarifi anında sunsun.
 
       📌 Amaç:
-      Güvenilir kaynaklara dayalı bitkisel içecek bilgilerini
-      kolay erişilebilir hale getirmektir.
+
+      Doğanın şifasını ve bilimsel literatüre dayalı güvenilir bilgileri en pratik şekilde bardağınıza taşımaktır
 
       ⚠️ Önemli:
-      Bu uygulama tıbbi teşhis veya tedavi amacı taşımaz.
+
+      Şifa Bardakta tıbbi bir teşhis, tanı veya tedavi aracı değildir; sunulan içerikler yalnızca genel bilgilendirme ve destek amaçlıdır.
+
 
   utter_how_it_works:
   - text: |
       🤖 Şifa Bardakta Nasıl Çalışır?
 
-      1️⃣ Yaşadığınız bir belirtiyi yazın
-      (örnek: baş ağrısı, mide bulantısı, stres)
+      1️⃣ Belirtinizi Yazın: Yaşadığınız rahatsızlığı sohbet alanına yazın. (Örn: "baş ağrısı", "mide bulantısı", "stres", "uykusuzluk")
 
-      2️⃣ Sistem bu belirtiye uygun
-      bitkisel içecek önerilerini analiz eder.
+      2️⃣ Akıllı Analiz: Asistanımız şikayetinizi analiz eder ve bilimsel literatürle eşleşen en uygun doğal çözümü bulur.
 
-      3️⃣ Size:
-      • içecek tarifi
-      • malzemeler
-      • hazırlanış
-      • bilimsel kaynak bilgisi
+      3️⃣ Şifalı Yanıtınızı Alın: Size özel şu bilgiler anında sunulur: • 🌿 Doğal İçecek Tarifi • 🥄 Tam Malzeme Ölçüleri • 🔥 Adım Adım Hazırlanış • 📚 Bilimsel Kaynak (WHO, EMA) • ⚠️ Özel Kullanım Uyarıları
 
-      sunulur.
+      ✨ Doğanın şifasına güvenilir yoldan ulaşmak işte bu kadar kolay!
 
-      Böylece doğal içecek tariflerine hızlıca ulaşabilirsiniz.
 
   utter_scientific_sources:
   - text: |
-      🔬 Bilimsel Kaynaklar
+      🔬 Bilimsel Kaynaklarımız & Metodoloji
 
-      Şifa Bardakta'daki içerikler şu kaynaklara dayanmaktadır:
+      Şifa Bardakta'da sunulan tüm içecek tarifleri, etken maddeler ve kullanım önerileri uluslararası alanda kabul görmüş tıbbi ve farmakolojik kaynaklar taranarak hazırlanmıştır:
 
-      • Dünya Sağlık Örgütü (WHO)
-      • Avrupa İlaç Ajansı bitki monografları (EMA)
-      • PubMed bilimsel makaleleri
-      • Geleneksel bitkisel kullanım literatürü
+      🌐 Uluslararası Sağlık Örgütleri:
+      • WHO (Dünya Sağlık Örgütü) Geleneksel Tıp Raporları
+      • EMA (Avrupa İlaç Ajansı) Bitkisel İlaç Monografları
 
-      Bu sayede öneriler mümkün olduğunca
-      güvenilir kaynaklara dayandırılmaktadır.
+      📊 Akademik Veri Tabanları:
+      • PubMed / MEDLINE Tıbbi Araştırma Makaleleri
+      • Geleneksel ve Tamamlayıcı Tıp Literatürü
 
-      ⚠️ Ancak uygulama tıbbi tedavi yerine geçmez.
+      🎯 Amacımız kulaktan dolma bilgiler değil, bilimin ve araştırmaların ışığında güvenilir içerikler sunmaktır.
+
+      ⚠️ Yasal Sorumluluk Reddi:
+      Bu bilgiler yalnızca genel kültür ve destek amaçlıdır; tıbbi teşhis, reçete veya tedavi yerine geçmez.
+
+
 
   utter_safety_info:
   - text: |
-      ⚠️ Sağlık Bilgilendirmesi
+      ⚠️ Önemli Sağlık & Güvenlik Uyarıları
 
-      Şifa Bardakta uygulamasındaki öneriler
-      bilgilendirme amaçlıdır. Tedavi amaçlı değildir.
+      Şifa Bardakta'da sunulan tüm bilgiler genel yaşam kalitesini desteklemek amacıyla hazırlanmıştır. Uygulamamız tıbbi teşhis, tanı, reçete veya tedavi amacı taşımaz.
 
-      Şu durumlarda bitkisel ürün kullanmadan önce
-      sağlık uzmanına danışmanız önerilir:
+      🚨 Özel Hassasiyet Gerektiren Durumlar:
+      Herhangi bir bitkisel içeceği tüketmeden önce şu durumlarda mutlaka hekiminize danışınız:
 
-      • kronik hastalık
-      • hamilelik
-      • emzirme
-      • düzenli ilaç kullanımı
-      • bitki alerjileri
+      • 🩸 Kronik Hastalıklar (Tansiyon, Şeker, Kalp vb.)
+      • 🤰 Hamilelik ve Emzirme Dönemleri
+      • 💊 Düzenli İlaç Kullanımı (Özellikle kan sulandırıcılar)
+      • 🌿 Bilinen Bitki/Polen Alerjileri
+      • 👶 1 Yaş Altı Çocuklar (Özellikle bal içeren tarifler)
 
-      Sağlığınızla ilgili ciddi şikayetlerde
-      mutlaka bir doktora başvurunuz.
+      🩺 Acil ve Şiddetli Durumlar:
+      Şiddetli ağrı, yüksek ateş veya ani gelişen belirtilerde zaman kaybetmeden bir sağlık kuruluşuna başvurunuz.
+
+
 
   utter_project_team:
   - text: |
-      👨‍💻 Proje Hakkında
+      👨‍💻 Proje & Geliştirici Ekip Hakkında
 
-      Şifa Bardakta, kullanıcıların güvenilir bitkisel
-      içecek tariflerine ulaşmasını kolaylaştırmak amacıyla
-      geliştirilen bir mobil uygulama projesidir.
+      🌱 Şifa Bardakta Nedir? Şifa Bardakta, kullanıcıların günlük sağlık şikayetlerine yönelik güvenilir bitkisel tariflere pratik şekilde ulaşmalarını sağlayan yapay zeka destekli bir mobil sağlık asistanıdır.
 
-      Proje kapsamında topladığımız güvenilir verilerle beraber eğittiğimiz doğal dil algılama modelimiz ile kullanıcıdan aldığımız mesajı algılayıp önceden bilimsel makaleler ve yayınları tarayarak hazırladığımız menü ile eşleşerek projemizi çalıştırıyoruz. 
+      🧠 Teknolojik Altyapı: Projemiz; kullanıcı mesajlarını gelişmiş Doğal Dil İşleme (NLP) modellerimizle analiz eder. Bilimsel makaleler (WHO, EMA, PubMed) taranarak hazırlanan veri tabanımız ile en doğru tarifi ve güvenlik uyarılarını anında eşleştirerek sunar. 
 
-      Bu Proje Selçuk Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisi Oğuzhan Göktemir ve Hasan Türk tarafından geliştirilmiştir. 
+      🎓 Geliştiriciler: Bu Proje Selçuk Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencileri; Proje Yürütücüsü Oğuzhan Göktemir, İbrahim Can Kızbaz ve Mustafa Körömeroğulları tarafından geliştirilmiştir. 
 
-      Destekleriniz, İş birliği ve daha fazlası için bizimle iletişime geçebilirsiniz. 
+      📬 İletişim & İş Birliği: Görüş, öneri, destek ve iş birliği talepleriniz için bizimle iletişime geçebilirsiniz. 
 
-      Mail : sifabardakta@gmail.com
+      📧 E-posta: sifabardakta@gmail.com
 
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
